@@ -1,5 +1,5 @@
 {
-  "name": "rsuite-table",
+  "name": "@rsuite/icons",
   "version": "3.13.3",
   "description": "A React table component",
   "main": "lib/index.js",
@@ -19,7 +19,7 @@
     "test": "npm run lint && cross-env NODE_ENV=test karma start --single-run",
     "clean": "rm -rf node_modules/gh-pages/.cache",
     "coveralls": "cat ./coverage/lcov/lcov.info | ./node_modules/.bin/coveralls",
-    "prepublish": "npm run test && npm run build"
+    "prepublishOnly": "npm run test && npm run build"
   },
   "author": "simonguo.2009@gmail.com",
   "license": "MIT",

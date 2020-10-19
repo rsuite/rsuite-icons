@@ -4,11 +4,12 @@ import { IconFontProps } from './IconFont';
 
 type IconProps = Omit<IconBaseProps, 'baseClassName'>;
 
-const Icon: React.FC<IconProps> = React.forwardRef<HTMLSpanElement, IconFontProps>(
-  (props: IconProps, ref: React.Ref<HTMLSpanElement>) => {
-    return <IconBase {...props} baseClassName="icon" ref={ref} />;
-  }
-);
+const Icon: React.FC<IconProps> = React.forwardRef<HTMLSpanElement, IconFontProps>(function Icon(
+  props: IconProps,
+  ref: React.Ref<HTMLSpanElement>
+) {
+  return <IconBase {...props} baseClassName="icon" ref={ref} />;
+});
 
 IconBase.displayName = 'Icon';
 Icon.propTypes = propTypes;
