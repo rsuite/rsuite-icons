@@ -4,6 +4,12 @@ import sinon from 'sinon/pkg/sinon';
 import { getDOMNode } from './TestWrapper';
 import { createIconFont } from '../src';
 
+function clearIconScripts() {
+  Array.from(document.querySelectorAll('[data-prop="icon-font"]')).map(el =>
+    document.body.removeChild(el)
+  );
+}
+
 describe('IconFont', () => {
   it('Should loaded a script with string scriptUrl', () => {
     const Icon = createIconFont({
@@ -13,8 +19,10 @@ describe('IconFont', () => {
     assert.equal(
       Array.from(document.querySelectorAll('[src="//at.alicdn.com/t/font_2120285_e1hn0qlkipm.js"]'))
         .length,
-      1
+      1,
+      'Should loaded script'
     );
+    assert.include(instanceDom.className, 'rs-icon-font', 'Class should with rs-icon-font');
     assert.isEmpty(instanceDom.innerHTML, '');
   });
 
@@ -60,6 +68,8 @@ describe('IconFont', () => {
   });
 
   it('Should loaded all script', done => {
+    // When execute this case must remove all Icon script.
+    clearIconScripts();
     createIconFont({
       scriptUrl: [
         '//at.alicdn.com/t/font_2136376_1mb0zgmsqss.js',
@@ -70,6 +80,25 @@ describe('IconFont', () => {
         done();
       }
     });
+  });
+
+  it('Should render props to icon component', () => {
+    const Icon = createIconFont({
+      scriptUrl: '//at.alicdn.com/t/font_2120285_e1hn0qlkipm.js',
+      extraProps: { className: 'test-props-by-create' }
+    });
+    const instanceDom = getDOMNode(<Icon />);
+    assert.include(instanceDom.className, 'test-props-by-create');
+  });
+
+  it('Should overwrite component props', () => {
+    const Icon = createIconFont({
+      scriptUrl: '//at.alicdn.com/t/font_2120285_e1hn0qlkipm.js',
+      extraProps: { className: 'test-props-by-create' }
+    });
+    const instanceDom = getDOMNode(<Icon className="test-props-by-component" />);
+    assert.notInclude(instanceDom.className, 'test-props-by-create');
+    assert.include(instanceDom.className, 'test-props-by-component');
   });
 
   it(

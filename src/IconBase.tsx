@@ -3,6 +3,8 @@ import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import { useClassNames } from './utils';
 
+type Flip = 'horizontal' | 'vertical';
+
 export interface IconBaseProps extends React.HTMLAttributes<HTMLDivElement> {
   /** Dynamic rotation icon */
   spin?: boolean;
@@ -17,28 +19,33 @@ export interface IconBaseProps extends React.HTMLAttributes<HTMLDivElement> {
   viewBox?: string;
 
   /**
-   * You can use a custom element for this component
-   */
-  as?: React.ElementType;
+   * Component base class Name
+   * @default icon-base
+   * */
+  baseClassName?: string;
 
-  /**
-   *  Flip the icon
-   */
-  flip?: 'horizontal' | 'vertical';
+  /** You can use a custom element for this component */
+  as?: React.ElementType | string;
+
+  /** Flip the icon */
+  flip?: Flip;
 }
 
-const propTypes = {
+export const propTypes = {
   spin: PropTypes.bool,
   pulse: PropTypes.bool,
   rotate: PropTypes.number,
-  viewBox: PropTypes.string
+  viewBox: PropTypes.string,
+  as: PropTypes.oneOfType([PropTypes.elementType, PropTypes.string]),
+  flip: PropTypes.oneOf<Flip>(['horizontal', 'vertical'])
 };
 
-const defaultProps = {
-  viewBox: '0 0 1024 1024'
+export const defaultProps = {
+  viewBox: '0 0 1024 1024',
+  baseClassName: 'icon-base'
 };
 
-const IconBase: React.FC<IconBaseProps> = React.forwardRef<HTMLSpanElement, IconBaseProps>(
+const IconBase = React.forwardRef<HTMLSpanElement, IconBaseProps>(
   (props: IconBaseProps, ref: React.Ref<HTMLSpanElement>) => {
     const {
       spin,
@@ -50,9 +57,10 @@ const IconBase: React.FC<IconBaseProps> = React.forwardRef<HTMLSpanElement, Icon
       viewBox,
       tabIndex,
       onClick,
+      baseClassName,
       ...rest
     } = props;
-    const [componentClassName, addPrefix] = useClassNames('icon-base');
+    const [componentClassName, addPrefix] = useClassNames(baseClassName);
     const classes = classNames(
       componentClassName,
       {

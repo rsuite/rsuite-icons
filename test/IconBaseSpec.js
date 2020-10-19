@@ -16,7 +16,14 @@ const IconCheck = () => (
 describe('IconBase', () => {
   it('Should be renderEmpty', () => {
     const instanceDom = getDOMNode(<IconBase />);
+    assert.include(instanceDom.className, 'rs-icon-base');
     assert.isEmpty(instanceDom.innerHTML, '');
+  });
+
+  it('Should change component base class name', () => {
+    const instanceDom = getDOMNode(<IconBase baseClassName="test-icon" />);
+    assert.notInclude(instanceDom.className, 'rs-icon-base');
+    assert.include(instanceDom.className, 'test-icon');
   });
 
   it('Should be spin', () => {
