@@ -1,0 +1,7 @@
+test/
+docs/
+tools/
+src/
+dist/
+webpack*
+assets
