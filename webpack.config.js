@@ -49,6 +49,7 @@ module.exports = (env = {}) => {
           test: /\.tsx?$/,
           use: ['babel-loader'],
           exclude: /node_modules/
+          // exclude: /node_modules(?!\/rsuite-icon-font)/
         },
         {
           test: /\.(less|css)$/,

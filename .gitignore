@@ -43,3 +43,4 @@ es
 .vscode/
 assets
 yarn.lock
+/src/icons/legacy/*.tsx

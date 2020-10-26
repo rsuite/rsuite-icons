@@ -10,26 +10,18 @@ function isValidScriptUrl(scriptUrl: string) {
 }
 
 export interface Option {
-  /**
-   * Icon script url
-   */
+  /** Icon script url */
   scriptUrl?: string | string[];
 
-  /**
-   * Extra props for Icon
-   */
+  /** Extra props for Icon */
   extraProps?: { [key: string]: any };
 
-  /**
-   * Loaded callback
-   */
+  /** Loaded callback */
   onLoaded?(): void;
 }
 
 export interface IconFontProps extends IconBaseProps {
-  /**
-   * icon name in IconFont
-   */
+  /** Icon name in IconFont */
   icon: string;
 }
 

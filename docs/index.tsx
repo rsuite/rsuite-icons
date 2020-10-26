@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { Grid, Button } from 'rsuite';
 import Examples from './Examples';
 import './less/index.less';
+import Charts from '../src/icons/legacy/Charts';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <hr />
       <Examples
         dependencies={{
-          Button
+          Button,
+          Charts
         }}
         list={[
           {
