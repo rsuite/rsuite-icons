@@ -6,6 +6,7 @@ const postcss = require('gulp-postcss');
 const sourcemaps = require('gulp-sourcemaps');
 const rename = require('gulp-rename');
 const gulp = require('gulp');
+const generateLegacyIcons = require('./bin/generateLegacyIcons');
 const babelrc = require('./babel.config.js');
 const STYLE_SOURCE_DIR = './src/less';
 const STYLE_DIST_DIR = './dist/css';
@@ -13,6 +14,7 @@ const TS_SOURCE_DIR = ['./src/**/*.tsx', './src/**/*.ts', '!./src/**/*.d.ts'];
 const ESM_DIR = './es';
 const LIB_DIR = './lib';
 const DIST_DIR = './dist';
+const LEGACY_DIR = './src/icons/legacy';
 
 function buildLess() {
   return gulp
@@ -21,13 +23,13 @@ function buildLess() {
     .pipe(less({ javascriptEnabled: true }))
     .pipe(postcss([require('autoprefixer')]))
     .pipe(sourcemaps.write('./'))
-    .pipe(rename('rsuite-table.css'))
+    .pipe(rename('rsuite-icon.css'))
     .pipe(gulp.dest(`${STYLE_DIST_DIR}`));
 }
 
 function buildCSS() {
   return gulp
-    .src(`${STYLE_DIST_DIR}/rsuite-table.css`)
+    .src(`${STYLE_DIST_DIR}/rsuite-icon.css`)
     .pipe(sourcemaps.init())
     .pipe(postcss())
     .pipe(rename({ suffix: '.min' }))
@@ -74,12 +76,19 @@ function copyFontFiles() {
 }
 
 function clean(done) {
-  del.sync([LIB_DIR, ESM_DIR, DIST_DIR], { force: true });
+  del.sync([LIB_DIR, ESM_DIR, DIST_DIR, LEGACY_DIR], { force: true });
   done();
 }
 
+function buildLegacy(done) {
+  generateLegacyIcons();
+  done();
+}
+
+exports.buildLegacy = gulp.series(buildLegacy);
 exports.build = gulp.series(
   clean,
+  buildLegacy,
   gulp.parallel(buildLib, buildEsm, gulp.series(buildLess, buildCSS)),
   gulp.parallel(copyTypescriptDeclarationFiles, copyLessFiles, copyFontFiles)
 );

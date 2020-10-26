@@ -1,16 +1,14 @@
 {
   "name": "@rsuite/icons",
   "version": "3.13.3",
-  "description": "A React table component",
+  "description": "All icons of rsuite",
   "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
   "module": "es/index.js",
   "scripts": {
     "format": "prettier --write \"{src,test}/**/*.{tsx,ts,js}\"",
     "format:check": "prettier --list-different \"{src,test}/**/*.{tsx,ts,js}\"",
     "build": "npm run build:gulp",
     "build:gulp": "gulp build",
-    "build:sync-legacy-icons": "rm -rf src/icons/legacy/*.tsx && node bin/generateLegacyIcons.js",
     "dev": "NODE_ENV=development webpack-dev-server  --inline --progress --colors --port 3100 --host 0.0.0.0 ",
     "docs": "rm -rf assets &&  NODE_ENV=production webpack",
     "publish-docs": "node docs/gh-pages.js",
@@ -22,7 +20,7 @@
     "coveralls": "cat ./coverage/lcov/lcov.info | ./node_modules/.bin/coveralls",
     "prepublishOnly": "npm run test && npm run build"
   },
-  "author": "simonguo.2009@gmail.com",
+  "author": "hiyangguo@gmail.com",
   "license": "MIT",
   "files": [
     "CHANGELOG.md",
@@ -128,7 +126,7 @@
     "react-markdown-reader": "^1.1.0",
     "react-test-renderer": "^16.13.0",
     "rsuite": "^2.0.12",
-    "rsuite-icon-font": "^4.0.0-3",
+    "rsuite-icon-font": "^4.0.0-4",
     "sinon": "^9.2.0",
     "sinon-chai": "^2.12.0",
     "style-loader": "^0.13.1",
