@@ -107,14 +107,7 @@ const IconBase = React.forwardRef<HTMLSpanElement, IconBaseProps>(
     }
 
     return (
-      <span
-        {...rest}
-        className={classes}
-        ref={ref}
-        aria-label="img"
-        tabIndex={iconTabIndex}
-        onClick={onClick}
-      >
+      <span {...rest} className={classes} ref={ref} tabIndex={iconTabIndex} onClick={onClick}>
         {renderIcon()}
       </span>
     );

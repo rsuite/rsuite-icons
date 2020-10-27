@@ -12,5 +12,5 @@ npm run build:sync-legacy
 ## Run dev site on your local
 npm run dev
 ## TDD
-npm run
+npm run tdd
 ```

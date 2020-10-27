@@ -29,7 +29,7 @@ type IconProps = Omit<IconBaseProps, 'baseClassName'>;
 
 const ${componentName}: React.FC<IconProps> = React.forwardRef<HTMLSpanElement, IconProps>(
   function ${componentName}(props: IconProps, ref: React.Ref<HTMLSpanElement>) {
-    return <Icon {...props} aria-label="${kebabCaseName}" role="img" ref={ref} as={${componentName}Svg} />;
+    return <Icon aria-label="${kebabCaseName}" role="img" {...props} ref={ref} as={${componentName}Svg} />;
   }
 );
 
