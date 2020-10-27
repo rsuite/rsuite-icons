@@ -28,7 +28,12 @@ describe('IconBase', () => {
 
   it('Should be spin', () => {
     const instanceDom = getDOMNode(<IconBase spin />);
-    assert.include(instanceDom.className, 'rs-icon-base-spin');
+    assert.include(instanceDom.className, 'rs-icon-spin');
+  });
+
+  it('Should be flip', () => {
+    const instanceDom = getDOMNode(<IconBase flip="horizontal" />);
+    assert.include(instanceDom.className, 'rs-icon-flip-horizontal');
   });
 
   it('Should be rotated', () => {
@@ -43,7 +48,7 @@ describe('IconBase', () => {
 
   it('Should be pulse', () => {
     const instanceDom = getDOMNode(<IconBase pulse />);
-    assert.include(instanceDom.className, 'rs-icon-base-pulse');
+    assert.include(instanceDom.className, 'rs-icon-pulse');
   });
 
   it('Will append className', () => {

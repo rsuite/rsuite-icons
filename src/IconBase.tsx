@@ -50,6 +50,7 @@ const IconBase = React.forwardRef<HTMLSpanElement, IconBaseProps>(
     const {
       spin,
       pulse,
+      flip,
       className,
       rotate,
       children,
@@ -65,7 +66,8 @@ const IconBase = React.forwardRef<HTMLSpanElement, IconBaseProps>(
       componentClassName,
       {
         [addPrefix('spin')]: spin,
-        [addPrefix('pulse')]: pulse
+        [addPrefix('pulse')]: pulse,
+        [addPrefix(`flip-${flip}`)]: !!flip
       },
       className
     );

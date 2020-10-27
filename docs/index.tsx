@@ -4,25 +4,39 @@ import { Grid, Button } from 'rsuite';
 import Examples from './Examples';
 import './less/index.less';
 import Charts from '../src/icons/legacy/Charts';
+import Spinner from '../src/icons/legacy/Spinner';
+import Cog from '../src/icons/legacy/Cog';
+import Shield from '../src/icons/legacy/Shield';
+import { Icon, createIconFont } from '../src';
 
 function App() {
   return (
     <Grid>
-      <h1>rsuite-table</h1>
-      <p>A React table component</p>
-      <p>
-        <a href="https://github.com/rsuite/rsuite-table">https://github.com/rsuite/rsuite-table</a>
-      </p>
+      <h1>@rsuite/icons</h1>
+      <p>All icons of rsuite</p>
       <hr />
       <Examples
         dependencies={{
           Button,
-          Charts
+          Charts,
+          Spinner,
+          Cog,
+          Shield,
+          createIconFont,
+          Icon
         }}
         list={[
           {
-            title: 'Props',
-            content: require('./md/Props.md')
+            title: 'Base',
+            content: require('./md/Base.md')
+          },
+          {
+            title: 'Icon Font',
+            content: require('./md/IconFont.md')
+          },
+          {
+            title: 'Custom Icon',
+            content: require('./md/CustomIcon.md')
           }
         ]}
       />
