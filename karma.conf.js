@@ -33,6 +33,7 @@ module.exports = config => {
     basePath: '',
     files: [testFile],
     frameworks: ['mocha', 'sinon-chai'],
+    processKillTimeout: 20000,
     colors: true,
     reporters: ['mocha', 'coverage'],
 
