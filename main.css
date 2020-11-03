@@ -506,6 +506,22 @@ span.CodeMirror-selectedtext { background: none; }
     transform: rotate(359deg);
   }
 }
+.icon-list-wrapper ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon-list-wrapper ul > li {
+  width: 12.25%;
+  text-align: center;
+}
+.icon-list-wrapper ul > li .rs-icon {
+  font-size: 50px;
+  display: block;
+}
+.icon-list-wrapper ul > li .icon-label {
+  word-break: break-all;
+}
 .btn-toolbar {
   padding: 10px 0;
 }
