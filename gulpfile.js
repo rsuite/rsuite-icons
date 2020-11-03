@@ -6,7 +6,8 @@ const postcss = require('gulp-postcss');
 const sourcemaps = require('gulp-sourcemaps');
 const rename = require('gulp-rename');
 const gulp = require('gulp');
-const generateLegacyIcons = require('./bin/generateLegacyIcons');
+const generateIconComponents = require('./bin/generateIconComponents');
+const generateIconListDocs = require('./bin/generateIconListDocs');
 const babelrc = require('./babel.config.js');
 const STYLE_SOURCE_DIR = './src/less';
 const STYLE_DIST_DIR = './dist/css';
@@ -14,7 +15,7 @@ const TS_SOURCE_DIR = ['./src/**/*.tsx', './src/**/*.ts', '!./src/**/*.d.ts'];
 const ESM_DIR = './es';
 const LIB_DIR = './lib';
 const DIST_DIR = './dist';
-const LEGACY_DIR = './src/icons/legacy';
+const ICON_COMPONENT_DIR = './src/icons';
 
 function buildLess() {
   return gulp
@@ -76,19 +77,26 @@ function copyFontFiles() {
 }
 
 function clean(done) {
-  del.sync([LIB_DIR, ESM_DIR, DIST_DIR, LEGACY_DIR], { force: true });
+  del.sync([LIB_DIR, ESM_DIR, DIST_DIR, ICON_COMPONENT_DIR], { force: true });
   done();
 }
 
-function buildLegacy(done) {
-  generateLegacyIcons();
+function buildIconComponent(done) {
+  del.sync([ICON_COMPONENT_DIR], { force: true });
+  generateIconComponents();
   done();
 }
 
-exports.buildLegacy = gulp.series(buildLegacy);
+function buildIconListDocs(done) {
+  generateIconListDocs();
+  done();
+}
+
+exports.buildIconComponent = gulp.series(buildIconComponent);
+exports.buildIconListDocs = gulp.series(buildIconComponent, buildIconListDocs);
 exports.build = gulp.series(
   clean,
-  buildLegacy,
+  buildIconComponent,
   gulp.parallel(buildLib, buildEsm, gulp.series(buildLess, buildCSS)),
   gulp.parallel(copyTypescriptDeclarationFiles, copyLessFiles, copyFontFiles)
 );

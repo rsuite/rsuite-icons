@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Row, Col, Nav } from 'rsuite';
 import CodeView from 'react-code-view';
-// import { IconBase } from '../src/index';
+import IconList from './IconList';
 
 const CustomCodeView = ({ ...props }) => (
   <Col md={10}>
@@ -11,7 +11,7 @@ const CustomCodeView = ({ ...props }) => (
 
 interface ItemType {
   title: React.ReactNode;
-  content: React.ReactNode;
+  content?: React.ReactNode;
 }
 
 interface ExamplesProps {
@@ -52,9 +52,15 @@ class Examples extends React.Component<ExamplesProps, ExamplesState> {
               })}
             </Nav>
           </Col>
-          <CustomCodeView key={index} dependencies={dependencies}>
-            {list[index].content}
-          </CustomCodeView>
+          {index !== list.length - 1 ? (
+            <CustomCodeView key={index} dependencies={dependencies}>
+              {list[index].content}
+            </CustomCodeView>
+          ) : (
+            <Col md={10}>
+              <IconList />
+            </Col>
+          )}
         </Row>
       </div>
     );

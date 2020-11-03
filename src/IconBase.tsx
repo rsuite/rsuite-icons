@@ -123,17 +123,28 @@ export default IconBase;
 export function createSvgIcon({
   as,
   ariaLabel,
-  displayName
+  displayName,
+  category
 }: {
   as: IconBaseProps['as'];
   ariaLabel: string;
   displayName: string;
+  category: string;
 }) {
   type IconProps = Omit<IconBaseProps, 'baseClassName'>;
 
   const IconComponent: React.FC<IconProps> = React.forwardRef<HTMLSpanElement, IconProps>(
     function IconComponent(props: IconProps, ref: React.Ref<HTMLSpanElement>) {
-      return <IconBase aria-label={ariaLabel} role="img" {...props} ref={ref} as={as} />;
+      return (
+        <IconBase
+          aria-label={ariaLabel}
+          role="img"
+          data-category={category}
+          {...props}
+          ref={ref}
+          as={as}
+        />
+      );
     }
   );
 

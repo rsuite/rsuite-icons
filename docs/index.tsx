@@ -37,6 +37,9 @@ function App() {
           {
             title: 'Custom Icon',
             content: require('./md/CustomIcon.md')
+          },
+          {
+            title: 'Icon List'
           }
         ]}
       />
