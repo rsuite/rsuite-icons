@@ -477,35 +477,6 @@ span.CodeMirror-selectedtext { background: none; }
 .code-view-wrapper .code-view-error {
   color: red;
 }
-.rs-icon {
-  display: inline-flex;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.rs-icon[tabindex] {
-  cursor: pointer;
-}
-.rs-icon-spin {
-  animation: icon-spin 2s infinite linear;
-}
-.rs-icon-pulse {
-  animation: icon-spin 1s infinite steps(8);
-}
-.rs-icon-flip-horizontal {
-  transform: scaleX(-1);
-}
-.rs-icon-flip-vertical {
-  transform: scaleY(-1);
-}
-@keyframes icon-spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(359deg);
-  }
-}
 .icon-list-wrapper ul {
   list-style: none;
   display: flex;
