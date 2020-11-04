@@ -88,14 +88,17 @@ const IconBase = React.forwardRef<HTMLSpanElement, IconBaseProps>(
     };
 
     const renderIcon = () => {
-      let Component;
+      let Component: React.ElementType | string;
       if (as) {
         Component = as;
-        return <Component {...svgProps}>{children}</Component>;
       }
 
       if (children) {
-        return <svg {...svgProps}>{children}</svg>;
+        Component = 'svg';
+      }
+
+      if (Component) {
+        return <Component {...svgProps}>{children}</Component>;
       }
 
       return null;

@@ -1,5 +1,11 @@
 ### Custom Icon
 
+#### Usage
+
+```
+import { Icon } from '@rsuite/icons';
+```
+
 <!--start-code-->
 
 ```js
@@ -44,3 +50,14 @@ ReactDOM.render(<Test />);
 ```
 
 <!--end-code-->
+
+#### Props
+
+| Property | Type`(default)`                 | Description                                  |
+| -------- | ------------------------------- | -------------------------------------------- |
+| as       | React.ElementType &#124; string | Reusable a custom element for this component |
+| spin     | boolean                         | Dynamic rotation icon                        |
+| pulse    | boolean                         | Use pulse to have it rotate with 8 steps     |
+| rotate   | number                          | Rotate the icon                              |
+| flip     | 'horizontal' &#124; 'vertical'  | Flip the icon                                |
+| style    | CSSProperties                   | The computed style of the `svg` element      |
