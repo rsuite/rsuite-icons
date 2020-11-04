@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { useClassNames } from './utils';
+import { useClassNames, useInsertStyles } from './utils';
 
 type Flip = 'horizontal' | 'vertical';
 
@@ -105,6 +105,8 @@ const IconBase = React.forwardRef<HTMLSpanElement, IconBaseProps>(
     if (tabIndex === undefined && onClick) {
       iconTabIndex = -1;
     }
+
+    useInsertStyles();
 
     return (
       <span {...rest} className={classes} ref={ref} tabIndex={iconTabIndex} onClick={onClick}>

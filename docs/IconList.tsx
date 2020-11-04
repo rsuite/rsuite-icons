@@ -1593,3195 +1593,3195 @@ const IconList = () => {
       <ul>
         <li>
           <AddressBookLegacy />
-          <span className="icon-label">AddressBookLegacy</span>
+          <span className="icon-label">AddressBook</span>
         </li>
         <li>
           <AddressBookOLegacy />
-          <span className="icon-label">AddressBookOLegacy</span>
+          <span className="icon-label">AddressBookO</span>
         </li>
         <li>
           <AdjustLegacy />
-          <span className="icon-label">AdjustLegacy</span>
+          <span className="icon-label">Adjust</span>
         </li>
         <li>
           <AdnLegacy />
-          <span className="icon-label">AdnLegacy</span>
+          <span className="icon-label">Adn</span>
         </li>
         <li>
           <AlignCenterLegacy />
-          <span className="icon-label">AlignCenterLegacy</span>
+          <span className="icon-label">AlignCenter</span>
         </li>
         <li>
           <AlignJustifyLegacy />
-          <span className="icon-label">AlignJustifyLegacy</span>
+          <span className="icon-label">AlignJustify</span>
         </li>
         <li>
           <AlignLeftLegacy />
-          <span className="icon-label">AlignLeftLegacy</span>
+          <span className="icon-label">AlignLeft</span>
         </li>
         <li>
           <AlignRightLegacy />
-          <span className="icon-label">AlignRightLegacy</span>
+          <span className="icon-label">AlignRight</span>
         </li>
         <li>
           <AlipayLegacy />
-          <span className="icon-label">AlipayLegacy</span>
+          <span className="icon-label">Alipay</span>
         </li>
         <li>
           <AmazonLegacy />
-          <span className="icon-label">AmazonLegacy</span>
+          <span className="icon-label">Amazon</span>
         </li>
         <li>
           <AmbulanceLegacy />
-          <span className="icon-label">AmbulanceLegacy</span>
+          <span className="icon-label">Ambulance</span>
         </li>
         <li>
           <AnchorLegacy />
-          <span className="icon-label">AnchorLegacy</span>
+          <span className="icon-label">Anchor</span>
         </li>
         <li>
           <AndroidLegacy />
-          <span className="icon-label">AndroidLegacy</span>
+          <span className="icon-label">Android</span>
         </li>
         <li>
           <Android2Legacy />
-          <span className="icon-label">Android2Legacy</span>
+          <span className="icon-label">Android2</span>
         </li>
         <li>
           <AngellistLegacy />
-          <span className="icon-label">AngellistLegacy</span>
+          <span className="icon-label">Angellist</span>
         </li>
         <li>
           <AngleDoubleDownLegacy />
-          <span className="icon-label">AngleDoubleDownLegacy</span>
+          <span className="icon-label">AngleDoubleDown</span>
         </li>
         <li>
           <AngleDoubleLeftLegacy />
-          <span className="icon-label">AngleDoubleLeftLegacy</span>
+          <span className="icon-label">AngleDoubleLeft</span>
         </li>
         <li>
           <AngleDoubleRightLegacy />
-          <span className="icon-label">AngleDoubleRightLegacy</span>
+          <span className="icon-label">AngleDoubleRight</span>
         </li>
         <li>
           <AngleDoubleUpLegacy />
-          <span className="icon-label">AngleDoubleUpLegacy</span>
+          <span className="icon-label">AngleDoubleUp</span>
         </li>
         <li>
           <AngleDownLegacy />
-          <span className="icon-label">AngleDownLegacy</span>
+          <span className="icon-label">AngleDown</span>
         </li>
         <li>
           <AngleLeftLegacy />
-          <span className="icon-label">AngleLeftLegacy</span>
+          <span className="icon-label">AngleLeft</span>
         </li>
         <li>
           <AngleRightLegacy />
-          <span className="icon-label">AngleRightLegacy</span>
+          <span className="icon-label">AngleRight</span>
         </li>
         <li>
           <AngleUpLegacy />
-          <span className="icon-label">AngleUpLegacy</span>
+          <span className="icon-label">AngleUp</span>
         </li>
         <li>
           <AppleLegacy />
-          <span className="icon-label">AppleLegacy</span>
+          <span className="icon-label">Apple</span>
         </li>
         <li>
           <ArchiveLegacy />
-          <span className="icon-label">ArchiveLegacy</span>
+          <span className="icon-label">Archive</span>
         </li>
         <li>
           <AreaChartLegacy />
-          <span className="icon-label">AreaChartLegacy</span>
+          <span className="icon-label">AreaChart</span>
         </li>
         <li>
           <ArrowCircleDownLegacy />
-          <span className="icon-label">ArrowCircleDownLegacy</span>
+          <span className="icon-label">ArrowCircleDown</span>
         </li>
         <li>
           <ArrowCircleLeftLegacy />
-          <span className="icon-label">ArrowCircleLeftLegacy</span>
+          <span className="icon-label">ArrowCircleLeft</span>
         </li>
         <li>
           <ArrowCircleODownLegacy />
-          <span className="icon-label">ArrowCircleODownLegacy</span>
+          <span className="icon-label">ArrowCircleODown</span>
         </li>
         <li>
           <ArrowCircleOLeftLegacy />
-          <span className="icon-label">ArrowCircleOLeftLegacy</span>
+          <span className="icon-label">ArrowCircleOLeft</span>
         </li>
         <li>
           <ArrowCircleORightLegacy />
-          <span className="icon-label">ArrowCircleORightLegacy</span>
+          <span className="icon-label">ArrowCircleORight</span>
         </li>
         <li>
           <ArrowCircleOUpLegacy />
-          <span className="icon-label">ArrowCircleOUpLegacy</span>
+          <span className="icon-label">ArrowCircleOUp</span>
         </li>
         <li>
           <ArrowCircleRightLegacy />
-          <span className="icon-label">ArrowCircleRightLegacy</span>
+          <span className="icon-label">ArrowCircleRight</span>
         </li>
         <li>
           <ArrowCircleUpLegacy />
-          <span className="icon-label">ArrowCircleUpLegacy</span>
+          <span className="icon-label">ArrowCircleUp</span>
         </li>
         <li>
           <ArrowDownLegacy />
-          <span className="icon-label">ArrowDownLegacy</span>
+          <span className="icon-label">ArrowDown</span>
         </li>
         <li>
           <ArrowDown2Legacy />
-          <span className="icon-label">ArrowDown2Legacy</span>
+          <span className="icon-label">ArrowDown2</span>
         </li>
         <li>
           <ArrowDownLineLegacy />
-          <span className="icon-label">ArrowDownLineLegacy</span>
+          <span className="icon-label">ArrowDownLine</span>
         </li>
         <li>
           <ArrowLeftLegacy />
-          <span className="icon-label">ArrowLeftLegacy</span>
+          <span className="icon-label">ArrowLeft</span>
         </li>
         <li>
           <ArrowLeftLineLegacy />
-          <span className="icon-label">ArrowLeftLineLegacy</span>
+          <span className="icon-label">ArrowLeftLine</span>
         </li>
         <li>
           <ArrowRightLegacy />
-          <span className="icon-label">ArrowRightLegacy</span>
+          <span className="icon-label">ArrowRight</span>
         </li>
         <li>
           <ArrowRightLineLegacy />
-          <span className="icon-label">ArrowRightLineLegacy</span>
+          <span className="icon-label">ArrowRightLine</span>
         </li>
         <li>
           <ArrowsLegacy />
-          <span className="icon-label">ArrowsLegacy</span>
+          <span className="icon-label">Arrows</span>
         </li>
         <li>
           <ArrowsAltLegacy />
-          <span className="icon-label">ArrowsAltLegacy</span>
+          <span className="icon-label">ArrowsAlt</span>
         </li>
         <li>
           <ArrowsHLegacy />
-          <span className="icon-label">ArrowsHLegacy</span>
+          <span className="icon-label">ArrowsH</span>
         </li>
         <li>
           <ArrowsVLegacy />
-          <span className="icon-label">ArrowsVLegacy</span>
+          <span className="icon-label">ArrowsV</span>
         </li>
         <li>
           <ArrowUpLegacy />
-          <span className="icon-label">ArrowUpLegacy</span>
+          <span className="icon-label">ArrowUp</span>
         </li>
         <li>
           <ArrowUp2Legacy />
-          <span className="icon-label">ArrowUp2Legacy</span>
+          <span className="icon-label">ArrowUp2</span>
         </li>
         <li>
           <ArrowUpLineLegacy />
-          <span className="icon-label">ArrowUpLineLegacy</span>
+          <span className="icon-label">ArrowUpLine</span>
         </li>
         <li>
           <AslInterpretingLegacy />
-          <span className="icon-label">AslInterpretingLegacy</span>
+          <span className="icon-label">AslInterpreting</span>
         </li>
         <li>
           <AssistiveListeningSystemsLegacy />
-          <span className="icon-label">AssistiveListeningSystemsLegacy</span>
+          <span className="icon-label">AssistiveListeningSystems</span>
         </li>
         <li>
           <AsteriskLegacy />
-          <span className="icon-label">AsteriskLegacy</span>
+          <span className="icon-label">Asterisk</span>
         </li>
         <li>
           <AtLegacy />
-          <span className="icon-label">AtLegacy</span>
+          <span className="icon-label">At</span>
         </li>
         <li>
           <AttachmentLegacy />
-          <span className="icon-label">AttachmentLegacy</span>
+          <span className="icon-label">Attachment</span>
         </li>
         <li>
           <AttributionLegacy />
-          <span className="icon-label">AttributionLegacy</span>
+          <span className="icon-label">Attribution</span>
         </li>
         <li>
           <AudioDescriptionLegacy />
-          <span className="icon-label">AudioDescriptionLegacy</span>
+          <span className="icon-label">AudioDescription</span>
         </li>
         <li>
           <AvatarLegacy />
-          <span className="icon-label">AvatarLegacy</span>
+          <span className="icon-label">Avatar</span>
         </li>
         <li>
           <BackArrowLegacy />
-          <span className="icon-label">BackArrowLegacy</span>
+          <span className="icon-label">BackArrow</span>
         </li>
         <li>
           <BackwardLegacy />
-          <span className="icon-label">BackwardLegacy</span>
+          <span className="icon-label">Backward</span>
         </li>
         <li>
           <BalanceScaleLegacy />
-          <span className="icon-label">BalanceScaleLegacy</span>
+          <span className="icon-label">BalanceScale</span>
         </li>
         <li>
           <BanLegacy />
-          <span className="icon-label">BanLegacy</span>
+          <span className="icon-label">Ban</span>
         </li>
         <li>
           <BandcampLegacy />
-          <span className="icon-label">BandcampLegacy</span>
+          <span className="icon-label">Bandcamp</span>
         </li>
         <li>
           <BankLegacy />
-          <span className="icon-label">BankLegacy</span>
+          <span className="icon-label">Bank</span>
         </li>
         <li>
           <BarChartLegacy />
-          <span className="icon-label">BarChartLegacy</span>
+          <span className="icon-label">BarChart</span>
         </li>
         <li>
           <BarChartRankingLegacy />
-          <span className="icon-label">BarChartRankingLegacy</span>
+          <span className="icon-label">BarChartRanking</span>
         </li>
         <li>
           <BarcodeLegacy />
-          <span className="icon-label">BarcodeLegacy</span>
+          <span className="icon-label">Barcode</span>
         </li>
         <li>
           <BarsLegacy />
-          <span className="icon-label">BarsLegacy</span>
+          <span className="icon-label">Bars</span>
         </li>
         <li>
           <BatteryLegacy />
-          <span className="icon-label">BatteryLegacy</span>
+          <span className="icon-label">Battery</span>
         </li>
         <li>
           <Battery0Legacy />
-          <span className="icon-label">Battery0Legacy</span>
+          <span className="icon-label">Battery0</span>
         </li>
         <li>
           <Battery1Legacy />
-          <span className="icon-label">Battery1Legacy</span>
+          <span className="icon-label">Battery1</span>
         </li>
         <li>
           <Battery2Legacy />
-          <span className="icon-label">Battery2Legacy</span>
+          <span className="icon-label">Battery2</span>
         </li>
         <li>
           <Battery3Legacy />
-          <span className="icon-label">Battery3Legacy</span>
+          <span className="icon-label">Battery3</span>
         </li>
         <li>
           <BedLegacy />
-          <span className="icon-label">BedLegacy</span>
+          <span className="icon-label">Bed</span>
         </li>
         <li>
           <BeerLegacy />
-          <span className="icon-label">BeerLegacy</span>
+          <span className="icon-label">Beer</span>
         </li>
         <li>
           <BehanceLegacy />
-          <span className="icon-label">BehanceLegacy</span>
+          <span className="icon-label">Behance</span>
         </li>
         <li>
           <BehanceSquareLegacy />
-          <span className="icon-label">BehanceSquareLegacy</span>
+          <span className="icon-label">BehanceSquare</span>
         </li>
         <li>
           <BellLegacy />
-          <span className="icon-label">BellLegacy</span>
+          <span className="icon-label">Bell</span>
         </li>
         <li>
           <BellOLegacy />
-          <span className="icon-label">BellOLegacy</span>
+          <span className="icon-label">BellO</span>
         </li>
         <li>
           <BellSlashLegacy />
-          <span className="icon-label">BellSlashLegacy</span>
+          <span className="icon-label">BellSlash</span>
         </li>
         <li>
           <BellSlashOLegacy />
-          <span className="icon-label">BellSlashOLegacy</span>
+          <span className="icon-label">BellSlashO</span>
         </li>
         <li>
           <BicycleLegacy />
-          <span className="icon-label">BicycleLegacy</span>
+          <span className="icon-label">Bicycle</span>
         </li>
         <li>
           <BinocularsLegacy />
-          <span className="icon-label">BinocularsLegacy</span>
+          <span className="icon-label">Binoculars</span>
         </li>
         <li>
           <BirthdayCakeLegacy />
-          <span className="icon-label">BirthdayCakeLegacy</span>
+          <span className="icon-label">BirthdayCake</span>
         </li>
         <li>
           <BitbucketLegacy />
-          <span className="icon-label">BitbucketLegacy</span>
+          <span className="icon-label">Bitbucket</span>
         </li>
         <li>
           <BitbucketSquareLegacy />
-          <span className="icon-label">BitbucketSquareLegacy</span>
+          <span className="icon-label">BitbucketSquare</span>
         </li>
         <li>
           <BlackTieLegacy />
-          <span className="icon-label">BlackTieLegacy</span>
+          <span className="icon-label">BlackTie</span>
         </li>
         <li>
           <BlindLegacy />
-          <span className="icon-label">BlindLegacy</span>
+          <span className="icon-label">Blind</span>
         </li>
         <li>
           <BluetoothLegacy />
-          <span className="icon-label">BluetoothLegacy</span>
+          <span className="icon-label">Bluetooth</span>
         </li>
         <li>
           <BluetoothBLegacy />
-          <span className="icon-label">BluetoothBLegacy</span>
+          <span className="icon-label">BluetoothB</span>
         </li>
         <li>
           <BoldLegacy />
-          <span className="icon-label">BoldLegacy</span>
+          <span className="icon-label">Bold</span>
         </li>
         <li>
           <BoltLegacy />
-          <span className="icon-label">BoltLegacy</span>
+          <span className="icon-label">Bolt</span>
         </li>
         <li>
           <BombLegacy />
-          <span className="icon-label">BombLegacy</span>
+          <span className="icon-label">Bomb</span>
         </li>
         <li>
           <BookLegacy />
-          <span className="icon-label">BookLegacy</span>
+          <span className="icon-label">Book</span>
         </li>
         <li>
           <Book2Legacy />
-          <span className="icon-label">Book2Legacy</span>
+          <span className="icon-label">Book2</span>
         </li>
         <li>
           <BookmarkLegacy />
-          <span className="icon-label">BookmarkLegacy</span>
+          <span className="icon-label">Bookmark</span>
         </li>
         <li>
           <BookmarkOLegacy />
-          <span className="icon-label">BookmarkOLegacy</span>
+          <span className="icon-label">BookmarkO</span>
         </li>
         <li>
           <BrailleLegacy />
-          <span className="icon-label">BrailleLegacy</span>
+          <span className="icon-label">Braille</span>
         </li>
         <li>
           <BriefcaseLegacy />
-          <span className="icon-label">BriefcaseLegacy</span>
+          <span className="icon-label">Briefcase</span>
         </li>
         <li>
           <BtcLegacy />
-          <span className="icon-label">BtcLegacy</span>
+          <span className="icon-label">Btc</span>
         </li>
         <li>
           <BtnOffLegacy />
-          <span className="icon-label">BtnOffLegacy</span>
+          <span className="icon-label">BtnOff</span>
         </li>
         <li>
           <BtnOnLegacy />
-          <span className="icon-label">BtnOnLegacy</span>
+          <span className="icon-label">BtnOn</span>
         </li>
         <li>
           <BugLegacy />
-          <span className="icon-label">BugLegacy</span>
+          <span className="icon-label">Bug</span>
         </li>
         <li>
           <BuildingLegacy />
-          <span className="icon-label">BuildingLegacy</span>
+          <span className="icon-label">Building</span>
         </li>
         <li>
           <Building2Legacy />
-          <span className="icon-label">Building2Legacy</span>
+          <span className="icon-label">Building2</span>
         </li>
         <li>
           <BuildingOLegacy />
-          <span className="icon-label">BuildingOLegacy</span>
+          <span className="icon-label">BuildingO</span>
         </li>
         <li>
           <BullhornLegacy />
-          <span className="icon-label">BullhornLegacy</span>
+          <span className="icon-label">Bullhorn</span>
         </li>
         <li>
           <BullseyeLegacy />
-          <span className="icon-label">BullseyeLegacy</span>
+          <span className="icon-label">Bullseye</span>
         </li>
         <li>
           <BusLegacy />
-          <span className="icon-label">BusLegacy</span>
+          <span className="icon-label">Bus</span>
         </li>
         <li>
           <BuyselladsLegacy />
-          <span className="icon-label">BuyselladsLegacy</span>
+          <span className="icon-label">Buysellads</span>
         </li>
         <li>
           <CabLegacy />
-          <span className="icon-label">CabLegacy</span>
+          <span className="icon-label">Cab</span>
         </li>
         <li>
           <CalculatorLegacy />
-          <span className="icon-label">CalculatorLegacy</span>
+          <span className="icon-label">Calculator</span>
         </li>
         <li>
           <CalendarLegacy />
-          <span className="icon-label">CalendarLegacy</span>
+          <span className="icon-label">Calendar</span>
         </li>
         <li>
           <CalendarCheckOLegacy />
-          <span className="icon-label">CalendarCheckOLegacy</span>
+          <span className="icon-label">CalendarCheckO</span>
         </li>
         <li>
           <CalendarMinusOLegacy />
-          <span className="icon-label">CalendarMinusOLegacy</span>
+          <span className="icon-label">CalendarMinusO</span>
         </li>
         <li>
           <CalendarOLegacy />
-          <span className="icon-label">CalendarOLegacy</span>
+          <span className="icon-label">CalendarO</span>
         </li>
         <li>
           <CalendarPlusOLegacy />
-          <span className="icon-label">CalendarPlusOLegacy</span>
+          <span className="icon-label">CalendarPlusO</span>
         </li>
         <li>
           <CalendarTimesOLegacy />
-          <span className="icon-label">CalendarTimesOLegacy</span>
+          <span className="icon-label">CalendarTimesO</span>
         </li>
         <li>
           <CameraLegacy />
-          <span className="icon-label">CameraLegacy</span>
+          <span className="icon-label">Camera</span>
         </li>
         <li>
           <CameraRetroLegacy />
-          <span className="icon-label">CameraRetroLegacy</span>
+          <span className="icon-label">CameraRetro</span>
         </li>
         <li>
           <CarLegacy />
-          <span className="icon-label">CarLegacy</span>
+          <span className="icon-label">Car</span>
         </li>
         <li>
           <CaretDownLegacy />
-          <span className="icon-label">CaretDownLegacy</span>
+          <span className="icon-label">CaretDown</span>
         </li>
         <li>
           <CaretLeftLegacy />
-          <span className="icon-label">CaretLeftLegacy</span>
+          <span className="icon-label">CaretLeft</span>
         </li>
         <li>
           <CaretRightLegacy />
-          <span className="icon-label">CaretRightLegacy</span>
+          <span className="icon-label">CaretRight</span>
         </li>
         <li>
           <CaretUpLegacy />
-          <span className="icon-label">CaretUpLegacy</span>
+          <span className="icon-label">CaretUp</span>
         </li>
         <li>
           <CartArrowDownLegacy />
-          <span className="icon-label">CartArrowDownLegacy</span>
+          <span className="icon-label">CartArrowDown</span>
         </li>
         <li>
           <CartPlusLegacy />
-          <span className="icon-label">CartPlusLegacy</span>
+          <span className="icon-label">CartPlus</span>
         </li>
         <li>
           <CcLegacy />
-          <span className="icon-label">CcLegacy</span>
+          <span className="icon-label">Cc</span>
         </li>
         <li>
           <CcAmexLegacy />
-          <span className="icon-label">CcAmexLegacy</span>
+          <span className="icon-label">CcAmex</span>
         </li>
         <li>
           <CcDinersClubLegacy />
-          <span className="icon-label">CcDinersClubLegacy</span>
+          <span className="icon-label">CcDinersClub</span>
         </li>
         <li>
           <CcDiscoverLegacy />
-          <span className="icon-label">CcDiscoverLegacy</span>
+          <span className="icon-label">CcDiscover</span>
         </li>
         <li>
           <CcJcbLegacy />
-          <span className="icon-label">CcJcbLegacy</span>
+          <span className="icon-label">CcJcb</span>
         </li>
         <li>
           <CcMastercardLegacy />
-          <span className="icon-label">CcMastercardLegacy</span>
+          <span className="icon-label">CcMastercard</span>
         </li>
         <li>
           <CcPaypalLegacy />
-          <span className="icon-label">CcPaypalLegacy</span>
+          <span className="icon-label">CcPaypal</span>
         </li>
         <li>
           <CcStripeLegacy />
-          <span className="icon-label">CcStripeLegacy</span>
+          <span className="icon-label">CcStripe</span>
         </li>
         <li>
           <CcVisaLegacy />
-          <span className="icon-label">CcVisaLegacy</span>
+          <span className="icon-label">CcVisa</span>
         </li>
         <li>
           <CertificateLegacy />
-          <span className="icon-label">CertificateLegacy</span>
+          <span className="icon-label">Certificate</span>
         </li>
         <li>
           <CharacterAreaLegacy />
-          <span className="icon-label">CharacterAreaLegacy</span>
+          <span className="icon-label">CharacterArea</span>
         </li>
         <li>
           <CharacterAuthorizeLegacy />
-          <span className="icon-label">CharacterAuthorizeLegacy</span>
+          <span className="icon-label">CharacterAuthorize</span>
         </li>
         <li>
           <ChartsLegacy />
-          <span className="icon-label">ChartsLegacy</span>
+          <span className="icon-label">Charts</span>
         </li>
         <li>
           <ChartsLineLegacy />
-          <span className="icon-label">ChartsLineLegacy</span>
+          <span className="icon-label">ChartsLine</span>
         </li>
         <li>
           <CheckLegacy />
-          <span className="icon-label">CheckLegacy</span>
+          <span className="icon-label">Check</span>
         </li>
         <li>
           <Check2Legacy />
-          <span className="icon-label">Check2Legacy</span>
+          <span className="icon-label">Check2</span>
         </li>
         <li>
           <CheckCircleLegacy />
-          <span className="icon-label">CheckCircleLegacy</span>
+          <span className="icon-label">CheckCircle</span>
         </li>
         <li>
           <CheckCircleOLegacy />
-          <span className="icon-label">CheckCircleOLegacy</span>
+          <span className="icon-label">CheckCircleO</span>
         </li>
         <li>
           <CheckSquareLegacy />
-          <span className="icon-label">CheckSquareLegacy</span>
+          <span className="icon-label">CheckSquare</span>
         </li>
         <li>
           <CheckSquareOLegacy />
-          <span className="icon-label">CheckSquareOLegacy</span>
+          <span className="icon-label">CheckSquareO</span>
         </li>
         <li>
           <ChevronCircleDownLegacy />
-          <span className="icon-label">ChevronCircleDownLegacy</span>
+          <span className="icon-label">ChevronCircleDown</span>
         </li>
         <li>
           <ChevronCircleLeftLegacy />
-          <span className="icon-label">ChevronCircleLeftLegacy</span>
+          <span className="icon-label">ChevronCircleLeft</span>
         </li>
         <li>
           <ChevronCircleRightLegacy />
-          <span className="icon-label">ChevronCircleRightLegacy</span>
+          <span className="icon-label">ChevronCircleRight</span>
         </li>
         <li>
           <ChevronCircleUpLegacy />
-          <span className="icon-label">ChevronCircleUpLegacy</span>
+          <span className="icon-label">ChevronCircleUp</span>
         </li>
         <li>
           <ChevronDownLegacy />
-          <span className="icon-label">ChevronDownLegacy</span>
+          <span className="icon-label">ChevronDown</span>
         </li>
         <li>
           <ChevronLeftLegacy />
-          <span className="icon-label">ChevronLeftLegacy</span>
+          <span className="icon-label">ChevronLeft</span>
         </li>
         <li>
           <ChevronRightLegacy />
-          <span className="icon-label">ChevronRightLegacy</span>
+          <span className="icon-label">ChevronRight</span>
         </li>
         <li>
           <ChevronUpLegacy />
-          <span className="icon-label">ChevronUpLegacy</span>
+          <span className="icon-label">ChevronUp</span>
         </li>
         <li>
           <ChildLegacy />
-          <span className="icon-label">ChildLegacy</span>
+          <span className="icon-label">Child</span>
         </li>
         <li>
           <ChromeLegacy />
-          <span className="icon-label">ChromeLegacy</span>
+          <span className="icon-label">Chrome</span>
         </li>
         <li>
           <CircleLegacy />
-          <span className="icon-label">CircleLegacy</span>
+          <span className="icon-label">Circle</span>
         </li>
         <li>
           <CircleOLegacy />
-          <span className="icon-label">CircleOLegacy</span>
+          <span className="icon-label">CircleO</span>
         </li>
         <li>
           <CircleONotchLegacy />
-          <span className="icon-label">CircleONotchLegacy</span>
+          <span className="icon-label">CircleONotch</span>
         </li>
         <li>
           <CircleThinLegacy />
-          <span className="icon-label">CircleThinLegacy</span>
+          <span className="icon-label">CircleThin</span>
         </li>
         <li>
           <ClockOLegacy />
-          <span className="icon-label">ClockOLegacy</span>
+          <span className="icon-label">ClockO</span>
         </li>
         <li>
           <CloneLegacy />
-          <span className="icon-label">CloneLegacy</span>
+          <span className="icon-label">Clone</span>
         </li>
         <li>
           <CloseLegacy />
-          <span className="icon-label">CloseLegacy</span>
+          <span className="icon-label">Close</span>
         </li>
         <li>
           <CloseCircleLegacy />
-          <span className="icon-label">CloseCircleLegacy</span>
+          <span className="icon-label">CloseCircle</span>
         </li>
         <li>
           <CloudLegacy />
-          <span className="icon-label">CloudLegacy</span>
+          <span className="icon-label">Cloud</span>
         </li>
         <li>
           <CloudDownloadLegacy />
-          <span className="icon-label">CloudDownloadLegacy</span>
+          <span className="icon-label">CloudDownload</span>
         </li>
         <li>
           <CloudUploadLegacy />
-          <span className="icon-label">CloudUploadLegacy</span>
+          <span className="icon-label">CloudUpload</span>
         </li>
         <li>
           <CnyLegacy />
-          <span className="icon-label">CnyLegacy</span>
+          <span className="icon-label">Cny</span>
         </li>
         <li>
           <CodeLegacy />
-          <span className="icon-label">CodeLegacy</span>
+          <span className="icon-label">Code</span>
         </li>
         <li>
           <CodeForkLegacy />
-          <span className="icon-label">CodeForkLegacy</span>
+          <span className="icon-label">CodeFork</span>
         </li>
         <li>
           <CodepenLegacy />
-          <span className="icon-label">CodepenLegacy</span>
+          <span className="icon-label">Codepen</span>
         </li>
         <li>
           <CodiepieLegacy />
-          <span className="icon-label">CodiepieLegacy</span>
+          <span className="icon-label">Codiepie</span>
         </li>
         <li>
           <CoffeeLegacy />
-          <span className="icon-label">CoffeeLegacy</span>
+          <span className="icon-label">Coffee</span>
         </li>
         <li>
           <CogLegacy />
-          <span className="icon-label">CogLegacy</span>
+          <span className="icon-label">Cog</span>
         </li>
         <li>
           <CogsLegacy />
-          <span className="icon-label">CogsLegacy</span>
+          <span className="icon-label">Cogs</span>
         </li>
         <li>
           <CoincideLegacy />
-          <span className="icon-label">CoincideLegacy</span>
+          <span className="icon-label">Coincide</span>
         </li>
         <li>
           <CollaspedLegacy />
-          <span className="icon-label">CollaspedLegacy</span>
+          <span className="icon-label">Collasped</span>
         </li>
         <li>
           <CollaspedOLegacy />
-          <span className="icon-label">CollaspedOLegacy</span>
+          <span className="icon-label">CollaspedO</span>
         </li>
         <li>
           <ColumnsLegacy />
-          <span className="icon-label">ColumnsLegacy</span>
+          <span className="icon-label">Columns</span>
         </li>
         <li>
           <CommentLegacy />
-          <span className="icon-label">CommentLegacy</span>
+          <span className="icon-label">Comment</span>
         </li>
         <li>
           <CommentingLegacy />
-          <span className="icon-label">CommentingLegacy</span>
+          <span className="icon-label">Commenting</span>
         </li>
         <li>
           <CommentingOLegacy />
-          <span className="icon-label">CommentingOLegacy</span>
+          <span className="icon-label">CommentingO</span>
         </li>
         <li>
           <CommentOLegacy />
-          <span className="icon-label">CommentOLegacy</span>
+          <span className="icon-label">CommentO</span>
         </li>
         <li>
           <CommentsLegacy />
-          <span className="icon-label">CommentsLegacy</span>
+          <span className="icon-label">Comments</span>
         </li>
         <li>
           <CommentsOLegacy />
-          <span className="icon-label">CommentsOLegacy</span>
+          <span className="icon-label">CommentsO</span>
         </li>
         <li>
           <CompassLegacy />
-          <span className="icon-label">CompassLegacy</span>
+          <span className="icon-label">Compass</span>
         </li>
         <li>
           <CompressLegacy />
-          <span className="icon-label">CompressLegacy</span>
+          <span className="icon-label">Compress</span>
         </li>
         <li>
           <ConnectdevelopLegacy />
-          <span className="icon-label">ConnectdevelopLegacy</span>
+          <span className="icon-label">Connectdevelop</span>
         </li>
         <li>
           <ContaoLegacy />
-          <span className="icon-label">ContaoLegacy</span>
+          <span className="icon-label">Contao</span>
         </li>
         <li>
           <CopyLegacy />
-          <span className="icon-label">CopyLegacy</span>
+          <span className="icon-label">Copy</span>
         </li>
         <li>
           <CopyOLegacy />
-          <span className="icon-label">CopyOLegacy</span>
+          <span className="icon-label">CopyO</span>
         </li>
         <li>
           <CopyrightLegacy />
-          <span className="icon-label">CopyrightLegacy</span>
+          <span className="icon-label">Copyright</span>
         </li>
         <li>
           <CreativeLegacy />
-          <span className="icon-label">CreativeLegacy</span>
+          <span className="icon-label">Creative</span>
         </li>
         <li>
           <CreativeCommonsLegacy />
-          <span className="icon-label">CreativeCommonsLegacy</span>
+          <span className="icon-label">CreativeCommons</span>
         </li>
         <li>
           <CreditCardLegacy />
-          <span className="icon-label">CreditCardLegacy</span>
+          <span className="icon-label">CreditCard</span>
         </li>
         <li>
           <CreditCardAltLegacy />
-          <span className="icon-label">CreditCardAltLegacy</span>
+          <span className="icon-label">CreditCardAlt</span>
         </li>
         <li>
           <CropLegacy />
-          <span className="icon-label">CropLegacy</span>
+          <span className="icon-label">Crop</span>
         </li>
         <li>
           <CrosshairsLegacy />
-          <span className="icon-label">CrosshairsLegacy</span>
+          <span className="icon-label">Crosshairs</span>
         </li>
         <li>
           <Css3Legacy />
-          <span className="icon-label">Css3Legacy</span>
+          <span className="icon-label">Css3</span>
         </li>
         <li>
           <CubeLegacy />
-          <span className="icon-label">CubeLegacy</span>
+          <span className="icon-label">Cube</span>
         </li>
         <li>
           <CubesLegacy />
-          <span className="icon-label">CubesLegacy</span>
+          <span className="icon-label">Cubes</span>
         </li>
         <li>
           <CutLegacy />
-          <span className="icon-label">CutLegacy</span>
+          <span className="icon-label">Cut</span>
         </li>
         <li>
           <CutleryLegacy />
-          <span className="icon-label">CutleryLegacy</span>
+          <span className="icon-label">Cutlery</span>
         </li>
         <li>
           <DashboardLegacy />
-          <span className="icon-label">DashboardLegacy</span>
+          <span className="icon-label">Dashboard</span>
         </li>
         <li>
           <DashcubeLegacy />
-          <span className="icon-label">DashcubeLegacy</span>
+          <span className="icon-label">Dashcube</span>
         </li>
         <li>
           <DataAuthorizeLegacy />
-          <span className="icon-label">DataAuthorizeLegacy</span>
+          <span className="icon-label">DataAuthorize</span>
         </li>
         <li>
           <DatabaseLegacy />
-          <span className="icon-label">DatabaseLegacy</span>
+          <span className="icon-label">Database</span>
         </li>
         <li>
           <DataDecreaseLegacy />
-          <span className="icon-label">DataDecreaseLegacy</span>
+          <span className="icon-label">DataDecrease</span>
         </li>
         <li>
           <DataIncreaseLegacy />
-          <span className="icon-label">DataIncreaseLegacy</span>
+          <span className="icon-label">DataIncrease</span>
         </li>
         <li>
           <DeafLegacy />
-          <span className="icon-label">DeafLegacy</span>
+          <span className="icon-label">Deaf</span>
         </li>
         <li>
           <DedentLegacy />
-          <span className="icon-label">DedentLegacy</span>
+          <span className="icon-label">Dedent</span>
         </li>
         <li>
           <DeliciousLegacy />
-          <span className="icon-label">DeliciousLegacy</span>
+          <span className="icon-label">Delicious</span>
         </li>
         <li>
           <DesktopLegacy />
-          <span className="icon-label">DesktopLegacy</span>
+          <span className="icon-label">Desktop</span>
         </li>
         <li>
           <DetailLegacy />
-          <span className="icon-label">DetailLegacy</span>
+          <span className="icon-label">Detail</span>
         </li>
         <li>
           <DeviantartLegacy />
-          <span className="icon-label">DeviantartLegacy</span>
+          <span className="icon-label">Deviantart</span>
         </li>
         <li>
           <DiamondLegacy />
-          <span className="icon-label">DiamondLegacy</span>
+          <span className="icon-label">Diamond</span>
         </li>
         <li>
           <DiggLegacy />
-          <span className="icon-label">DiggLegacy</span>
+          <span className="icon-label">Digg</span>
         </li>
         <li>
           <DotCircleOLegacy />
-          <span className="icon-label">DotCircleOLegacy</span>
+          <span className="icon-label">DotCircleO</span>
         </li>
         <li>
           <DownLegacy />
-          <span className="icon-label">DownLegacy</span>
+          <span className="icon-label">Down</span>
         </li>
         <li>
           <DownloadLegacy />
-          <span className="icon-label">DownloadLegacy</span>
+          <span className="icon-label">Download</span>
         </li>
         <li>
           <Download2Legacy />
-          <span className="icon-label">Download2Legacy</span>
+          <span className="icon-label">Download2</span>
         </li>
         <li>
           <DribbbleLegacy />
-          <span className="icon-label">DribbbleLegacy</span>
+          <span className="icon-label">Dribbble</span>
         </li>
         <li>
           <DropboxLegacy />
-          <span className="icon-label">DropboxLegacy</span>
+          <span className="icon-label">Dropbox</span>
         </li>
         <li>
           <DrupalLegacy />
-          <span className="icon-label">DrupalLegacy</span>
+          <span className="icon-label">Drupal</span>
         </li>
         <li>
           <EdgeLegacy />
-          <span className="icon-label">EdgeLegacy</span>
+          <span className="icon-label">Edge</span>
         </li>
         <li>
           <EditLegacy />
-          <span className="icon-label">EditLegacy</span>
+          <span className="icon-label">Edit</span>
         </li>
         <li>
           <Edit2Legacy />
-          <span className="icon-label">Edit2Legacy</span>
+          <span className="icon-label">Edit2</span>
         </li>
         <li>
           <EercastLegacy />
-          <span className="icon-label">EercastLegacy</span>
+          <span className="icon-label">Eercast</span>
         </li>
         <li>
           <EjectLegacy />
-          <span className="icon-label">EjectLegacy</span>
+          <span className="icon-label">Eject</span>
         </li>
         <li>
           <EllipsisHLegacy />
-          <span className="icon-label">EllipsisHLegacy</span>
+          <span className="icon-label">EllipsisH</span>
         </li>
         <li>
           <EllipsisVLegacy />
-          <span className="icon-label">EllipsisVLegacy</span>
+          <span className="icon-label">EllipsisV</span>
         </li>
         <li>
           <EnvelopeLegacy />
-          <span className="icon-label">EnvelopeLegacy</span>
+          <span className="icon-label">Envelope</span>
         </li>
         <li>
           <EnvelopeOLegacy />
-          <span className="icon-label">EnvelopeOLegacy</span>
+          <span className="icon-label">EnvelopeO</span>
         </li>
         <li>
           <EnvelopeOpenLegacy />
-          <span className="icon-label">EnvelopeOpenLegacy</span>
+          <span className="icon-label">EnvelopeOpen</span>
         </li>
         <li>
           <EnvelopeOpenOLegacy />
-          <span className="icon-label">EnvelopeOpenOLegacy</span>
+          <span className="icon-label">EnvelopeOpenO</span>
         </li>
         <li>
           <EnvelopeSquareLegacy />
-          <span className="icon-label">EnvelopeSquareLegacy</span>
+          <span className="icon-label">EnvelopeSquare</span>
         </li>
         <li>
           <EnviraLegacy />
-          <span className="icon-label">EnviraLegacy</span>
+          <span className="icon-label">Envira</span>
         </li>
         <li>
           <EraserLegacy />
-          <span className="icon-label">EraserLegacy</span>
+          <span className="icon-label">Eraser</span>
         </li>
         <li>
           <EtsyLegacy />
-          <span className="icon-label">EtsyLegacy</span>
+          <span className="icon-label">Etsy</span>
         </li>
         <li>
           <EurLegacy />
-          <span className="icon-label">EurLegacy</span>
+          <span className="icon-label">Eur</span>
         </li>
         <li>
           <ExchangeLegacy />
-          <span className="icon-label">ExchangeLegacy</span>
+          <span className="icon-label">Exchange</span>
         </li>
         <li>
           <ExclamationLegacy />
-          <span className="icon-label">ExclamationLegacy</span>
+          <span className="icon-label">Exclamation</span>
         </li>
         <li>
           <ExclamationCircleLegacy />
-          <span className="icon-label">ExclamationCircleLegacy</span>
+          <span className="icon-label">ExclamationCircle</span>
         </li>
         <li>
           <ExclamationCircle2Legacy />
-          <span className="icon-label">ExclamationCircle2Legacy</span>
+          <span className="icon-label">ExclamationCircle2</span>
         </li>
         <li>
           <ExclamationTriangleLegacy />
-          <span className="icon-label">ExclamationTriangleLegacy</span>
+          <span className="icon-label">ExclamationTriangle</span>
         </li>
         <li>
           <ExitLegacy />
-          <span className="icon-label">ExitLegacy</span>
+          <span className="icon-label">Exit</span>
         </li>
         <li>
           <ExpandLegacy />
-          <span className="icon-label">ExpandLegacy</span>
+          <span className="icon-label">Expand</span>
         </li>
         <li>
           <ExpandOLegacy />
-          <span className="icon-label">ExpandOLegacy</span>
+          <span className="icon-label">ExpandO</span>
         </li>
         <li>
           <ExpeditedsslLegacy />
-          <span className="icon-label">ExpeditedsslLegacy</span>
+          <span className="icon-label">Expeditedssl</span>
         </li>
         <li>
           <ExploreLegacy />
-          <span className="icon-label">ExploreLegacy</span>
+          <span className="icon-label">Explore</span>
         </li>
         <li>
           <ExportLegacy />
-          <span className="icon-label">ExportLegacy</span>
+          <span className="icon-label">Export</span>
         </li>
         <li>
           <ExternalLinkLegacy />
-          <span className="icon-label">ExternalLinkLegacy</span>
+          <span className="icon-label">ExternalLink</span>
         </li>
         <li>
           <ExternalLinkSquareLegacy />
-          <span className="icon-label">ExternalLinkSquareLegacy</span>
+          <span className="icon-label">ExternalLinkSquare</span>
         </li>
         <li>
           <EyeLegacy />
-          <span className="icon-label">EyeLegacy</span>
+          <span className="icon-label">Eye</span>
         </li>
         <li>
           <EyedropperLegacy />
-          <span className="icon-label">EyedropperLegacy</span>
+          <span className="icon-label">Eyedropper</span>
         </li>
         <li>
           <EyeSlashLegacy />
-          <span className="icon-label">EyeSlashLegacy</span>
+          <span className="icon-label">EyeSlash</span>
         </li>
         <li>
           <FaLegacy />
-          <span className="icon-label">FaLegacy</span>
+          <span className="icon-label">Fa</span>
         </li>
         <li>
           <FacebookLegacy />
-          <span className="icon-label">FacebookLegacy</span>
+          <span className="icon-label">Facebook</span>
         </li>
         <li>
           <FacebookOfficialLegacy />
-          <span className="icon-label">FacebookOfficialLegacy</span>
+          <span className="icon-label">FacebookOfficial</span>
         </li>
         <li>
           <FacebookSquareLegacy />
-          <span className="icon-label">FacebookSquareLegacy</span>
+          <span className="icon-label">FacebookSquare</span>
         </li>
         <li>
           <FastBackwardLegacy />
-          <span className="icon-label">FastBackwardLegacy</span>
+          <span className="icon-label">FastBackward</span>
         </li>
         <li>
           <FastForwardLegacy />
-          <span className="icon-label">FastForwardLegacy</span>
+          <span className="icon-label">FastForward</span>
         </li>
         <li>
           <FaxLegacy />
-          <span className="icon-label">FaxLegacy</span>
+          <span className="icon-label">Fax</span>
         </li>
         <li>
           <FemaleLegacy />
-          <span className="icon-label">FemaleLegacy</span>
+          <span className="icon-label">Female</span>
         </li>
         <li>
           <FighterJetLegacy />
-          <span className="icon-label">FighterJetLegacy</span>
+          <span className="icon-label">FighterJet</span>
         </li>
         <li>
           <FileLegacy />
-          <span className="icon-label">FileLegacy</span>
+          <span className="icon-label">File</span>
         </li>
         <li>
           <FileAudioOLegacy />
-          <span className="icon-label">FileAudioOLegacy</span>
+          <span className="icon-label">FileAudioO</span>
         </li>
         <li>
           <FileCodeOLegacy />
-          <span className="icon-label">FileCodeOLegacy</span>
+          <span className="icon-label">FileCodeO</span>
         </li>
         <li>
           <FileDownloadLegacy />
-          <span className="icon-label">FileDownloadLegacy</span>
+          <span className="icon-label">FileDownload</span>
         </li>
         <li>
           <FileExcelOLegacy />
-          <span className="icon-label">FileExcelOLegacy</span>
+          <span className="icon-label">FileExcelO</span>
         </li>
         <li>
           <FileImageOLegacy />
-          <span className="icon-label">FileImageOLegacy</span>
+          <span className="icon-label">FileImageO</span>
         </li>
         <li>
           <FileMovieOLegacy />
-          <span className="icon-label">FileMovieOLegacy</span>
+          <span className="icon-label">FileMovieO</span>
         </li>
         <li>
           <FileOLegacy />
-          <span className="icon-label">FileOLegacy</span>
+          <span className="icon-label">FileO</span>
         </li>
         <li>
           <FilePdfOLegacy />
-          <span className="icon-label">FilePdfOLegacy</span>
+          <span className="icon-label">FilePdfO</span>
         </li>
         <li>
           <FilePowerpointOLegacy />
-          <span className="icon-label">FilePowerpointOLegacy</span>
+          <span className="icon-label">FilePowerpointO</span>
         </li>
         <li>
           <FileTextLegacy />
-          <span className="icon-label">FileTextLegacy</span>
+          <span className="icon-label">FileText</span>
         </li>
         <li>
           <FileTextOLegacy />
-          <span className="icon-label">FileTextOLegacy</span>
+          <span className="icon-label">FileTextO</span>
         </li>
         <li>
           <FileUploadLegacy />
-          <span className="icon-label">FileUploadLegacy</span>
+          <span className="icon-label">FileUpload</span>
         </li>
         <li>
           <FileWordOLegacy />
-          <span className="icon-label">FileWordOLegacy</span>
+          <span className="icon-label">FileWordO</span>
         </li>
         <li>
           <FileZipOLegacy />
-          <span className="icon-label">FileZipOLegacy</span>
+          <span className="icon-label">FileZipO</span>
         </li>
         <li>
           <FilmLegacy />
-          <span className="icon-label">FilmLegacy</span>
+          <span className="icon-label">Film</span>
         </li>
         <li>
           <FilterLegacy />
-          <span className="icon-label">FilterLegacy</span>
+          <span className="icon-label">Filter</span>
         </li>
         <li>
           <FireLegacy />
-          <span className="icon-label">FireLegacy</span>
+          <span className="icon-label">Fire</span>
         </li>
         <li>
           <FireExtinguisherLegacy />
-          <span className="icon-label">FireExtinguisherLegacy</span>
+          <span className="icon-label">FireExtinguisher</span>
         </li>
         <li>
           <FirefoxLegacy />
-          <span className="icon-label">FirefoxLegacy</span>
+          <span className="icon-label">Firefox</span>
         </li>
         <li>
           <FirstOrderLegacy />
-          <span className="icon-label">FirstOrderLegacy</span>
+          <span className="icon-label">FirstOrder</span>
         </li>
         <li>
           <FiveHundredPxLegacy />
-          <span className="icon-label">FiveHundredPxLegacy</span>
+          <span className="icon-label">FiveHundredPx</span>
         </li>
         <li>
           <FlagLegacy />
-          <span className="icon-label">FlagLegacy</span>
+          <span className="icon-label">Flag</span>
         </li>
         <li>
           <FlagCheckeredLegacy />
-          <span className="icon-label">FlagCheckeredLegacy</span>
+          <span className="icon-label">FlagCheckered</span>
         </li>
         <li>
           <FlagOLegacy />
-          <span className="icon-label">FlagOLegacy</span>
+          <span className="icon-label">FlagO</span>
         </li>
         <li>
           <FlaskLegacy />
-          <span className="icon-label">FlaskLegacy</span>
+          <span className="icon-label">Flask</span>
         </li>
         <li>
           <FlickrLegacy />
-          <span className="icon-label">FlickrLegacy</span>
+          <span className="icon-label">Flickr</span>
         </li>
         <li>
           <FlowLegacy />
-          <span className="icon-label">FlowLegacy</span>
+          <span className="icon-label">Flow</span>
         </li>
         <li>
           <FolderLegacy />
-          <span className="icon-label">FolderLegacy</span>
+          <span className="icon-label">Folder</span>
         </li>
         <li>
           <FolderOLegacy />
-          <span className="icon-label">FolderOLegacy</span>
+          <span className="icon-label">FolderO</span>
         </li>
         <li>
           <FolderOpenLegacy />
-          <span className="icon-label">FolderOpenLegacy</span>
+          <span className="icon-label">FolderOpen</span>
         </li>
         <li>
           <FolderOpenOLegacy />
-          <span className="icon-label">FolderOpenOLegacy</span>
+          <span className="icon-label">FolderOpenO</span>
         </li>
         <li>
           <FontLegacy />
-          <span className="icon-label">FontLegacy</span>
+          <span className="icon-label">Font</span>
         </li>
         <li>
           <FonticonsLegacy />
-          <span className="icon-label">FonticonsLegacy</span>
+          <span className="icon-label">Fonticons</span>
         </li>
         <li>
           <FortAwesomeLegacy />
-          <span className="icon-label">FortAwesomeLegacy</span>
+          <span className="icon-label">FortAwesome</span>
         </li>
         <li>
           <ForumbeeLegacy />
-          <span className="icon-label">ForumbeeLegacy</span>
+          <span className="icon-label">Forumbee</span>
         </li>
         <li>
           <ForwardLegacy />
-          <span className="icon-label">ForwardLegacy</span>
+          <span className="icon-label">Forward</span>
         </li>
         <li>
           <FoursquareLegacy />
-          <span className="icon-label">FoursquareLegacy</span>
+          <span className="icon-label">Foursquare</span>
         </li>
         <li>
           <FrameLegacy />
-          <span className="icon-label">FrameLegacy</span>
+          <span className="icon-label">Frame</span>
         </li>
         <li>
           <FreeCodeCampLegacy />
-          <span className="icon-label">FreeCodeCampLegacy</span>
+          <span className="icon-label">FreeCodeCamp</span>
         </li>
         <li>
           <FrownOLegacy />
-          <span className="icon-label">FrownOLegacy</span>
+          <span className="icon-label">FrownO</span>
         </li>
         <li>
           <FutbolOLegacy />
-          <span className="icon-label">FutbolOLegacy</span>
+          <span className="icon-label">FutbolO</span>
         </li>
         <li>
           <GamepadLegacy />
-          <span className="icon-label">GamepadLegacy</span>
+          <span className="icon-label">Gamepad</span>
         </li>
         <li>
           <GavelLegacy />
-          <span className="icon-label">GavelLegacy</span>
+          <span className="icon-label">Gavel</span>
         </li>
         <li>
           <GbpLegacy />
-          <span className="icon-label">GbpLegacy</span>
+          <span className="icon-label">Gbp</span>
         </li>
         <li>
           <GeLegacy />
-          <span className="icon-label">GeLegacy</span>
+          <span className="icon-label">Ge</span>
         </li>
         <li>
           <GearLegacy />
-          <span className="icon-label">GearLegacy</span>
+          <span className="icon-label">Gear</span>
         </li>
         <li>
           <Gear2Legacy />
-          <span className="icon-label">Gear2Legacy</span>
+          <span className="icon-label">Gear2</span>
         </li>
         <li>
           <GearCircleLegacy />
-          <span className="icon-label">GearCircleLegacy</span>
+          <span className="icon-label">GearCircle</span>
         </li>
         <li>
           <Gears2Legacy />
-          <span className="icon-label">Gears2Legacy</span>
+          <span className="icon-label">Gears2</span>
         </li>
         <li>
           <GenderlessLegacy />
-          <span className="icon-label">GenderlessLegacy</span>
+          <span className="icon-label">Genderless</span>
         </li>
         <li>
           <GetPocketLegacy />
-          <span className="icon-label">GetPocketLegacy</span>
+          <span className="icon-label">GetPocket</span>
         </li>
         <li>
           <GgLegacy />
-          <span className="icon-label">GgLegacy</span>
+          <span className="icon-label">Gg</span>
         </li>
         <li>
           <GgCircleLegacy />
-          <span className="icon-label">GgCircleLegacy</span>
+          <span className="icon-label">GgCircle</span>
         </li>
         <li>
           <GiftLegacy />
-          <span className="icon-label">GiftLegacy</span>
+          <span className="icon-label">Gift</span>
         </li>
         <li>
           <GitLegacy />
-          <span className="icon-label">GitLegacy</span>
+          <span className="icon-label">Git</span>
         </li>
         <li>
           <GithubLegacy />
-          <span className="icon-label">GithubLegacy</span>
+          <span className="icon-label">Github</span>
         </li>
         <li>
           <GithubAltLegacy />
-          <span className="icon-label">GithubAltLegacy</span>
+          <span className="icon-label">GithubAlt</span>
         </li>
         <li>
           <GithubSquareLegacy />
-          <span className="icon-label">GithubSquareLegacy</span>
+          <span className="icon-label">GithubSquare</span>
         </li>
         <li>
           <GitlabLegacy />
-          <span className="icon-label">GitlabLegacy</span>
+          <span className="icon-label">Gitlab</span>
         </li>
         <li>
           <GitSquareLegacy />
-          <span className="icon-label">GitSquareLegacy</span>
+          <span className="icon-label">GitSquare</span>
         </li>
         <li>
           <GittipLegacy />
-          <span className="icon-label">GittipLegacy</span>
+          <span className="icon-label">Gittip</span>
         </li>
         <li>
           <GlassLegacy />
-          <span className="icon-label">GlassLegacy</span>
+          <span className="icon-label">Glass</span>
         </li>
         <li>
           <GlideLegacy />
-          <span className="icon-label">GlideLegacy</span>
+          <span className="icon-label">Glide</span>
         </li>
         <li>
           <GlideGLegacy />
-          <span className="icon-label">GlideGLegacy</span>
+          <span className="icon-label">GlideG</span>
         </li>
         <li>
           <GlobeLegacy />
-          <span className="icon-label">GlobeLegacy</span>
+          <span className="icon-label">Globe</span>
         </li>
         <li>
           <Globe2Legacy />
-          <span className="icon-label">Globe2Legacy</span>
+          <span className="icon-label">Globe2</span>
         </li>
         <li>
           <GoodLegacy />
-          <span className="icon-label">GoodLegacy</span>
+          <span className="icon-label">Good</span>
         </li>
         <li>
           <GoogleLegacy />
-          <span className="icon-label">GoogleLegacy</span>
+          <span className="icon-label">Google</span>
         </li>
         <li>
           <GooglePlusLegacy />
-          <span className="icon-label">GooglePlusLegacy</span>
+          <span className="icon-label">GooglePlus</span>
         </li>
         <li>
           <GooglePlusCircleLegacy />
-          <span className="icon-label">GooglePlusCircleLegacy</span>
+          <span className="icon-label">GooglePlusCircle</span>
         </li>
         <li>
           <GooglePlusSquareLegacy />
-          <span className="icon-label">GooglePlusSquareLegacy</span>
+          <span className="icon-label">GooglePlusSquare</span>
         </li>
         <li>
           <GoogleWalletLegacy />
-          <span className="icon-label">GoogleWalletLegacy</span>
+          <span className="icon-label">GoogleWallet</span>
         </li>
         <li>
           <GravLegacy />
-          <span className="icon-label">GravLegacy</span>
+          <span className="icon-label">Grav</span>
         </li>
         <li>
           <GroupLegacy />
-          <span className="icon-label">GroupLegacy</span>
+          <span className="icon-label">Group</span>
         </li>
         <li>
           <HandGrabOLegacy />
-          <span className="icon-label">HandGrabOLegacy</span>
+          <span className="icon-label">HandGrabO</span>
         </li>
         <li>
           <HandLizardOLegacy />
-          <span className="icon-label">HandLizardOLegacy</span>
+          <span className="icon-label">HandLizardO</span>
         </li>
         <li>
           <HandODownLegacy />
-          <span className="icon-label">HandODownLegacy</span>
+          <span className="icon-label">HandODown</span>
         </li>
         <li>
           <HandOLeftLegacy />
-          <span className="icon-label">HandOLeftLegacy</span>
+          <span className="icon-label">HandOLeft</span>
         </li>
         <li>
           <HandORightLegacy />
-          <span className="icon-label">HandORightLegacy</span>
+          <span className="icon-label">HandORight</span>
         </li>
         <li>
           <HandOUpLegacy />
-          <span className="icon-label">HandOUpLegacy</span>
+          <span className="icon-label">HandOUp</span>
         </li>
         <li>
           <HandPeaceOLegacy />
-          <span className="icon-label">HandPeaceOLegacy</span>
+          <span className="icon-label">HandPeaceO</span>
         </li>
         <li>
           <HandPointerOLegacy />
-          <span className="icon-label">HandPointerOLegacy</span>
+          <span className="icon-label">HandPointerO</span>
         </li>
         <li>
           <HandScissorsOLegacy />
-          <span className="icon-label">HandScissorsOLegacy</span>
+          <span className="icon-label">HandScissorsO</span>
         </li>
         <li>
           <HandshakeOLegacy />
-          <span className="icon-label">HandshakeOLegacy</span>
+          <span className="icon-label">HandshakeO</span>
         </li>
         <li>
           <HandSpockOLegacy />
-          <span className="icon-label">HandSpockOLegacy</span>
+          <span className="icon-label">HandSpockO</span>
         </li>
         <li>
           <HandStopOLegacy />
-          <span className="icon-label">HandStopOLegacy</span>
+          <span className="icon-label">HandStopO</span>
         </li>
         <li>
           <HashtagLegacy />
-          <span className="icon-label">HashtagLegacy</span>
+          <span className="icon-label">Hashtag</span>
         </li>
         <li>
           <HddOLegacy />
-          <span className="icon-label">HddOLegacy</span>
+          <span className="icon-label">HddO</span>
         </li>
         <li>
           <HeaderLegacy />
-          <span className="icon-label">HeaderLegacy</span>
+          <span className="icon-label">Header</span>
         </li>
         <li>
           <HeadphonesLegacy />
-          <span className="icon-label">HeadphonesLegacy</span>
+          <span className="icon-label">Headphones</span>
         </li>
         <li>
           <HeartLegacy />
-          <span className="icon-label">HeartLegacy</span>
+          <span className="icon-label">Heart</span>
         </li>
         <li>
           <HeartbeatLegacy />
-          <span className="icon-label">HeartbeatLegacy</span>
+          <span className="icon-label">Heartbeat</span>
         </li>
         <li>
           <HeartOLegacy />
-          <span className="icon-label">HeartOLegacy</span>
+          <span className="icon-label">HeartO</span>
         </li>
         <li>
           <HelpOLegacy />
-          <span className="icon-label">HelpOLegacy</span>
+          <span className="icon-label">HelpO</span>
         </li>
         <li>
           <HistoryLegacy />
-          <span className="icon-label">HistoryLegacy</span>
+          <span className="icon-label">History</span>
         </li>
         <li>
           <HomeLegacy />
-          <span className="icon-label">HomeLegacy</span>
+          <span className="icon-label">Home</span>
         </li>
         <li>
           <HospitalOLegacy />
-          <span className="icon-label">HospitalOLegacy</span>
+          <span className="icon-label">HospitalO</span>
         </li>
         <li>
           <HourglassLegacy />
-          <span className="icon-label">HourglassLegacy</span>
+          <span className="icon-label">Hourglass</span>
         </li>
         <li>
           <Hourglass1Legacy />
-          <span className="icon-label">Hourglass1Legacy</span>
+          <span className="icon-label">Hourglass1</span>
         </li>
         <li>
           <Hourglass2Legacy />
-          <span className="icon-label">Hourglass2Legacy</span>
+          <span className="icon-label">Hourglass2</span>
         </li>
         <li>
           <Hourglass3Legacy />
-          <span className="icon-label">Hourglass3Legacy</span>
+          <span className="icon-label">Hourglass3</span>
         </li>
         <li>
           <HourglassOLegacy />
-          <span className="icon-label">HourglassOLegacy</span>
+          <span className="icon-label">HourglassO</span>
         </li>
         <li>
           <HouzzLegacy />
-          <span className="icon-label">HouzzLegacy</span>
+          <span className="icon-label">Houzz</span>
         </li>
         <li>
           <HSquareLegacy />
-          <span className="icon-label">HSquareLegacy</span>
+          <span className="icon-label">HSquare</span>
         </li>
         <li>
           <Html5Legacy />
-          <span className="icon-label">Html5Legacy</span>
+          <span className="icon-label">Html5</span>
         </li>
         <li>
           <ICursorLegacy />
-          <span className="icon-label">ICursorLegacy</span>
+          <span className="icon-label">ICursor</span>
         </li>
         <li>
           <IdBadgeLegacy />
-          <span className="icon-label">IdBadgeLegacy</span>
+          <span className="icon-label">IdBadge</span>
         </li>
         <li>
           <IdCardLegacy />
-          <span className="icon-label">IdCardLegacy</span>
+          <span className="icon-label">IdCard</span>
         </li>
         <li>
           <IdCardOLegacy />
-          <span className="icon-label">IdCardOLegacy</span>
+          <span className="icon-label">IdCardO</span>
         </li>
         <li>
           <IdInfoLegacy />
-          <span className="icon-label">IdInfoLegacy</span>
+          <span className="icon-label">IdInfo</span>
         </li>
         <li>
           <IdMappingLegacy />
-          <span className="icon-label">IdMappingLegacy</span>
+          <span className="icon-label">IdMapping</span>
         </li>
         <li>
           <IlsLegacy />
-          <span className="icon-label">IlsLegacy</span>
+          <span className="icon-label">Ils</span>
         </li>
         <li>
           <ImageLegacy />
-          <span className="icon-label">ImageLegacy</span>
+          <span className="icon-label">Image</span>
         </li>
         <li>
           <ImdbLegacy />
-          <span className="icon-label">ImdbLegacy</span>
+          <span className="icon-label">Imdb</span>
         </li>
         <li>
           <ImportLegacy />
-          <span className="icon-label">ImportLegacy</span>
+          <span className="icon-label">Import</span>
         </li>
         <li>
           <InboxLegacy />
-          <span className="icon-label">InboxLegacy</span>
+          <span className="icon-label">Inbox</span>
         </li>
         <li>
           <IndentLegacy />
-          <span className="icon-label">IndentLegacy</span>
+          <span className="icon-label">Indent</span>
         </li>
         <li>
           <IndustryLegacy />
-          <span className="icon-label">IndustryLegacy</span>
+          <span className="icon-label">Industry</span>
         </li>
         <li>
           <InfoLegacy />
-          <span className="icon-label">InfoLegacy</span>
+          <span className="icon-label">Info</span>
         </li>
         <li>
           <InfoCircleLegacy />
-          <span className="icon-label">InfoCircleLegacy</span>
+          <span className="icon-label">InfoCircle</span>
         </li>
         <li>
           <InrLegacy />
-          <span className="icon-label">InrLegacy</span>
+          <span className="icon-label">Inr</span>
         </li>
         <li>
           <InstagramLegacy />
-          <span className="icon-label">InstagramLegacy</span>
+          <span className="icon-label">Instagram</span>
         </li>
         <li>
           <InternetExplorerLegacy />
-          <span className="icon-label">InternetExplorerLegacy</span>
+          <span className="icon-label">InternetExplorer</span>
         </li>
         <li>
           <IntersexLegacy />
-          <span className="icon-label">IntersexLegacy</span>
+          <span className="icon-label">Intersex</span>
         </li>
         <li>
           <IosLegacy />
-          <span className="icon-label">IosLegacy</span>
+          <span className="icon-label">Ios</span>
         </li>
         <li>
           <IoxhostLegacy />
-          <span className="icon-label">IoxhostLegacy</span>
+          <span className="icon-label">Ioxhost</span>
         </li>
         <li>
           <ItalicLegacy />
-          <span className="icon-label">ItalicLegacy</span>
+          <span className="icon-label">Italic</span>
         </li>
         <li>
           <JoomlaLegacy />
-          <span className="icon-label">JoomlaLegacy</span>
+          <span className="icon-label">Joomla</span>
         </li>
         <li>
           <JsfiddleLegacy />
-          <span className="icon-label">JsfiddleLegacy</span>
+          <span className="icon-label">Jsfiddle</span>
         </li>
         <li>
           <KeyLegacy />
-          <span className="icon-label">KeyLegacy</span>
+          <span className="icon-label">Key</span>
         </li>
         <li>
           <KeyboardOLegacy />
-          <span className="icon-label">KeyboardOLegacy</span>
+          <span className="icon-label">KeyboardO</span>
         </li>
         <li>
           <KrwLegacy />
-          <span className="icon-label">KrwLegacy</span>
+          <span className="icon-label">Krw</span>
         </li>
         <li>
           <LanguageLegacy />
-          <span className="icon-label">LanguageLegacy</span>
+          <span className="icon-label">Language</span>
         </li>
         <li>
           <LaptopLegacy />
-          <span className="icon-label">LaptopLegacy</span>
+          <span className="icon-label">Laptop</span>
         </li>
         <li>
           <LastfmLegacy />
-          <span className="icon-label">LastfmLegacy</span>
+          <span className="icon-label">Lastfm</span>
         </li>
         <li>
           <LastfmSquareLegacy />
-          <span className="icon-label">LastfmSquareLegacy</span>
+          <span className="icon-label">LastfmSquare</span>
         </li>
         <li>
           <LeafLegacy />
-          <span className="icon-label">LeafLegacy</span>
+          <span className="icon-label">Leaf</span>
         </li>
         <li>
           <LeanpubLegacy />
-          <span className="icon-label">LeanpubLegacy</span>
+          <span className="icon-label">Leanpub</span>
         </li>
         <li>
           <LeftLegacy />
-          <span className="icon-label">LeftLegacy</span>
+          <span className="icon-label">Left</span>
         </li>
         <li>
           <LemonOLegacy />
-          <span className="icon-label">LemonOLegacy</span>
+          <span className="icon-label">LemonO</span>
         </li>
         <li>
           <LevelDownLegacy />
-          <span className="icon-label">LevelDownLegacy</span>
+          <span className="icon-label">LevelDown</span>
         </li>
         <li>
           <LevelUpLegacy />
-          <span className="icon-label">LevelUpLegacy</span>
+          <span className="icon-label">LevelUp</span>
         </li>
         <li>
           <LightbulbOLegacy />
-          <span className="icon-label">LightbulbOLegacy</span>
+          <span className="icon-label">LightbulbO</span>
         </li>
         <li>
           <LineChartLegacy />
-          <span className="icon-label">LineChartLegacy</span>
+          <span className="icon-label">LineChart</span>
         </li>
         <li>
           <LinkLegacy />
-          <span className="icon-label">LinkLegacy</span>
+          <span className="icon-label">Link</span>
         </li>
         <li>
           <LinkedinLegacy />
-          <span className="icon-label">LinkedinLegacy</span>
+          <span className="icon-label">Linkedin</span>
         </li>
         <li>
           <LinkedinSquareLegacy />
-          <span className="icon-label">LinkedinSquareLegacy</span>
+          <span className="icon-label">LinkedinSquare</span>
         </li>
         <li>
           <LinodeLegacy />
-          <span className="icon-label">LinodeLegacy</span>
+          <span className="icon-label">Linode</span>
         </li>
         <li>
           <LinuxLegacy />
-          <span className="icon-label">LinuxLegacy</span>
+          <span className="icon-label">Linux</span>
         </li>
         <li>
           <ListLegacy />
-          <span className="icon-label">ListLegacy</span>
+          <span className="icon-label">List</span>
         </li>
         <li>
           <ListAltLegacy />
-          <span className="icon-label">ListAltLegacy</span>
+          <span className="icon-label">ListAlt</span>
         </li>
         <li>
           <ListOlLegacy />
-          <span className="icon-label">ListOlLegacy</span>
+          <span className="icon-label">ListOl</span>
         </li>
         <li>
           <ListUlLegacy />
-          <span className="icon-label">ListUlLegacy</span>
+          <span className="icon-label">ListUl</span>
         </li>
         <li>
           <LocationArrowLegacy />
-          <span className="icon-label">LocationArrowLegacy</span>
+          <span className="icon-label">LocationArrow</span>
         </li>
         <li>
           <LockLegacy />
-          <span className="icon-label">LockLegacy</span>
+          <span className="icon-label">Lock</span>
         </li>
         <li>
           <LogoAdsLegacy />
-          <span className="icon-label">LogoAdsLegacy</span>
+          <span className="icon-label">LogoAds</span>
         </li>
         <li>
           <LogoAnalyticsLegacy />
-          <span className="icon-label">LogoAnalyticsLegacy</span>
+          <span className="icon-label">LogoAnalytics</span>
         </li>
         <li>
           <LogoDmpLegacy />
-          <span className="icon-label">LogoDmpLegacy</span>
+          <span className="icon-label">LogoDmp</span>
         </li>
         <li>
           <LogoMobileLegacy />
-          <span className="icon-label">LogoMobileLegacy</span>
+          <span className="icon-label">LogoMobile</span>
         </li>
         <li>
           <LogoShopLegacy />
-          <span className="icon-label">LogoShopLegacy</span>
+          <span className="icon-label">LogoShop</span>
         </li>
         <li>
           <LogoSurveyLegacy />
-          <span className="icon-label">LogoSurveyLegacy</span>
+          <span className="icon-label">LogoSurvey</span>
         </li>
         <li>
           <LogoVideoLegacy />
-          <span className="icon-label">LogoVideoLegacy</span>
+          <span className="icon-label">LogoVideo</span>
         </li>
         <li>
           <LongArrowDownLegacy />
-          <span className="icon-label">LongArrowDownLegacy</span>
+          <span className="icon-label">LongArrowDown</span>
         </li>
         <li>
           <LongArrowLeftLegacy />
-          <span className="icon-label">LongArrowLeftLegacy</span>
+          <span className="icon-label">LongArrowLeft</span>
         </li>
         <li>
           <LongArrowRightLegacy />
-          <span className="icon-label">LongArrowRightLegacy</span>
+          <span className="icon-label">LongArrowRight</span>
         </li>
         <li>
           <LongArrowUpLegacy />
-          <span className="icon-label">LongArrowUpLegacy</span>
+          <span className="icon-label">LongArrowUp</span>
         </li>
         <li>
           <LowVisionLegacy />
-          <span className="icon-label">LowVisionLegacy</span>
+          <span className="icon-label">LowVision</span>
         </li>
         <li>
           <MagicLegacy />
-          <span className="icon-label">MagicLegacy</span>
+          <span className="icon-label">Magic</span>
         </li>
         <li>
           <Magic2Legacy />
-          <span className="icon-label">Magic2Legacy</span>
+          <span className="icon-label">Magic2</span>
         </li>
         <li>
           <MagnetLegacy />
-          <span className="icon-label">MagnetLegacy</span>
+          <span className="icon-label">Magnet</span>
         </li>
         <li>
           <MaleLegacy />
-          <span className="icon-label">MaleLegacy</span>
+          <span className="icon-label">Male</span>
         </li>
         <li>
           <MapLegacy />
-          <span className="icon-label">MapLegacy</span>
+          <span className="icon-label">Map</span>
         </li>
         <li>
           <MapMarkerLegacy />
-          <span className="icon-label">MapMarkerLegacy</span>
+          <span className="icon-label">MapMarker</span>
         </li>
         <li>
           <MapOLegacy />
-          <span className="icon-label">MapOLegacy</span>
+          <span className="icon-label">MapO</span>
         </li>
         <li>
           <MapPinLegacy />
-          <span className="icon-label">MapPinLegacy</span>
+          <span className="icon-label">MapPin</span>
         </li>
         <li>
           <MapSignsLegacy />
-          <span className="icon-label">MapSignsLegacy</span>
+          <span className="icon-label">MapSigns</span>
         </li>
         <li>
           <MarsLegacy />
-          <span className="icon-label">MarsLegacy</span>
+          <span className="icon-label">Mars</span>
         </li>
         <li>
           <MarsDoubleLegacy />
-          <span className="icon-label">MarsDoubleLegacy</span>
+          <span className="icon-label">MarsDouble</span>
         </li>
         <li>
           <MarsStrokeLegacy />
-          <span className="icon-label">MarsStrokeLegacy</span>
+          <span className="icon-label">MarsStroke</span>
         </li>
         <li>
           <MarsStrokeHLegacy />
-          <span className="icon-label">MarsStrokeHLegacy</span>
+          <span className="icon-label">MarsStrokeH</span>
         </li>
         <li>
           <MarsStrokeVLegacy />
-          <span className="icon-label">MarsStrokeVLegacy</span>
+          <span className="icon-label">MarsStrokeV</span>
         </li>
         <li>
           <MaxcdnLegacy />
-          <span className="icon-label">MaxcdnLegacy</span>
+          <span className="icon-label">Maxcdn</span>
         </li>
         <li>
           <MeanpathLegacy />
-          <span className="icon-label">MeanpathLegacy</span>
+          <span className="icon-label">Meanpath</span>
         </li>
         <li>
           <MediumLegacy />
-          <span className="icon-label">MediumLegacy</span>
+          <span className="icon-label">Medium</span>
         </li>
         <li>
           <MedkitLegacy />
-          <span className="icon-label">MedkitLegacy</span>
+          <span className="icon-label">Medkit</span>
         </li>
         <li>
           <MeetupLegacy />
-          <span className="icon-label">MeetupLegacy</span>
+          <span className="icon-label">Meetup</span>
         </li>
         <li>
           <MehOLegacy />
-          <span className="icon-label">MehOLegacy</span>
+          <span className="icon-label">MehO</span>
         </li>
         <li>
           <MercuryLegacy />
-          <span className="icon-label">MercuryLegacy</span>
+          <span className="icon-label">Mercury</span>
         </li>
         <li>
           <MicrochipLegacy />
-          <span className="icon-label">MicrochipLegacy</span>
+          <span className="icon-label">Microchip</span>
         </li>
         <li>
           <MicrophoneLegacy />
-          <span className="icon-label">MicrophoneLegacy</span>
+          <span className="icon-label">Microphone</span>
         </li>
         <li>
           <MicrophoneSlashLegacy />
-          <span className="icon-label">MicrophoneSlashLegacy</span>
+          <span className="icon-label">MicrophoneSlash</span>
         </li>
         <li>
           <MinusLegacy />
-          <span className="icon-label">MinusLegacy</span>
+          <span className="icon-label">Minus</span>
         </li>
         <li>
           <MinusCircleLegacy />
-          <span className="icon-label">MinusCircleLegacy</span>
+          <span className="icon-label">MinusCircle</span>
         </li>
         <li>
           <MinusSquareLegacy />
-          <span className="icon-label">MinusSquareLegacy</span>
+          <span className="icon-label">MinusSquare</span>
         </li>
         <li>
           <MinusSquareOLegacy />
-          <span className="icon-label">MinusSquareOLegacy</span>
+          <span className="icon-label">MinusSquareO</span>
         </li>
         <li>
           <MixcloudLegacy />
-          <span className="icon-label">MixcloudLegacy</span>
+          <span className="icon-label">Mixcloud</span>
         </li>
         <li>
           <MobileLegacy />
-          <span className="icon-label">MobileLegacy</span>
+          <span className="icon-label">Mobile</span>
         </li>
         <li>
           <ModxLegacy />
-          <span className="icon-label">ModxLegacy</span>
+          <span className="icon-label">Modx</span>
         </li>
         <li>
           <MoneyLegacy />
-          <span className="icon-label">MoneyLegacy</span>
+          <span className="icon-label">Money</span>
         </li>
         <li>
           <MoonOLegacy />
-          <span className="icon-label">MoonOLegacy</span>
+          <span className="icon-label">MoonO</span>
         </li>
         <li>
           <MoreLegacy />
-          <span className="icon-label">MoreLegacy</span>
+          <span className="icon-label">More</span>
         </li>
         <li>
           <MortarBoardLegacy />
-          <span className="icon-label">MortarBoardLegacy</span>
+          <span className="icon-label">MortarBoard</span>
         </li>
         <li>
           <MotorcycleLegacy />
-          <span className="icon-label">MotorcycleLegacy</span>
+          <span className="icon-label">Motorcycle</span>
         </li>
         <li>
           <MousePointerLegacy />
-          <span className="icon-label">MousePointerLegacy</span>
+          <span className="icon-label">MousePointer</span>
         </li>
         <li>
           <MultipleLinesChartLegacy />
-          <span className="icon-label">MultipleLinesChartLegacy</span>
+          <span className="icon-label">MultipleLinesChart</span>
         </li>
         <li>
           <MusicLegacy />
-          <span className="icon-label">MusicLegacy</span>
+          <span className="icon-label">Music</span>
         </li>
         <li>
           <NeuterLegacy />
-          <span className="icon-label">NeuterLegacy</span>
+          <span className="icon-label">Neuter</span>
         </li>
         <li>
           <NewspaperOLegacy />
-          <span className="icon-label">NewspaperOLegacy</span>
+          <span className="icon-label">NewspaperO</span>
         </li>
         <li>
           <ObjectGroupLegacy />
-          <span className="icon-label">ObjectGroupLegacy</span>
+          <span className="icon-label">ObjectGroup</span>
         </li>
         <li>
           <ObjectUngroupLegacy />
-          <span className="icon-label">ObjectUngroupLegacy</span>
+          <span className="icon-label">ObjectUngroup</span>
         </li>
         <li>
           <OdnoklassnikiLegacy />
-          <span className="icon-label">OdnoklassnikiLegacy</span>
+          <span className="icon-label">Odnoklassniki</span>
         </li>
         <li>
           <OdnoklassnikiSquareLegacy />
-          <span className="icon-label">OdnoklassnikiSquareLegacy</span>
+          <span className="icon-label">OdnoklassnikiSquare</span>
         </li>
         <li>
           <OffLegacy />
-          <span className="icon-label">OffLegacy</span>
+          <span className="icon-label">Off</span>
         </li>
         <li>
           <OkCircleLegacy />
-          <span className="icon-label">OkCircleLegacy</span>
+          <span className="icon-label">OkCircle</span>
         </li>
         <li>
           <OpencartLegacy />
-          <span className="icon-label">OpencartLegacy</span>
+          <span className="icon-label">Opencart</span>
         </li>
         <li>
           <OpenidLegacy />
-          <span className="icon-label">OpenidLegacy</span>
+          <span className="icon-label">Openid</span>
         </li>
         <li>
           <OperaLegacy />
-          <span className="icon-label">OperaLegacy</span>
+          <span className="icon-label">Opera</span>
         </li>
         <li>
           <OptinMonsterLegacy />
-          <span className="icon-label">OptinMonsterLegacy</span>
+          <span className="icon-label">OptinMonster</span>
         </li>
         <li>
           <OrderFormLegacy />
-          <span className="icon-label">OrderFormLegacy</span>
+          <span className="icon-label">OrderForm</span>
         </li>
         <li>
           <PageEndLegacy />
-          <span className="icon-label">PageEndLegacy</span>
+          <span className="icon-label">PageEnd</span>
         </li>
         <li>
           <PagelinesLegacy />
-          <span className="icon-label">PagelinesLegacy</span>
+          <span className="icon-label">Pagelines</span>
         </li>
         <li>
           <PageNextLegacy />
-          <span className="icon-label">PageNextLegacy</span>
+          <span className="icon-label">PageNext</span>
         </li>
         <li>
           <PagePreviousLegacy />
-          <span className="icon-label">PagePreviousLegacy</span>
+          <span className="icon-label">PagePrevious</span>
         </li>
         <li>
           <PageTopLegacy />
-          <span className="icon-label">PageTopLegacy</span>
+          <span className="icon-label">PageTop</span>
         </li>
         <li>
           <PaintBrushLegacy />
-          <span className="icon-label">PaintBrushLegacy</span>
+          <span className="icon-label">PaintBrush</span>
         </li>
         <li>
           <PaperclipLegacy />
-          <span className="icon-label">PaperclipLegacy</span>
+          <span className="icon-label">Paperclip</span>
         </li>
         <li>
           <ParagraphLegacy />
-          <span className="icon-label">ParagraphLegacy</span>
+          <span className="icon-label">Paragraph</span>
         </li>
         <li>
           <PasteLegacy />
-          <span className="icon-label">PasteLegacy</span>
+          <span className="icon-label">Paste</span>
         </li>
         <li>
           <PauseLegacy />
-          <span className="icon-label">PauseLegacy</span>
+          <span className="icon-label">Pause</span>
         </li>
         <li>
           <PauseCircleLegacy />
-          <span className="icon-label">PauseCircleLegacy</span>
+          <span className="icon-label">PauseCircle</span>
         </li>
         <li>
           <PauseCircleOLegacy />
-          <span className="icon-label">PauseCircleOLegacy</span>
+          <span className="icon-label">PauseCircleO</span>
         </li>
         <li>
           <PawLegacy />
-          <span className="icon-label">PawLegacy</span>
+          <span className="icon-label">Paw</span>
         </li>
         <li>
           <PaypalLegacy />
-          <span className="icon-label">PaypalLegacy</span>
+          <span className="icon-label">Paypal</span>
         </li>
         <li>
           <PcLegacy />
-          <span className="icon-label">PcLegacy</span>
+          <span className="icon-label">Pc</span>
         </li>
         <li>
           <PencilLegacy />
-          <span className="icon-label">PencilLegacy</span>
+          <span className="icon-label">Pencil</span>
         </li>
         <li>
           <PencilSquareLegacy />
-          <span className="icon-label">PencilSquareLegacy</span>
+          <span className="icon-label">PencilSquare</span>
         </li>
         <li>
           <PeopleGroupLegacy />
-          <span className="icon-label">PeopleGroupLegacy</span>
+          <span className="icon-label">PeopleGroup</span>
         </li>
         <li>
           <PeoplesLegacy />
-          <span className="icon-label">PeoplesLegacy</span>
+          <span className="icon-label">Peoples</span>
         </li>
         <li>
           <PeoplesMapLegacy />
-          <span className="icon-label">PeoplesMapLegacy</span>
+          <span className="icon-label">PeoplesMap</span>
         </li>
         <li>
           <PercentLegacy />
-          <span className="icon-label">PercentLegacy</span>
+          <span className="icon-label">Percent</span>
         </li>
         <li>
           <PhoneLegacy />
-          <span className="icon-label">PhoneLegacy</span>
+          <span className="icon-label">Phone</span>
         </li>
         <li>
           <PhoneSquareLegacy />
-          <span className="icon-label">PhoneSquareLegacy</span>
+          <span className="icon-label">PhoneSquare</span>
         </li>
         <li>
           <PieChartLegacy />
-          <span className="icon-label">PieChartLegacy</span>
+          <span className="icon-label">PieChart</span>
         </li>
         <li>
           <PiedPiperLegacy />
-          <span className="icon-label">PiedPiperLegacy</span>
+          <span className="icon-label">PiedPiper</span>
         </li>
         <li>
           <PiedPiperAltLegacy />
-          <span className="icon-label">PiedPiperAltLegacy</span>
+          <span className="icon-label">PiedPiperAlt</span>
         </li>
         <li>
           <PiedPiperPpLegacy />
-          <span className="icon-label">PiedPiperPpLegacy</span>
+          <span className="icon-label">PiedPiperPp</span>
         </li>
         <li>
           <PinterestLegacy />
-          <span className="icon-label">PinterestLegacy</span>
+          <span className="icon-label">Pinterest</span>
         </li>
         <li>
           <PinterestPLegacy />
-          <span className="icon-label">PinterestPLegacy</span>
+          <span className="icon-label">PinterestP</span>
         </li>
         <li>
           <PinterestSquareLegacy />
-          <span className="icon-label">PinterestSquareLegacy</span>
+          <span className="icon-label">PinterestSquare</span>
         </li>
         <li>
           <PlaneLegacy />
-          <span className="icon-label">PlaneLegacy</span>
+          <span className="icon-label">Plane</span>
         </li>
         <li>
           <PlayLegacy />
-          <span className="icon-label">PlayLegacy</span>
+          <span className="icon-label">Play</span>
         </li>
         <li>
           <Play2Legacy />
-          <span className="icon-label">Play2Legacy</span>
+          <span className="icon-label">Play2</span>
         </li>
         <li>
           <PlayCircleLegacy />
-          <span className="icon-label">PlayCircleLegacy</span>
+          <span className="icon-label">PlayCircle</span>
         </li>
         <li>
           <PlayCircleOLegacy />
-          <span className="icon-label">PlayCircleOLegacy</span>
+          <span className="icon-label">PlayCircleO</span>
         </li>
         <li>
           <PlugLegacy />
-          <span className="icon-label">PlugLegacy</span>
+          <span className="icon-label">Plug</span>
         </li>
         <li>
           <PlusLegacy />
-          <span className="icon-label">PlusLegacy</span>
+          <span className="icon-label">Plus</span>
         </li>
         <li>
           <PlusCircleLegacy />
-          <span className="icon-label">PlusCircleLegacy</span>
+          <span className="icon-label">PlusCircle</span>
         </li>
         <li>
           <PlusSquareLegacy />
-          <span className="icon-label">PlusSquareLegacy</span>
+          <span className="icon-label">PlusSquare</span>
         </li>
         <li>
           <PlusSquareOLegacy />
-          <span className="icon-label">PlusSquareOLegacy</span>
+          <span className="icon-label">PlusSquareO</span>
         </li>
         <li>
           <PodcastLegacy />
-          <span className="icon-label">PodcastLegacy</span>
+          <span className="icon-label">Podcast</span>
         </li>
         <li>
           <PowerOffLegacy />
-          <span className="icon-label">PowerOffLegacy</span>
+          <span className="icon-label">PowerOff</span>
         </li>
         <li>
           <PrintLegacy />
-          <span className="icon-label">PrintLegacy</span>
+          <span className="icon-label">Print</span>
         </li>
         <li>
           <ProductHuntLegacy />
-          <span className="icon-label">ProductHuntLegacy</span>
+          <span className="icon-label">ProductHunt</span>
         </li>
         <li>
           <ProfileLegacy />
-          <span className="icon-label">ProfileLegacy</span>
+          <span className="icon-label">Profile</span>
         </li>
         <li>
           <ProjectLegacy />
-          <span className="icon-label">ProjectLegacy</span>
+          <span className="icon-label">Project</span>
         </li>
         <li>
           <PublicOpinionLegacy />
-          <span className="icon-label">PublicOpinionLegacy</span>
+          <span className="icon-label">PublicOpinion</span>
         </li>
         <li>
           <PuzzlePieceLegacy />
-          <span className="icon-label">PuzzlePieceLegacy</span>
+          <span className="icon-label">PuzzlePiece</span>
         </li>
         <li>
           <QqLegacy />
-          <span className="icon-label">QqLegacy</span>
+          <span className="icon-label">Qq</span>
         </li>
         <li>
           <QrcodeLegacy />
-          <span className="icon-label">QrcodeLegacy</span>
+          <span className="icon-label">Qrcode</span>
         </li>
         <li>
           <QuestionLegacy />
-          <span className="icon-label">QuestionLegacy</span>
+          <span className="icon-label">Question</span>
         </li>
         <li>
           <Question2Legacy />
-          <span className="icon-label">Question2Legacy</span>
+          <span className="icon-label">Question2</span>
         </li>
         <li>
           <QuestionCircleLegacy />
-          <span className="icon-label">QuestionCircleLegacy</span>
+          <span className="icon-label">QuestionCircle</span>
         </li>
         <li>
           <QuestionCircle2Legacy />
-          <span className="icon-label">QuestionCircle2Legacy</span>
+          <span className="icon-label">QuestionCircle2</span>
         </li>
         <li>
           <QuoraLegacy />
-          <span className="icon-label">QuoraLegacy</span>
+          <span className="icon-label">Quora</span>
         </li>
         <li>
           <QuoteLeftLegacy />
-          <span className="icon-label">QuoteLeftLegacy</span>
+          <span className="icon-label">QuoteLeft</span>
         </li>
         <li>
           <QuoteRightLegacy />
-          <span className="icon-label">QuoteRightLegacy</span>
+          <span className="icon-label">QuoteRight</span>
         </li>
         <li>
           <RaLegacy />
-          <span className="icon-label">RaLegacy</span>
+          <span className="icon-label">Ra</span>
         </li>
         <li>
           <RandomLegacy />
-          <span className="icon-label">RandomLegacy</span>
+          <span className="icon-label">Random</span>
         </li>
         <li>
           <RateLegacy />
-          <span className="icon-label">RateLegacy</span>
+          <span className="icon-label">Rate</span>
         </li>
         <li>
           <RavelryLegacy />
-          <span className="icon-label">RavelryLegacy</span>
+          <span className="icon-label">Ravelry</span>
         </li>
         <li>
           <RealtimeLegacy />
-          <span className="icon-label">RealtimeLegacy</span>
+          <span className="icon-label">Realtime</span>
         </li>
         <li>
           <RecycleLegacy />
-          <span className="icon-label">RecycleLegacy</span>
+          <span className="icon-label">Recycle</span>
         </li>
         <li>
           <RedditLegacy />
-          <span className="icon-label">RedditLegacy</span>
+          <span className="icon-label">Reddit</span>
         </li>
         <li>
           <RedditAlienLegacy />
-          <span className="icon-label">RedditAlienLegacy</span>
+          <span className="icon-label">RedditAlien</span>
         </li>
         <li>
           <RedditSquareLegacy />
-          <span className="icon-label">RedditSquareLegacy</span>
+          <span className="icon-label">RedditSquare</span>
         </li>
         <li>
           <RefreshLegacy />
-          <span className="icon-label">RefreshLegacy</span>
+          <span className="icon-label">Refresh</span>
         </li>
         <li>
           <Refresh2Legacy />
-          <span className="icon-label">Refresh2Legacy</span>
+          <span className="icon-label">Refresh2</span>
         </li>
         <li>
           <RegisteredLegacy />
-          <span className="icon-label">RegisteredLegacy</span>
+          <span className="icon-label">Registered</span>
         </li>
         <li>
           <RelatedMapLegacy />
-          <span className="icon-label">RelatedMapLegacy</span>
+          <span className="icon-label">RelatedMap</span>
         </li>
         <li>
           <ReloadLegacy />
-          <span className="icon-label">ReloadLegacy</span>
+          <span className="icon-label">Reload</span>
         </li>
         <li>
           <RemindLegacy />
-          <span className="icon-label">RemindLegacy</span>
+          <span className="icon-label">Remind</span>
         </li>
         <li>
           <RenrenLegacy />
-          <span className="icon-label">RenrenLegacy</span>
+          <span className="icon-label">Renren</span>
         </li>
         <li>
           <RepeatLegacy />
-          <span className="icon-label">RepeatLegacy</span>
+          <span className="icon-label">Repeat</span>
         </li>
         <li>
           <ReplyLegacy />
-          <span className="icon-label">ReplyLegacy</span>
+          <span className="icon-label">Reply</span>
         </li>
         <li>
           <ReplyAllLegacy />
-          <span className="icon-label">ReplyAllLegacy</span>
+          <span className="icon-label">ReplyAll</span>
         </li>
         <li>
           <RetentionLegacy />
-          <span className="icon-label">RetentionLegacy</span>
+          <span className="icon-label">Retention</span>
         </li>
         <li>
           <RetweetLegacy />
-          <span className="icon-label">RetweetLegacy</span>
+          <span className="icon-label">Retweet</span>
         </li>
         <li>
           <RightLegacy />
-          <span className="icon-label">RightLegacy</span>
+          <span className="icon-label">Right</span>
         </li>
         <li>
           <RoadLegacy />
-          <span className="icon-label">RoadLegacy</span>
+          <span className="icon-label">Road</span>
         </li>
         <li>
           <RocketLegacy />
-          <span className="icon-label">RocketLegacy</span>
+          <span className="icon-label">Rocket</span>
         </li>
         <li>
           <RssLegacy />
-          <span className="icon-label">RssLegacy</span>
+          <span className="icon-label">Rss</span>
         </li>
         <li>
           <RssSquareLegacy />
-          <span className="icon-label">RssSquareLegacy</span>
+          <span className="icon-label">RssSquare</span>
         </li>
         <li>
           <RubLegacy />
-          <span className="icon-label">RubLegacy</span>
+          <span className="icon-label">Rub</span>
         </li>
         <li>
           <S15Legacy />
-          <span className="icon-label">S15Legacy</span>
+          <span className="icon-label">S15</span>
         </li>
         <li>
           <SafariLegacy />
-          <span className="icon-label">SafariLegacy</span>
+          <span className="icon-label">Safari</span>
         </li>
         <li>
           <SalesLegacy />
-          <span className="icon-label">SalesLegacy</span>
+          <span className="icon-label">Sales</span>
         </li>
         <li>
           <SaveLegacy />
-          <span className="icon-label">SaveLegacy</span>
+          <span className="icon-label">Save</span>
         </li>
         <li>
           <ScribdLegacy />
-          <span className="icon-label">ScribdLegacy</span>
+          <span className="icon-label">Scribd</span>
         </li>
         <li>
           <SearchLegacy />
-          <span className="icon-label">SearchLegacy</span>
+          <span className="icon-label">Search</span>
         </li>
         <li>
           <SearchMinusLegacy />
-          <span className="icon-label">SearchMinusLegacy</span>
+          <span className="icon-label">SearchMinus</span>
         </li>
         <li>
           <SearchPeoplesLegacy />
-          <span className="icon-label">SearchPeoplesLegacy</span>
+          <span className="icon-label">SearchPeoples</span>
         </li>
         <li>
           <SearchPlusLegacy />
-          <span className="icon-label">SearchPlusLegacy</span>
+          <span className="icon-label">SearchPlus</span>
         </li>
         <li>
           <SellsyLegacy />
-          <span className="icon-label">SellsyLegacy</span>
+          <span className="icon-label">Sellsy</span>
         </li>
         <li>
           <SendLegacy />
-          <span className="icon-label">SendLegacy</span>
+          <span className="icon-label">Send</span>
         </li>
         <li>
           <SendOLegacy />
-          <span className="icon-label">SendOLegacy</span>
+          <span className="icon-label">SendO</span>
         </li>
         <li>
           <SequenceLegacy />
-          <span className="icon-label">SequenceLegacy</span>
+          <span className="icon-label">Sequence</span>
         </li>
         <li>
           <SequenceDownLegacy />
-          <span className="icon-label">SequenceDownLegacy</span>
+          <span className="icon-label">SequenceDown</span>
         </li>
         <li>
           <SequenceUpLegacy />
-          <span className="icon-label">SequenceUpLegacy</span>
+          <span className="icon-label">SequenceUp</span>
         </li>
         <li>
           <ServerLegacy />
-          <span className="icon-label">ServerLegacy</span>
+          <span className="icon-label">Server</span>
         </li>
         <li>
           <SettingLegacy />
-          <span className="icon-label">SettingLegacy</span>
+          <span className="icon-label">Setting</span>
         </li>
         <li>
           <ShapesLegacy />
-          <span className="icon-label">ShapesLegacy</span>
+          <span className="icon-label">Shapes</span>
         </li>
         <li>
           <ShareLegacy />
-          <span className="icon-label">ShareLegacy</span>
+          <span className="icon-label">Share</span>
         </li>
         <li>
           <Share2Legacy />
-          <span className="icon-label">Share2Legacy</span>
+          <span className="icon-label">Share2</span>
         </li>
         <li>
           <ShareAltLegacy />
-          <span className="icon-label">ShareAltLegacy</span>
+          <span className="icon-label">ShareAlt</span>
         </li>
         <li>
           <ShareAltSquareLegacy />
-          <span className="icon-label">ShareAltSquareLegacy</span>
+          <span className="icon-label">ShareAltSquare</span>
         </li>
         <li>
           <ShareSquareLegacy />
-          <span className="icon-label">ShareSquareLegacy</span>
+          <span className="icon-label">ShareSquare</span>
         </li>
         <li>
           <ShareSquareOLegacy />
-          <span className="icon-label">ShareSquareOLegacy</span>
+          <span className="icon-label">ShareSquareO</span>
         </li>
         <li>
           <ShieldLegacy />
-          <span className="icon-label">ShieldLegacy</span>
+          <span className="icon-label">Shield</span>
         </li>
         <li>
           <ShipLegacy />
-          <span className="icon-label">ShipLegacy</span>
+          <span className="icon-label">Ship</span>
         </li>
         <li>
           <ShirtsinbulkLegacy />
-          <span className="icon-label">ShirtsinbulkLegacy</span>
+          <span className="icon-label">Shirtsinbulk</span>
         </li>
         <li>
           <ShoppingBagLegacy />
-          <span className="icon-label">ShoppingBagLegacy</span>
+          <span className="icon-label">ShoppingBag</span>
         </li>
         <li>
           <ShoppingBasketLegacy />
-          <span className="icon-label">ShoppingBasketLegacy</span>
+          <span className="icon-label">ShoppingBasket</span>
         </li>
         <li>
           <ShoppingCartLegacy />
-          <span className="icon-label">ShoppingCartLegacy</span>
+          <span className="icon-label">ShoppingCart</span>
         </li>
         <li>
           <ShowerLegacy />
-          <span className="icon-label">ShowerLegacy</span>
+          <span className="icon-label">Shower</span>
         </li>
         <li>
           <SignalLegacy />
-          <span className="icon-label">SignalLegacy</span>
+          <span className="icon-label">Signal</span>
         </li>
         <li>
           <SignInLegacy />
-          <span className="icon-label">SignInLegacy</span>
+          <span className="icon-label">SignIn</span>
         </li>
         <li>
           <SigningLegacy />
-          <span className="icon-label">SigningLegacy</span>
+          <span className="icon-label">Signing</span>
         </li>
         <li>
           <SignOutLegacy />
-          <span className="icon-label">SignOutLegacy</span>
+          <span className="icon-label">SignOut</span>
         </li>
         <li>
           <SimplybuiltLegacy />
-          <span className="icon-label">SimplybuiltLegacy</span>
+          <span className="icon-label">Simplybuilt</span>
         </li>
         <li>
           <SitemapLegacy />
-          <span className="icon-label">SitemapLegacy</span>
+          <span className="icon-label">Sitemap</span>
         </li>
         <li>
           <SkyatlasLegacy />
-          <span className="icon-label">SkyatlasLegacy</span>
+          <span className="icon-label">Skyatlas</span>
         </li>
         <li>
           <SkypeLegacy />
-          <span className="icon-label">SkypeLegacy</span>
+          <span className="icon-label">Skype</span>
         </li>
         <li>
           <SlackLegacy />
-          <span className="icon-label">SlackLegacy</span>
+          <span className="icon-label">Slack</span>
         </li>
         <li>
           <SlidersLegacy />
-          <span className="icon-label">SlidersLegacy</span>
+          <span className="icon-label">Sliders</span>
         </li>
         <li>
           <SlideshareLegacy />
-          <span className="icon-label">SlideshareLegacy</span>
+          <span className="icon-label">Slideshare</span>
         </li>
         <li>
           <SmileOLegacy />
-          <span className="icon-label">SmileOLegacy</span>
+          <span className="icon-label">SmileO</span>
         </li>
         <li>
           <SnapchatLegacy />
-          <span className="icon-label">SnapchatLegacy</span>
+          <span className="icon-label">Snapchat</span>
         </li>
         <li>
           <SnapchatGhostLegacy />
-          <span className="icon-label">SnapchatGhostLegacy</span>
+          <span className="icon-label">SnapchatGhost</span>
         </li>
         <li>
           <SnapchatSquareLegacy />
-          <span className="icon-label">SnapchatSquareLegacy</span>
+          <span className="icon-label">SnapchatSquare</span>
         </li>
         <li>
           <SnowflakeOLegacy />
-          <span className="icon-label">SnowflakeOLegacy</span>
+          <span className="icon-label">SnowflakeO</span>
         </li>
         <li>
           <SortLegacy />
-          <span className="icon-label">SortLegacy</span>
+          <span className="icon-label">Sort</span>
         </li>
         <li>
           <SortAlphaAscLegacy />
-          <span className="icon-label">SortAlphaAscLegacy</span>
+          <span className="icon-label">SortAlphaAsc</span>
         </li>
         <li>
           <SortAlphaDescLegacy />
-          <span className="icon-label">SortAlphaDescLegacy</span>
+          <span className="icon-label">SortAlphaDesc</span>
         </li>
         <li>
           <SortAmountAscLegacy />
-          <span className="icon-label">SortAmountAscLegacy</span>
+          <span className="icon-label">SortAmountAsc</span>
         </li>
         <li>
           <SortAmountDescLegacy />
-          <span className="icon-label">SortAmountDescLegacy</span>
+          <span className="icon-label">SortAmountDesc</span>
         </li>
         <li>
           <SortDescLegacy />
-          <span className="icon-label">SortDescLegacy</span>
+          <span className="icon-label">SortDesc</span>
         </li>
         <li>
           <SortNumericAscLegacy />
-          <span className="icon-label">SortNumericAscLegacy</span>
+          <span className="icon-label">SortNumericAsc</span>
         </li>
         <li>
           <SortNumericDescLegacy />
-          <span className="icon-label">SortNumericDescLegacy</span>
+          <span className="icon-label">SortNumericDesc</span>
         </li>
         <li>
           <SortUpLegacy />
-          <span className="icon-label">SortUpLegacy</span>
+          <span className="icon-label">SortUp</span>
         </li>
         <li>
           <SoundcloudLegacy />
-          <span className="icon-label">SoundcloudLegacy</span>
+          <span className="icon-label">Soundcloud</span>
         </li>
         <li>
           <SpaceShuttleLegacy />
-          <span className="icon-label">SpaceShuttleLegacy</span>
+          <span className="icon-label">SpaceShuttle</span>
         </li>
         <li>
           <SpeakerLegacy />
-          <span className="icon-label">SpeakerLegacy</span>
+          <span className="icon-label">Speaker</span>
         </li>
         <li>
           <SpinnerLegacy />
-          <span className="icon-label">SpinnerLegacy</span>
+          <span className="icon-label">Spinner</span>
         </li>
         <li>
           <SpoonLegacy />
-          <span className="icon-label">SpoonLegacy</span>
+          <span className="icon-label">Spoon</span>
         </li>
         <li>
           <SpotifyLegacy />
-          <span className="icon-label">SpotifyLegacy</span>
+          <span className="icon-label">Spotify</span>
         </li>
         <li>
           <SquareLegacy />
-          <span className="icon-label">SquareLegacy</span>
+          <span className="icon-label">Square</span>
         </li>
         <li>
           <SquareOLegacy />
-          <span className="icon-label">SquareOLegacy</span>
+          <span className="icon-label">SquareO</span>
         </li>
         <li>
           <SquaresLegacy />
-          <span className="icon-label">SquaresLegacy</span>
+          <span className="icon-label">Squares</span>
         </li>
         <li>
           <StackExchangeLegacy />
-          <span className="icon-label">StackExchangeLegacy</span>
+          <span className="icon-label">StackExchange</span>
         </li>
         <li>
           <StackOverflowLegacy />
-          <span className="icon-label">StackOverflowLegacy</span>
+          <span className="icon-label">StackOverflow</span>
         </li>
         <li>
           <StarLegacy />
-          <span className="icon-label">StarLegacy</span>
+          <span className="icon-label">Star</span>
         </li>
         <li>
           <StarHalfLegacy />
-          <span className="icon-label">StarHalfLegacy</span>
+          <span className="icon-label">StarHalf</span>
         </li>
         <li>
           <StarHalfOLegacy />
-          <span className="icon-label">StarHalfOLegacy</span>
+          <span className="icon-label">StarHalfO</span>
         </li>
         <li>
           <StarOLegacy />
-          <span className="icon-label">StarOLegacy</span>
+          <span className="icon-label">StarO</span>
         </li>
         <li>
           <SteamLegacy />
-          <span className="icon-label">SteamLegacy</span>
+          <span className="icon-label">Steam</span>
         </li>
         <li>
           <SteamSquareLegacy />
-          <span className="icon-label">SteamSquareLegacy</span>
+          <span className="icon-label">SteamSquare</span>
         </li>
         <li>
           <StepBackwardLegacy />
-          <span className="icon-label">StepBackwardLegacy</span>
+          <span className="icon-label">StepBackward</span>
         </li>
         <li>
           <StepForwardLegacy />
-          <span className="icon-label">StepForwardLegacy</span>
+          <span className="icon-label">StepForward</span>
         </li>
         <li>
           <StethoscopeLegacy />
-          <span className="icon-label">StethoscopeLegacy</span>
+          <span className="icon-label">Stethoscope</span>
         </li>
         <li>
           <StickyNoteLegacy />
-          <span className="icon-label">StickyNoteLegacy</span>
+          <span className="icon-label">StickyNote</span>
         </li>
         <li>
           <StickyNoteOLegacy />
-          <span className="icon-label">StickyNoteOLegacy</span>
+          <span className="icon-label">StickyNoteO</span>
         </li>
         <li>
           <StopLegacy />
-          <span className="icon-label">StopLegacy</span>
+          <span className="icon-label">Stop</span>
         </li>
         <li>
           <Stop2Legacy />
-          <span className="icon-label">Stop2Legacy</span>
+          <span className="icon-label">Stop2</span>
         </li>
         <li>
           <StopCircleLegacy />
-          <span className="icon-label">StopCircleLegacy</span>
+          <span className="icon-label">StopCircle</span>
         </li>
         <li>
           <StopCircleOLegacy />
-          <span className="icon-label">StopCircleOLegacy</span>
+          <span className="icon-label">StopCircleO</span>
         </li>
         <li>
           <StreetViewLegacy />
-          <span className="icon-label">StreetViewLegacy</span>
+          <span className="icon-label">StreetView</span>
         </li>
         <li>
           <StrikethroughLegacy />
-          <span className="icon-label">StrikethroughLegacy</span>
+          <span className="icon-label">Strikethrough</span>
         </li>
         <li>
           <StumbleuponLegacy />
-          <span className="icon-label">StumbleuponLegacy</span>
+          <span className="icon-label">Stumbleupon</span>
         </li>
         <li>
           <StumbleuponCircleLegacy />
-          <span className="icon-label">StumbleuponCircleLegacy</span>
+          <span className="icon-label">StumbleuponCircle</span>
         </li>
         <li>
           <SubscriptLegacy />
-          <span className="icon-label">SubscriptLegacy</span>
+          <span className="icon-label">Subscript</span>
         </li>
         <li>
           <SubwayLegacy />
-          <span className="icon-label">SubwayLegacy</span>
+          <span className="icon-label">Subway</span>
         </li>
         <li>
           <SuitcaseLegacy />
-          <span className="icon-label">SuitcaseLegacy</span>
+          <span className="icon-label">Suitcase</span>
         </li>
         <li>
           <SunOLegacy />
-          <span className="icon-label">SunOLegacy</span>
+          <span className="icon-label">SunO</span>
         </li>
         <li>
           <SuperpowersLegacy />
-          <span className="icon-label">SuperpowersLegacy</span>
+          <span className="icon-label">Superpowers</span>
         </li>
         <li>
           <SuperscriptLegacy />
-          <span className="icon-label">SuperscriptLegacy</span>
+          <span className="icon-label">Superscript</span>
         </li>
         <li>
           <SupportLegacy />
-          <span className="icon-label">SupportLegacy</span>
+          <span className="icon-label">Support</span>
         </li>
         <li>
           <TableLegacy />
-          <span className="icon-label">TableLegacy</span>
+          <span className="icon-label">Table</span>
         </li>
         <li>
           <TabletLegacy />
-          <span className="icon-label">TabletLegacy</span>
+          <span className="icon-label">Tablet</span>
         </li>
         <li>
           <TagLegacy />
-          <span className="icon-label">TagLegacy</span>
+          <span className="icon-label">Tag</span>
         </li>
         <li>
           <TagAreaLegacy />
-          <span className="icon-label">TagAreaLegacy</span>
+          <span className="icon-label">TagArea</span>
         </li>
         <li>
           <TagAuthorizeLegacy />
-          <span className="icon-label">TagAuthorizeLegacy</span>
+          <span className="icon-label">TagAuthorize</span>
         </li>
         <li>
           <TagsLegacy />
-          <span className="icon-label">TagsLegacy</span>
+          <span className="icon-label">Tags</span>
         </li>
         <li>
           <TagUnauthorizeLegacy />
-          <span className="icon-label">TagUnauthorizeLegacy</span>
+          <span className="icon-label">TagUnauthorize</span>
         </li>
         <li>
           <TargetLegacy />
-          <span className="icon-label">TargetLegacy</span>
+          <span className="icon-label">Target</span>
         </li>
         <li>
           <TaskLegacy />
-          <span className="icon-label">TaskLegacy</span>
+          <span className="icon-label">Task</span>
         </li>
         <li>
           <TasksLegacy />
-          <span className="icon-label">TasksLegacy</span>
+          <span className="icon-label">Tasks</span>
         </li>
         <li>
           <TelegramLegacy />
-          <span className="icon-label">TelegramLegacy</span>
+          <span className="icon-label">Telegram</span>
         </li>
         <li>
           <TencentWeiboLegacy />
-          <span className="icon-label">TencentWeiboLegacy</span>
+          <span className="icon-label">TencentWeibo</span>
         </li>
         <li>
           <TerminalLegacy />
-          <span className="icon-label">TerminalLegacy</span>
+          <span className="icon-label">Terminal</span>
         </li>
         <li>
           <TerminalLineLegacy />
-          <span className="icon-label">TerminalLineLegacy</span>
+          <span className="icon-label">TerminalLine</span>
         </li>
         <li>
           <TextHeightLegacy />
-          <span className="icon-label">TextHeightLegacy</span>
+          <span className="icon-label">TextHeight</span>
         </li>
         <li>
           <TextWidthLegacy />
-          <span className="icon-label">TextWidthLegacy</span>
+          <span className="icon-label">TextWidth</span>
         </li>
         <li>
           <ThLegacy />
-          <span className="icon-label">ThLegacy</span>
+          <span className="icon-label">Th</span>
         </li>
         <li>
           <Th2Legacy />
-          <span className="icon-label">Th2Legacy</span>
+          <span className="icon-label">Th2</span>
         </li>
         <li>
           <ThemeisleLegacy />
-          <span className="icon-label">ThemeisleLegacy</span>
+          <span className="icon-label">Themeisle</span>
         </li>
         <li>
           <ThermometerLegacy />
-          <span className="icon-label">ThermometerLegacy</span>
+          <span className="icon-label">Thermometer</span>
         </li>
         <li>
           <Thermometer0Legacy />
-          <span className="icon-label">Thermometer0Legacy</span>
+          <span className="icon-label">Thermometer0</span>
         </li>
         <li>
           <Thermometer1Legacy />
-          <span className="icon-label">Thermometer1Legacy</span>
+          <span className="icon-label">Thermometer1</span>
         </li>
         <li>
           <Thermometer2Legacy />
-          <span className="icon-label">Thermometer2Legacy</span>
+          <span className="icon-label">Thermometer2</span>
         </li>
         <li>
           <Thermometer3Legacy />
-          <span className="icon-label">Thermometer3Legacy</span>
+          <span className="icon-label">Thermometer3</span>
         </li>
         <li>
           <ThLargeLegacy />
-          <span className="icon-label">ThLargeLegacy</span>
+          <span className="icon-label">ThLarge</span>
         </li>
         <li>
           <ThListLegacy />
-          <span className="icon-label">ThListLegacy</span>
+          <span className="icon-label">ThList</span>
         </li>
         <li>
           <ThumbsDownLegacy />
-          <span className="icon-label">ThumbsDownLegacy</span>
+          <span className="icon-label">ThumbsDown</span>
         </li>
         <li>
           <ThumbsODownLegacy />
-          <span className="icon-label">ThumbsODownLegacy</span>
+          <span className="icon-label">ThumbsODown</span>
         </li>
         <li>
           <ThumbsOUpLegacy />
-          <span className="icon-label">ThumbsOUpLegacy</span>
+          <span className="icon-label">ThumbsOUp</span>
         </li>
         <li>
           <ThumbsUpLegacy />
-          <span className="icon-label">ThumbsUpLegacy</span>
+          <span className="icon-label">ThumbsUp</span>
         </li>
         <li>
           <ThumbTackLegacy />
-          <span className="icon-label">ThumbTackLegacy</span>
+          <span className="icon-label">ThumbTack</span>
         </li>
         <li>
           <TicketLegacy />
-          <span className="icon-label">TicketLegacy</span>
+          <span className="icon-label">Ticket</span>
         </li>
         <li>
           <TimesCircleLegacy />
-          <span className="icon-label">TimesCircleLegacy</span>
+          <span className="icon-label">TimesCircle</span>
         </li>
         <li>
           <TimesCircleOLegacy />
-          <span className="icon-label">TimesCircleOLegacy</span>
+          <span className="icon-label">TimesCircleO</span>
         </li>
         <li>
           <TintLegacy />
-          <span className="icon-label">TintLegacy</span>
+          <span className="icon-label">Tint</span>
         </li>
         <li>
           <TmallLegacy />
-          <span className="icon-label">TmallLegacy</span>
+          <span className="icon-label">Tmall</span>
         </li>
         <li>
           <ToggleDownLegacy />
-          <span className="icon-label">ToggleDownLegacy</span>
+          <span className="icon-label">ToggleDown</span>
         </li>
         <li>
           <ToggleLeftLegacy />
-          <span className="icon-label">ToggleLeftLegacy</span>
+          <span className="icon-label">ToggleLeft</span>
         </li>
         <li>
           <ToggleOffLegacy />
-          <span className="icon-label">ToggleOffLegacy</span>
+          <span className="icon-label">ToggleOff</span>
         </li>
         <li>
           <ToggleOnLegacy />
-          <span className="icon-label">ToggleOnLegacy</span>
+          <span className="icon-label">ToggleOn</span>
         </li>
         <li>
           <ToggleRightLegacy />
-          <span className="icon-label">ToggleRightLegacy</span>
+          <span className="icon-label">ToggleRight</span>
         </li>
         <li>
           <ToggleUpLegacy />
-          <span className="icon-label">ToggleUpLegacy</span>
+          <span className="icon-label">ToggleUp</span>
         </li>
         <li>
           <TrademarkLegacy />
-          <span className="icon-label">TrademarkLegacy</span>
+          <span className="icon-label">Trademark</span>
         </li>
         <li>
           <TrainLegacy />
-          <span className="icon-label">TrainLegacy</span>
+          <span className="icon-label">Train</span>
         </li>
         <li>
           <TransgenderAltLegacy />
-          <span className="icon-label">TransgenderAltLegacy</span>
+          <span className="icon-label">TransgenderAlt</span>
         </li>
         <li>
           <TrashLegacy />
-          <span className="icon-label">TrashLegacy</span>
+          <span className="icon-label">Trash</span>
         </li>
         <li>
           <Trash2Legacy />
-          <span className="icon-label">Trash2Legacy</span>
+          <span className="icon-label">Trash2</span>
         </li>
         <li>
           <TrashOLegacy />
-          <span className="icon-label">TrashOLegacy</span>
+          <span className="icon-label">TrashO</span>
         </li>
         <li>
           <TreeLegacy />
-          <span className="icon-label">TreeLegacy</span>
+          <span className="icon-label">Tree</span>
         </li>
         <li>
           <TreeCloseLegacy />
-          <span className="icon-label">TreeCloseLegacy</span>
+          <span className="icon-label">TreeClose</span>
         </li>
         <li>
           <TreeOpenLegacy />
-          <span className="icon-label">TreeOpenLegacy</span>
+          <span className="icon-label">TreeOpen</span>
         </li>
         <li>
           <TrelloLegacy />
-          <span className="icon-label">TrelloLegacy</span>
+          <span className="icon-label">Trello</span>
         </li>
         <li>
           <TrendLegacy />
-          <span className="icon-label">TrendLegacy</span>
+          <span className="icon-label">Trend</span>
         </li>
         <li>
           <TripadvisorLegacy />
-          <span className="icon-label">TripadvisorLegacy</span>
+          <span className="icon-label">Tripadvisor</span>
         </li>
         <li>
           <TrophyLegacy />
-          <span className="icon-label">TrophyLegacy</span>
+          <span className="icon-label">Trophy</span>
         </li>
         <li>
           <TruckLegacy />
-          <span className="icon-label">TruckLegacy</span>
+          <span className="icon-label">Truck</span>
         </li>
         <li>
           <TryLegacy />
-          <span className="icon-label">TryLegacy</span>
+          <span className="icon-label">Try</span>
         </li>
         <li>
           <TtyLegacy />
-          <span className="icon-label">TtyLegacy</span>
+          <span className="icon-label">Tty</span>
         </li>
         <li>
           <TumblrLegacy />
-          <span className="icon-label">TumblrLegacy</span>
+          <span className="icon-label">Tumblr</span>
         </li>
         <li>
           <TumblrSquareLegacy />
-          <span className="icon-label">TumblrSquareLegacy</span>
+          <span className="icon-label">TumblrSquare</span>
         </li>
         <li>
           <TvLegacy />
-          <span className="icon-label">TvLegacy</span>
+          <span className="icon-label">Tv</span>
         </li>
         <li>
           <TwinkleStarLegacy />
-          <span className="icon-label">TwinkleStarLegacy</span>
+          <span className="icon-label">TwinkleStar</span>
         </li>
         <li>
           <TwitchLegacy />
-          <span className="icon-label">TwitchLegacy</span>
+          <span className="icon-label">Twitch</span>
         </li>
         <li>
           <TwitterLegacy />
-          <span className="icon-label">TwitterLegacy</span>
+          <span className="icon-label">Twitter</span>
         </li>
         <li>
           <TwitterSquareLegacy />
-          <span className="icon-label">TwitterSquareLegacy</span>
+          <span className="icon-label">TwitterSquare</span>
         </li>
         <li>
           <UmbrellaLegacy />
-          <span className="icon-label">UmbrellaLegacy</span>
+          <span className="icon-label">Umbrella</span>
         </li>
         <li>
           <UnderlineLegacy />
-          <span className="icon-label">UnderlineLegacy</span>
+          <span className="icon-label">Underline</span>
         </li>
         <li>
           <UndoLegacy />
-          <span className="icon-label">UndoLegacy</span>
+          <span className="icon-label">Undo</span>
         </li>
         <li>
           <UniversalAccessLegacy />
-          <span className="icon-label">UniversalAccessLegacy</span>
+          <span className="icon-label">UniversalAccess</span>
         </li>
         <li>
           <UnlinkLegacy />
-          <span className="icon-label">UnlinkLegacy</span>
+          <span className="icon-label">Unlink</span>
         </li>
         <li>
           <UnlockLegacy />
-          <span className="icon-label">UnlockLegacy</span>
+          <span className="icon-label">Unlock</span>
         </li>
         <li>
           <UnlockAltLegacy />
-          <span className="icon-label">UnlockAltLegacy</span>
+          <span className="icon-label">UnlockAlt</span>
         </li>
         <li>
           <UpLegacy />
-          <span className="icon-label">UpLegacy</span>
+          <span className="icon-label">Up</span>
         </li>
         <li>
           <UploadLegacy />
-          <span className="icon-label">UploadLegacy</span>
+          <span className="icon-label">Upload</span>
         </li>
         <li>
           <Upload2Legacy />
-          <span className="icon-label">Upload2Legacy</span>
+          <span className="icon-label">Upload2</span>
         </li>
         <li>
           <UsbLegacy />
-          <span className="icon-label">UsbLegacy</span>
+          <span className="icon-label">Usb</span>
         </li>
         <li>
           <UsdLegacy />
-          <span className="icon-label">UsdLegacy</span>
+          <span className="icon-label">Usd</span>
         </li>
         <li>
           <UserLegacy />
-          <span className="icon-label">UserLegacy</span>
+          <span className="icon-label">User</span>
         </li>
         <li>
           <UserAnalysisLegacy />
-          <span className="icon-label">UserAnalysisLegacy</span>
+          <span className="icon-label">UserAnalysis</span>
         </li>
         <li>
           <UserCircleLegacy />
-          <span className="icon-label">UserCircleLegacy</span>
+          <span className="icon-label">UserCircle</span>
         </li>
         <li>
           <UserCircleOLegacy />
-          <span className="icon-label">UserCircleOLegacy</span>
+          <span className="icon-label">UserCircleO</span>
         </li>
         <li>
           <UserInfoLegacy />
-          <span className="icon-label">UserInfoLegacy</span>
+          <span className="icon-label">UserInfo</span>
         </li>
         <li>
           <UserMdLegacy />
-          <span className="icon-label">UserMdLegacy</span>
+          <span className="icon-label">UserMd</span>
         </li>
         <li>
           <UserOLegacy />
-          <span className="icon-label">UserOLegacy</span>
+          <span className="icon-label">UserO</span>
         </li>
         <li>
           <UserPlusLegacy />
-          <span className="icon-label">UserPlusLegacy</span>
+          <span className="icon-label">UserPlus</span>
         </li>
         <li>
           <UserSecretLegacy />
-          <span className="icon-label">UserSecretLegacy</span>
+          <span className="icon-label">UserSecret</span>
         </li>
         <li>
           <UserTimesLegacy />
-          <span className="icon-label">UserTimesLegacy</span>
+          <span className="icon-label">UserTimes</span>
         </li>
         <li>
           <VcardLegacy />
-          <span className="icon-label">VcardLegacy</span>
+          <span className="icon-label">Vcard</span>
         </li>
         <li>
           <VcardOLegacy />
-          <span className="icon-label">VcardOLegacy</span>
+          <span className="icon-label">VcardO</span>
         </li>
         <li>
           <VenusLegacy />
-          <span className="icon-label">VenusLegacy</span>
+          <span className="icon-label">Venus</span>
         </li>
         <li>
           <VenusDoubleLegacy />
-          <span className="icon-label">VenusDoubleLegacy</span>
+          <span className="icon-label">VenusDouble</span>
         </li>
         <li>
           <VenusMarsLegacy />
-          <span className="icon-label">VenusMarsLegacy</span>
+          <span className="icon-label">VenusMars</span>
         </li>
         <li>
           <ViacoinLegacy />
-          <span className="icon-label">ViacoinLegacy</span>
+          <span className="icon-label">Viacoin</span>
         </li>
         <li>
           <ViadeoLegacy />
-          <span className="icon-label">ViadeoLegacy</span>
+          <span className="icon-label">Viadeo</span>
         </li>
         <li>
           <ViadeoSquareLegacy />
-          <span className="icon-label">ViadeoSquareLegacy</span>
+          <span className="icon-label">ViadeoSquare</span>
         </li>
         <li>
           <VideoCameraLegacy />
-          <span className="icon-label">VideoCameraLegacy</span>
+          <span className="icon-label">VideoCamera</span>
         </li>
         <li>
           <ViewsAuthorizeLegacy />
-          <span className="icon-label">ViewsAuthorizeLegacy</span>
+          <span className="icon-label">ViewsAuthorize</span>
         </li>
         <li>
           <ViewsUnauthorizeLegacy />
-          <span className="icon-label">ViewsUnauthorizeLegacy</span>
+          <span className="icon-label">ViewsUnauthorize</span>
         </li>
         <li>
           <VimeoLegacy />
-          <span className="icon-label">VimeoLegacy</span>
+          <span className="icon-label">Vimeo</span>
         </li>
         <li>
           <VimeoSquareLegacy />
-          <span className="icon-label">VimeoSquareLegacy</span>
+          <span className="icon-label">VimeoSquare</span>
         </li>
         <li>
           <VineLegacy />
-          <span className="icon-label">VineLegacy</span>
+          <span className="icon-label">Vine</span>
         </li>
         <li>
           <VkLegacy />
-          <span className="icon-label">VkLegacy</span>
+          <span className="icon-label">Vk</span>
         </li>
         <li>
           <VolumeControlPhoneLegacy />
-          <span className="icon-label">VolumeControlPhoneLegacy</span>
+          <span className="icon-label">VolumeControlPhone</span>
         </li>
         <li>
           <VolumeDownLegacy />
-          <span className="icon-label">VolumeDownLegacy</span>
+          <span className="icon-label">VolumeDown</span>
         </li>
         <li>
           <VolumeOffLegacy />
-          <span className="icon-label">VolumeOffLegacy</span>
+          <span className="icon-label">VolumeOff</span>
         </li>
         <li>
           <VolumeUpLegacy />
-          <span className="icon-label">VolumeUpLegacy</span>
+          <span className="icon-label">VolumeUp</span>
         </li>
         <li>
           <WarningLegacy />
-          <span className="icon-label">WarningLegacy</span>
+          <span className="icon-label">Warning</span>
         </li>
         <li>
           <WeappLegacy />
-          <span className="icon-label">WeappLegacy</span>
+          <span className="icon-label">Weapp</span>
         </li>
         <li>
           <WebLegacy />
-          <span className="icon-label">WebLegacy</span>
+          <span className="icon-label">Web</span>
         </li>
         <li>
           <WechatLegacy />
-          <span className="icon-label">WechatLegacy</span>
+          <span className="icon-label">Wechat</span>
         </li>
         <li>
           <WeiboLegacy />
-          <span className="icon-label">WeiboLegacy</span>
+          <span className="icon-label">Weibo</span>
         </li>
         <li>
           <WhatsappLegacy />
-          <span className="icon-label">WhatsappLegacy</span>
+          <span className="icon-label">Whatsapp</span>
         </li>
         <li>
           <WheelchairLegacy />
-          <span className="icon-label">WheelchairLegacy</span>
+          <span className="icon-label">Wheelchair</span>
         </li>
         <li>
           <WheelchairAltLegacy />
-          <span className="icon-label">WheelchairAltLegacy</span>
+          <span className="icon-label">WheelchairAlt</span>
         </li>
         <li>
           <WifiLegacy />
-          <span className="icon-label">WifiLegacy</span>
+          <span className="icon-label">Wifi</span>
         </li>
         <li>
           <WikipediaWLegacy />
-          <span className="icon-label">WikipediaWLegacy</span>
+          <span className="icon-label">WikipediaW</span>
         </li>
         <li>
           <WindowCloseLegacy />
-          <span className="icon-label">WindowCloseLegacy</span>
+          <span className="icon-label">WindowClose</span>
         </li>
         <li>
           <WindowCloseOLegacy />
-          <span className="icon-label">WindowCloseOLegacy</span>
+          <span className="icon-label">WindowCloseO</span>
         </li>
         <li>
           <WindowMaximizeLegacy />
-          <span className="icon-label">WindowMaximizeLegacy</span>
+          <span className="icon-label">WindowMaximize</span>
         </li>
         <li>
           <WindowMinimizeLegacy />
-          <span className="icon-label">WindowMinimizeLegacy</span>
+          <span className="icon-label">WindowMinimize</span>
         </li>
         <li>
           <WindowRestoreLegacy />
-          <span className="icon-label">WindowRestoreLegacy</span>
+          <span className="icon-label">WindowRestore</span>
         </li>
         <li>
           <WindowsLegacy />
-          <span className="icon-label">WindowsLegacy</span>
+          <span className="icon-label">Windows</span>
         </li>
         <li>
           <WordpressLegacy />
-          <span className="icon-label">WordpressLegacy</span>
+          <span className="icon-label">Wordpress</span>
         </li>
         <li>
           <WpbeginnerLegacy />
-          <span className="icon-label">WpbeginnerLegacy</span>
+          <span className="icon-label">Wpbeginner</span>
         </li>
         <li>
           <WpexplorerLegacy />
-          <span className="icon-label">WpexplorerLegacy</span>
+          <span className="icon-label">Wpexplorer</span>
         </li>
         <li>
           <WpformsLegacy />
-          <span className="icon-label">WpformsLegacy</span>
+          <span className="icon-label">Wpforms</span>
         </li>
         <li>
           <WrenchLegacy />
-          <span className="icon-label">WrenchLegacy</span>
+          <span className="icon-label">Wrench</span>
         </li>
         <li>
           <XingLegacy />
-          <span className="icon-label">XingLegacy</span>
+          <span className="icon-label">Xing</span>
         </li>
         <li>
           <XingSquareLegacy />
-          <span className="icon-label">XingSquareLegacy</span>
+          <span className="icon-label">XingSquare</span>
         </li>
         <li>
           <YahooLegacy />
-          <span className="icon-label">YahooLegacy</span>
+          <span className="icon-label">Yahoo</span>
         </li>
         <li>
           <YcLegacy />
-          <span className="icon-label">YcLegacy</span>
+          <span className="icon-label">Yc</span>
         </li>
         <li>
           <YcSquareLegacy />
-          <span className="icon-label">YcSquareLegacy</span>
+          <span className="icon-label">YcSquare</span>
         </li>
         <li>
           <YelpLegacy />
-          <span className="icon-label">YelpLegacy</span>
+          <span className="icon-label">Yelp</span>
         </li>
         <li>
           <YoastLegacy />
-          <span className="icon-label">YoastLegacy</span>
+          <span className="icon-label">Yoast</span>
         </li>
         <li>
           <YoutubeLegacy />
-          <span className="icon-label">YoutubeLegacy</span>
+          <span className="icon-label">Youtube</span>
         </li>
         <li>
           <YoutubePlayLegacy />
-          <span className="icon-label">YoutubePlayLegacy</span>
+          <span className="icon-label">YoutubePlay</span>
         </li>
         <li>
           <YoutubeSquareLegacy />
-          <span className="icon-label">YoutubeSquareLegacy</span>
+          <span className="icon-label">YoutubeSquare</span>
         </li>
       </ul>
       <h3>network</h3>
