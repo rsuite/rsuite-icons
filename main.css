@@ -496,6 +496,9 @@ span.CodeMirror-selectedtext { background: none; }
 .btn-toolbar {
   padding: 10px 0;
 }
+.markdown table {
+  width: 100%;
+}
 
 
 /*# sourceMappingURL=main.css.map*/
