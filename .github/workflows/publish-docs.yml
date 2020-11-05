@@ -31,7 +31,7 @@ jobs:
         #env:
           #NODE_AUTH_TOKEN: ${{ secrets.HYPERS_NPM_TOKEN }}
       - name: Build docs
-        run: npm run build:build-docs-list && npm run docs
+        run:  npm run docs
       - name: Publish docs
         uses: peaceiris/actions-gh-pages@v3
         with:

@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "declaration": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -10,5 +11,5 @@
     "jsx": "react",
     "resolveJsonModule": true
   },
-  "include": ["./**/*.ts", "./**/*.tsx", "./**/*.json"]
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"]
 }

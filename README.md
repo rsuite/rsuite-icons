@@ -7,8 +7,8 @@ These library is developing now , if you want run it on you local,please run the
 ```
 ## Install dependencies
 npm run ci
-## Generated legacy icons
-npm run build:sync-legacy
+## Generated icons
+npm run build:gulp
 ## Run dev site on your local
 npm run dev
 ## TDD

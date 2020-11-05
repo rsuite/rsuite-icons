@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { FC, forwardRef } from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import { useClassNames, useInsertStyles } from './utils';
 
 type Flip = 'horizontal' | 'vertical';
 
-export interface IconBaseProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface IconProps extends React.HTMLAttributes<HTMLDivElement> {
   /** Dynamic rotation icon */
   spin?: boolean;
 
@@ -18,17 +18,19 @@ export interface IconBaseProps extends React.HTMLAttributes<HTMLDivElement> {
   /** View box of the svg */
   viewBox?: string;
 
+  /** Flip the icon */
+  flip?: Flip;
+}
+
+export interface IconBaseProps extends IconProps {
+  /** You can use a custom element for this component */
+  as?: React.ElementType | string;
+
   /**
    * Component base class Name
    * @default icon-base
    * */
   baseClassName?: string;
-
-  /** You can use a custom element for this component */
-  as?: React.ElementType | string;
-
-  /** Flip the icon */
-  flip?: Flip;
 }
 
 export const propTypes = {
@@ -45,7 +47,7 @@ export const defaultProps = {
   baseClassName: 'icon-base'
 };
 
-const IconBase = React.forwardRef<HTMLSpanElement, IconBaseProps>(
+const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
   (props: IconBaseProps, ref: React.Ref<HTMLSpanElement>) => {
     const {
       spin,
@@ -136,9 +138,7 @@ export function createSvgIcon({
   displayName: string;
   category: string;
 }) {
-  type IconProps = Omit<IconBaseProps, 'baseClassName'>;
-
-  const IconComponent: React.FC<IconProps> = React.forwardRef<HTMLSpanElement, IconProps>(
+  const IconComponent: FC<IconProps> = forwardRef<HTMLSpanElement, IconProps>(
     function IconComponent(props: IconProps, ref: React.Ref<HTMLSpanElement>) {
       return (
         <IconBase
