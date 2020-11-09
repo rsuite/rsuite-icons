@@ -22,7 +22,7 @@
     "run:test-case": "cross-env NODE_ENV=test karma start --single-run",
     "clean": "rm -rf node_modules/gh-pages/.cache",
     "coveralls": "cat ./coverage/lcov/lcov.info | ./node_modules/.bin/coveralls",
-    "prepublishOnly": "npm run test && npm run build",
+    "prepublishOnly": "npm run build",
     "postinstall": "npm run build && npm run build:build-docs-list"
   },
   "author": "hiyangguo@gmail.com",
