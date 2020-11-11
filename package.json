@@ -23,7 +23,7 @@
     "clean": "rm -rf node_modules/gh-pages/.cache",
     "coveralls": "cat ./coverage/lcov/lcov.info | ./node_modules/.bin/coveralls",
     "prepublishOnly": "npm run build",
-    "postinstall": "npm run build && npm run build:build-docs-list"
+    "prepare": "npm run build && npm run build:build-docs-list"
   },
   "author": "hiyangguo@gmail.com",
   "license": "MIT",
