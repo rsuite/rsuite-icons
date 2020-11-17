@@ -56,6 +56,7 @@ ReactDOM.render(<Test />);
 | Property | Type`(default)`                 | Description                                  |
 | -------- | ------------------------------- | -------------------------------------------- |
 | as       | React.ElementType &#124; string | Reusable a custom element for this component |
+| fill     | string                          | Svg component fill color                     |
 | spin     | boolean                         | Dynamic rotation icon                        |
 | pulse    | boolean                         | Use pulse to have it rotate with 8 steps     |
 | rotate   | number                          | Rotate the icon                              |

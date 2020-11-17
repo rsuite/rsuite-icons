@@ -20,6 +20,9 @@ export interface IconProps extends React.HTMLAttributes<HTMLDivElement> {
 
   /** Flip the icon */
   flip?: Flip;
+
+  /** Svg fill color */
+  fill?: string;
 }
 
 export interface IconBaseProps extends IconProps {
@@ -39,12 +42,14 @@ export const propTypes = {
   rotate: PropTypes.number,
   viewBox: PropTypes.string,
   as: PropTypes.oneOfType([PropTypes.elementType, PropTypes.string]),
-  flip: PropTypes.oneOf<Flip>(['horizontal', 'vertical'])
+  flip: PropTypes.oneOf<Flip>(['horizontal', 'vertical']),
+  fill: PropTypes.string
 };
 
 export const defaultProps = {
   viewBox: '0 0 1024 1024',
-  baseClassName: 'icon-base'
+  baseClassName: 'icon-base',
+  fill: 'currentColor'
 };
 
 const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
@@ -53,6 +58,7 @@ const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
       spin,
       pulse,
       flip,
+      fill,
       className,
       rotate,
       children,
@@ -84,7 +90,7 @@ const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
     const svgProps = {
       width: '1em',
       height: '1em',
-      fill: 'currentColor',
+      fill,
       viewBox,
       style: svgStyle
     };

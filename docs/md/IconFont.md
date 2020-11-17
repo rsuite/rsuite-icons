@@ -54,6 +54,7 @@ ReactDOM.render(<Test />);
 | Property | Type`(default)`                | Description                              |
 | -------- | ------------------------------ | ---------------------------------------- |
 | icon     | string                         | The icon name of iconfont set            |
+| fill     | string                         | Svg component fill color                 |
 | spin     | boolean                        | Dynamic rotation icon                    |
 | pulse    | boolean                        | Use pulse to have it rotate with 8 steps |
 | rotate   | number                         | Rotate the icon                          |

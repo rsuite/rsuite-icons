@@ -86,6 +86,16 @@ describe('IconBase', () => {
     assert.equal(firstChild.getAttribute('tab-index', '-1'));
   });
 
+  it('Should be filled red color', () => {
+    const instanceDom = getDOMNode(
+      <IconBase fill="red">
+        <IconCheckPath />
+      </IconBase>
+    );
+    const firstChild = instanceDom.firstChild;
+    assert.equal(firstChild.getAttribute('fill'), 'red');
+  });
+
   it('Should can set tabIndex', () => {
     const instanceDom = getDOMNode(
       <IconBase tabIndex={999} onClick={sinon.fake()} as={IconCheck} />
