@@ -8,7 +8,7 @@ const Icon: React.FC<IconProps> = React.forwardRef<HTMLSpanElement, IconFontProp
   props: IconProps,
   ref: React.Ref<HTMLSpanElement>
 ) {
-  return <IconBase {...props} baseClassName="icon" ref={ref} />;
+  return <IconBase {...props} baseClassName={IconBase.defaultProps.baseClassName} ref={ref} />;
 });
 
 Icon.displayName = 'Icon';
