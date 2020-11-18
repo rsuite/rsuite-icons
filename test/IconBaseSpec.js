@@ -96,6 +96,17 @@ describe('IconBase', () => {
     assert.equal(firstChild.getAttribute('fill'), 'red');
   });
 
+  it('Should be setting width and height', () => {
+    const instanceDom = getDOMNode(
+      <IconBase width={25} height={25}>
+        <IconCheckPath />
+      </IconBase>
+    );
+    const firstChild = instanceDom.firstChild;
+    assert.equal(firstChild.getAttribute('width'), '25');
+    assert.equal(firstChild.getAttribute('height'), '25');
+  });
+
   it('Should can set tabIndex', () => {
     const instanceDom = getDOMNode(
       <IconBase tabIndex={999} onClick={sinon.fake()} as={IconCheck} />

@@ -44,6 +44,8 @@ ReactDOM.render(<Test />);
 | Property | Type`(default)`                | Description                              |
 | -------- | ------------------------------ | ---------------------------------------- |
 | fill     | string                         | Svg component fill color                 |
+| width    | string &#124; number           | Svg component width                      |
+| height   | string &#124; number           | Svg component height                     |
 | spin     | boolean                        | Dynamic rotation icon                    |
 | pulse    | boolean                        | Use pulse to have it rotate with 8 steps |
 | rotate   | number                         | Rotate the icon                          |

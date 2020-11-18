@@ -23,6 +23,12 @@ export interface IconProps extends React.HTMLAttributes<HTMLDivElement> {
 
   /** Svg fill color */
   fill?: string;
+
+  /** Svg width */
+  width?: number | string;
+
+  /** Svg width */
+  height?: number | string;
 }
 
 export interface IconBaseProps extends IconProps {
@@ -49,7 +55,9 @@ export const propTypes = {
 export const defaultProps = {
   viewBox: '0 0 1024 1024',
   baseClassName: 'icon-base',
-  fill: 'currentColor'
+  fill: 'currentColor',
+  width: '1em',
+  height: '1em'
 };
 
 const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
@@ -67,6 +75,8 @@ const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
       tabIndex,
       onClick,
       baseClassName,
+      width,
+      height,
       ...rest
     } = props;
     const [componentClassName, addPrefix] = useClassNames(baseClassName);
@@ -88,8 +98,8 @@ const IconBase = forwardRef<HTMLSpanElement, IconBaseProps>(
       : undefined;
 
     const svgProps = {
-      width: '1em',
-      height: '1em',
+      width,
+      height,
       fill,
       viewBox,
       style: svgStyle
