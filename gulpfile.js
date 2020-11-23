@@ -11,9 +11,13 @@ const generateIconListDocs = require('./bin/generateIconListDocs');
 const babelrc = require('./babel.config.js');
 const STYLE_SOURCE_DIR = './src/less';
 const STYLE_DIST_DIR = './dist/css';
+const ALIAS_COMPONENTS = ['./*.tsx'];
+const ALIAS_LEGACY_COMPONENTS = ['./legacy/*.tsx'];
 const TS_SOURCE_DIR = ['./src/**/*.tsx', './src/**/*.ts', '!./src/**/*.d.ts'];
 const ESM_DIR = './es';
 const LIB_DIR = './lib';
+const ALIAS_LIB_DIR = './';
+const ALIAS_LEGACY_LIB_DIR = './legacy';
 const DIST_DIR = './dist';
 const ICON_COMPONENT_DIR = './src/icons';
 
@@ -65,17 +69,6 @@ function copyTypescriptDeclarationFiles() {
     .pipe(gulp.dest(ESM_DIR));
 }
 
-function copyLessFiles() {
-  return gulp
-    .src(['./src/**/*.less', './src/**/fonts/**/*'])
-    .pipe(gulp.dest(LIB_DIR))
-    .pipe(gulp.dest(ESM_DIR));
-}
-
-function copyFontFiles() {
-  return gulp.src(`${STYLE_SOURCE_DIR}/fonts/**/*`).pipe(gulp.dest(`${STYLE_DIST_DIR}/fonts`));
-}
-
 function clean(done) {
   del.sync([LIB_DIR, ESM_DIR, DIST_DIR, ICON_COMPONENT_DIR], { force: true });
   done();
@@ -98,5 +91,5 @@ exports.build = gulp.series(
   clean,
   buildIconComponent,
   gulp.parallel(buildLib, buildEsm, gulp.series(buildLess, buildCSS)),
-  gulp.parallel(copyTypescriptDeclarationFiles, copyLessFiles, copyFontFiles)
+  gulp.parallel(copyTypescriptDeclarationFiles)
 );
