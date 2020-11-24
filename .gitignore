@@ -44,3 +44,4 @@ es
 assets
 yarn.lock
 /src/icons/**/*.tsx
+/src/icons/**/*.ts
