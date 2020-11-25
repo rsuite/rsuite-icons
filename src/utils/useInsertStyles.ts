@@ -15,6 +15,7 @@ const styles = `.${prefix}icon {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
 }
 .${prefix}icon[tabindex] {
   cursor: pointer;
