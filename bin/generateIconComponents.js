@@ -34,12 +34,14 @@ module.exports = function() {
 import { createSvgIcon } from '${isLegacy ? '../' : ''}../IconBase';
 import ${componentName}Svg from 'rsuite-icon-font/lib/${categoryName}/${componentName}';
 
-export default createSvgIcon({
+const ${componentName} = createSvgIcon({
   as: ${componentName}Svg,
   ariaLabel: '${kebabCaseName}',
   category: '${categoryName}',
   displayName: '${componentName}'
 });
+
+export default ${componentName};
 `
     );
 
@@ -74,10 +76,10 @@ function _interopRequireDefault(obj) {
       fs.outputFileSync(
         resolvePath(ALIAS_DIR, isLegacy ? 'legacy' : '', `${componentName}.d.ts`),
         `/// <reference types="react" />
-declare const _default: import("react").FC<import(".${
+declare const ${componentName}: import("react").FC<import(".${
           isLegacy ? '.' : ''
         }/lib/IconBase").IconProps>;
-export default _default;
+export default ${componentName};
 `
       );
     }
