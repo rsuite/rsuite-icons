@@ -34,7 +34,8 @@
     "dist",
     "legacy",
     "*.js",
-    "*.d.ts"
+    "*.d.ts",
+    "meta.json"
   ],
   "repository": {
     "type": "git",
