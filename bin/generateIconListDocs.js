@@ -17,7 +17,8 @@ module.exports = function() {
   const files = glob.sync(resolvePath(`${SRC_DIR}/**/*.js`));
   let imports = '',
     groups = {},
-    content = '';
+    content = '',
+    meta = [];
   files.forEach(function generateComponent(svgPath, index) {
     const basename = path.basename(svgPath);
     const componentName = path.basename(basename, path.extname(basename));
@@ -52,6 +53,13 @@ module.exports = function() {
       }
       return content;
     }, content);
+    components.forEach(({ component, iconName }) => {
+      meta.push({
+        iconName,
+        componentName: component,
+        categoryName
+      });
+    });
   });
 
   const IconListString = prettier.format(
@@ -77,4 +85,5 @@ export default IconList;`,
   );
 
   fs.outputFileSync(resolvePath(DIST_DIR, 'IconList.tsx'), IconListString);
+  fs.outputFileSync(resolvePath(DIST_DIR, '../', 'meta.json'), JSON.stringify(meta, null, '  '));
 };
