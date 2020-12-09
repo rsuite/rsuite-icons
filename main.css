@@ -484,14 +484,16 @@ span.CodeMirror-selectedtext { background: none; }
 }
 .icon-list-wrapper ul > li {
   width: 12.25%;
+  padding: 10px;
   text-align: center;
 }
 .icon-list-wrapper ul > li .rs-icon {
   font-size: 50px;
-  display: block;
 }
 .icon-list-wrapper ul > li .icon-label {
   word-break: break-all;
+  display: block;
+  margin-top: 10px;
 }
 .btn-toolbar {
   padding: 10px 0;
