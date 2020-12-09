@@ -1,5 +1,4 @@
-export * from './IconBase';
-export { default as IconBase } from './IconBase';
 export { default as Icon } from './Icon';
-export { default as createIconFont } from './IconFont';
+export { default as createIconFont } from './createIconFont';
+export { default as createSvgIcon } from './createSvgIcon';
 export * from './icons';

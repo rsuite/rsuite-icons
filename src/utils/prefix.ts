@@ -8,7 +8,7 @@ export const getClassNamePrefix = () => {
   }
   return globalKey;
 };
-export const defaultClassPrefix = name => `${getClassNamePrefix()}${name}`;
+export const defaultClassPrefix = name => (name ? `${getClassNamePrefix()}${name}` : undefined);
 
 export const prefix = curry((pre: string, className: string | string[]) => {
   if (!pre || !className) {

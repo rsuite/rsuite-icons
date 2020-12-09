@@ -22,7 +22,12 @@ describe('IconFont', () => {
       1,
       'Should loaded script'
     );
-    assert.include(instanceDom.className, 'rs-icon-font', 'Class should with rs-icon-font');
+
+    assert.include(
+      instanceDom.getAttribute('class'),
+      'rs-icon-font',
+      'Class should with rs-icon-font'
+    );
     assert.isEmpty(instanceDom.innerHTML, '');
   });
 
@@ -85,20 +90,11 @@ describe('IconFont', () => {
   it('Should render props to icon component', () => {
     const Icon = createIconFont({
       scriptUrl: '//at.alicdn.com/t/font_2120285_e1hn0qlkipm.js',
-      extraProps: { className: 'test-props-by-create' }
+      commonProps: { className: 'test-props-by-create' }
     });
     const instanceDom = getDOMNode(<Icon />);
-    assert.include(instanceDom.className, 'test-props-by-create');
-  });
 
-  it('Should overwrite component props', () => {
-    const Icon = createIconFont({
-      scriptUrl: '//at.alicdn.com/t/font_2120285_e1hn0qlkipm.js',
-      extraProps: { className: 'test-props-by-create' }
-    });
-    const instanceDom = getDOMNode(<Icon className="test-props-by-component" />);
-    assert.notInclude(instanceDom.className, 'test-props-by-create');
-    assert.include(instanceDom.className, 'test-props-by-component');
+    assert.include(instanceDom.getAttribute('class'), 'test-props-by-create');
   });
 
   it(
@@ -107,8 +103,9 @@ describe('IconFont', () => {
       const Icon = createIconFont({
         scriptUrl: '//at.alicdn.com/t/font_2120285_e1hn0qlkipm.js'
       });
+
       const instanceDom = getDOMNode(<Icon icon="rs-upload" />);
-      const useEl = instanceDom.firstChild.firstChild;
+      const useEl = instanceDom.firstChild;
       assert.equal(useEl.tagName, 'use');
       assert.equal(useEl.getAttribute('xlink:href'), '#rs-upload');
     },

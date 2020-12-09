@@ -3,7 +3,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const prettier = require('prettier');
 
-const SRC_DIR = '../node_modules/rsuite-icon-font/lib';
+const SRC_DIR = '../node_modules/@rsuite/icon-font/lib';
 
 /**
  * Dist directory

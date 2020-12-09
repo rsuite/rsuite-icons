@@ -27,8 +27,8 @@ function App() {
         }}
         list={[
           {
-            title: 'Base',
-            content: require('./md/Base.md')
+            title: 'Icon',
+            content: require('./md/Icon.md')
           },
           {
             title: 'Icon Font',

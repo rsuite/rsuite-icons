@@ -65,9 +65,7 @@ const useInsertStyles = (styleStr = styles) => {
   useEffect(() => {
     // Make sure css injected once.
     if (!cssInjected) {
-      insertCss(styleStr, {
-        prepend: true
-      });
+      insertCss(styleStr, { prepend: true });
       cssInjected = true;
     }
   }, []);
