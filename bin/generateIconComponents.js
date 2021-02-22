@@ -77,7 +77,7 @@ function _interopRequireDefault(obj) {
         `/// <reference types="react" />
 declare const ${componentName}: import("react").FC<import(".${
           isLegacy ? '.' : ''
-        }/lib/IconBase").IconProps>;
+        }/lib/Icon").IconProps>;
 export default ${componentName};
 `
       );
