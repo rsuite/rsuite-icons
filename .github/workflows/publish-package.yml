@@ -1,11 +1,10 @@
 # see https://help.github.com/cn/actions/language-and-framework-guides/publishing-nodejs-packages
 # It haven't release yet.
-name: Publish Package beta
+name: Publish Package
 
 on:
   push:
-    tags:
-      - '*.*.*-**'
+    tags: ['*']
 
 jobs:
   publish:
@@ -22,6 +21,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Publish package
-        run: npm publish --access public --tag beta
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

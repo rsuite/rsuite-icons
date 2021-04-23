@@ -1,6 +1,6 @@
 {
   "name": "@rsuite/icons",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0",
   "description": "All icons of rsuite",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -42,14 +42,14 @@
     "url": "git@github.com:rsuite/rsuite-icons.git"
   },
   "dependencies": {
-    "@rsuite/icon-font": "^4.0.0-alpha.2",
+    "@rsuite/icon-font": "^4.0.0",
     "classnames": "^2.2.5",
     "insert-css": "^2.0.0",
     "lodash": "^4.17.20"
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
