@@ -11,8 +11,7 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
-    'plugin:prettier/recommended',
-    'plugin:react-hooks/recommended'
+    'plugin:prettier/recommended'
   ],
   parserOptions: {},
   plugins: ['@typescript-eslint', 'react'],
