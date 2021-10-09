@@ -6,7 +6,7 @@ export default function useClassNames(
   componentClassName?: string
 ): [string, (blockName: string) => string] {
   const className = defaultClassPrefix('icon');
-  const addPrefix = useCallback(blockClassName => {
+  const addPrefix = useCallback((blockClassName: string) => {
     return prefix(className, blockClassName);
   }, []);
   return [classNames(className, defaultClassPrefix(componentClassName)), addPrefix];

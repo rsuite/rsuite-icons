@@ -42,7 +42,7 @@ const defaultProps = {
 
 function filterProps(props: IconProps) {
   const nextProps = {};
-  Object.entries(props).forEach(([key, value]) => {
+  Object.entries(props).forEach(([key, value]: [string, any]) => {
     if (typeof value !== 'undefined') {
       nextProps[key] = value;
     }
