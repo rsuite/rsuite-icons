@@ -1,6 +1,6 @@
 {
   "name": "@rsuite/icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "All icons of rsuite",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -22,6 +22,7 @@
     "run:test-case": "cross-env NODE_ENV=test karma start --single-run",
     "clean": "rm -rf node_modules/gh-pages/.cache",
     "coveralls": "cat ./coverage/lcov/lcov.info | ./node_modules/.bin/coveralls",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "prepublishOnly": "cross-env PUBLISH=true npm run build",
     "prepare": "npm run build && npm run build:build-docs-list"
   },
@@ -86,6 +87,7 @@
     "cross-env": "^5.2.1",
     "css-loader": "^0.23.1",
     "cssnano": "^4.1.10",
+    "conventional-changelog-cli": "^2.1.1",
     "del": "^5.1.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
