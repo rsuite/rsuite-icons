@@ -1,4 +1,4 @@
-export default function() {
+export default function () {
   return (
     typeof document !== 'undefined' &&
     typeof window !== 'undefined' &&

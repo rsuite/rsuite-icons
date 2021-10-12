@@ -86,6 +86,5 @@ exports.buildIconListDocs = gulp.series(buildIconComponent, buildIconListDocs);
 exports.build = gulp.series(
   clean,
   buildIconComponent,
-  gulp.parallel(buildLib, buildEsm, gulp.series(buildLess, buildCSS)),
-  gulp.parallel(copyTypescriptDeclarationFiles)
+  gulp.parallel(buildLib, buildEsm, gulp.series(buildLess, buildCSS))
 );

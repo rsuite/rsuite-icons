@@ -3,12 +3,10 @@ import classNames from 'classnames';
 
 export const globalKey = 'rs-';
 export const getClassNamePrefix = () => {
-  if (typeof __RSUITE_CLASSNAME_PREFIX__ !== 'undefined') {
-    return __RSUITE_CLASSNAME_PREFIX__;
-  }
   return globalKey;
 };
-export const defaultClassPrefix = name => (name ? `${getClassNamePrefix()}${name}` : undefined);
+export const defaultClassPrefix = (name: string) =>
+  name ? `${getClassNamePrefix()}${name}` : undefined;
 
 export const prefix = curry((pre: string, className: string | string[]) => {
   if (!pre || !className) {

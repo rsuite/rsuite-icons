@@ -5,3 +5,8 @@ src/
 dist/
 webpack*
 assets
+postcss.config.js
+karma.conf.js
+gulpfile.js
+.eslintrc.js
+webpack.config.js
