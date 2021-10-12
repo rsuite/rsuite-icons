@@ -1,10 +1,6 @@
 test/
 docs/
-tools/
 src/
-dist/
-webpack*
-assets
 postcss.config.js
 karma.conf.js
 gulpfile.js
