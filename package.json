@@ -147,7 +147,5 @@
     "webpack-dev-server": "^3.11.0",
     "why-did-you-update": "^0.1.1"
   },
-  "sideEffects": [
-    "./es/icons"
-  ]
+  "sideEffects": false
 }
