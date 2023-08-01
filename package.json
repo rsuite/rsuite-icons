@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "scripts": {
+    "cypress:open": "cypress open",
     "format": "prettier --write \"{src,test}/**/*.{tsx,ts,js}\"",
     "format:check": "prettier --list-different \"{src,test}/**/*.{tsx,ts,js}\"",
     "build": "npm run build:gulp && npm run build:types",
@@ -19,7 +20,7 @@
     "lint:ts": "eslint src/**/*.{ts,tsx}",
     "lint": "npm run lint:ts",
     "test": "npm run lint && npm run run:test-case",
-    "run:test-case": "cross-env NODE_ENV=test karma start --single-run",
+    "run:test-case": "cypress run --component",
     "clean": "rm -rf node_modules/gh-pages/.cache",
     "coveralls": "cat ./coverage/lcov/lcov.info | ./node_modules/.bin/coveralls",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
@@ -42,11 +43,11 @@
     "url": "git@github.com:rsuite/rsuite-icons.git"
   },
   "dependencies": {
+    "@babel/runtime": "^7.12.1",
     "@rsuite/icon-font": "^4.0.0",
     "classnames": "^2.2.5",
     "insert-css": "^2.0.0",
-    "lodash": "^4.17.20",
-    "@babel/runtime": "^7.12.1"
+    "lodash": "^4.17.20"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
@@ -83,11 +84,12 @@
     "babel-plugin-istanbul": "^4.1.4",
     "babel-plugin-lodash": "^3.3.4",
     "chai": "^4.1.0",
+    "conventional-changelog-cli": "^2.1.1",
     "coveralls": "^3.1.0",
     "cross-env": "^5.2.1",
     "css-loader": "^0.23.1",
     "cssnano": "^4.1.10",
-    "conventional-changelog-cli": "^2.1.1",
+    "cypress": "^12.17.2",
     "del": "^5.1.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",

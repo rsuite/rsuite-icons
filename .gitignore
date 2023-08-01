@@ -44,3 +44,5 @@ es
 assets
 yarn.lock
 /meta.json
+
+cypress/videos
