@@ -11,5 +11,5 @@
     "jsx": "react",
     "resolveJsonModule": true
   },
-  "include": ["./src/**/*.ts", "./src/**/*.tsx"]
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", "cypress", "./**/*.cy.tsx"]
 }
