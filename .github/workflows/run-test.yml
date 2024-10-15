@@ -18,7 +18,7 @@ jobs:
 
     strategy:
       matrix:
-        browser: [chrome]
+        browser: [chrome, firefox, edge]
 
     steps:
       - name: Checkout
