@@ -33,14 +33,19 @@ jobs:
         uses: actions/cache@v2
         with:
           path: ~/.cache/Cypress
-          key: cypress-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-${{ github.run_id }}
+          key: cypress-${{ runner.os }}-${{ matrix.browser }}-${{ hashFiles('package-lock.json') }}-${{ github.run_id }}
 
-      # Cypress run
+      # Verify Firefox installation (optional)
+      - name: Verify Firefox installation
+        run: firefox --version
+
+      # Run Cypress tests in headless mode with browser cache
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
-          component: true
           browser: ${{ matrix.browser }}
         env:
-          # Disable GPU acceleration for headless browsers
+          MOZ_HEADLESS: 1  # Ensure Firefox runs in headless mode
           CYPRESS_runTestsInHeadlessMode: '--disable-gpu'
+          CYPRESS_defaultCommandTimeout: 60000
+          CYPRESS_pageLoadTimeout: 60000
