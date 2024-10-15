@@ -18,20 +18,11 @@ jobs:
 
     strategy:
       matrix:
-        browser: [chrome, firefox]
+        browser: [ChromeCi, Firefox]
 
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
-      # Cache node modules
-      - name: Cache node modules
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
 
       # Install NPM dependencies
       - name: Install dependencies
