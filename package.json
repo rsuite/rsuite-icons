@@ -2,8 +2,12 @@
   "name": "@rsuite/icons",
   "version": "1.0.3",
   "description": "All icons of rsuite",
-  "main": "cjs/index.js",
-  "module": "esm/index.js",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "typings": "lib/esm/index.d.ts",
+  "directories": {
+    "lib": "cjs/"
+  },
   "scripts": {
     "format": "prettier --write \"{src,test}/**/*.{tsx,ts,js}\"",
     "format:check": "prettier --list-different \"{src,test}/**/*.{tsx,ts,js}\"",
@@ -11,8 +15,8 @@
     "build:gulp": "gulp build",
     "build:sync-icon-component": "gulp buildIconComponent",
     "build:types": "npm run build:types-cjs && npm run build:types-esm",
-    "build:types-cjs": "npx tsc --project tsconfig.build.json --emitDeclarationOnly --outDir cjs",
-    "build:types-esm": "npx tsc --project tsconfig.build.json --emitDeclarationOnly --outDir esm",
+    "build:types-cjs": "npx tsc --project tsconfig.build.json --emitDeclarationOnly --outDir lib/cjs",
+    "build:types-esm": "npx tsc --project tsconfig.build.json --emitDeclarationOnly --outDir lib/esm",
     "tdd": "cypress open --component --browser=chrome",
     "lint:ts": "eslint src/**/*.{ts,tsx}",
     "lint": "npm run lint:ts",

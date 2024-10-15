@@ -1,22 +1,14 @@
-# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
-
 name: Run Test Cases
 
 # Run on all branch
 on:
   push:
-    paths:
-      - '.github/workflows/run-test.yml'
-      - 'docs/**'
-      - 'src/**'
-      - 'test/**'
+    branches:
+      - master
+
   pull_request:
-    paths:
-      - '.github/workflows/run-test.yml'
-      - 'docs/**'
-      - 'src/**'
-      - 'test/**'
+    branches:
+      - master
 
 jobs:
   test:
@@ -28,15 +20,36 @@ jobs:
       matrix:
         browser: [chrome, firefox]
 
-    # See https://docs.cypress.io/guides/continuous-integration/github-actions
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
+      # Cache node modules
+      - name: Cache node modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      # Install NPM dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # Cache Cypress files
+      - name: Cache Cypress
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/Cypress
+          key: cypress-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-${{ github.run_id }}
+
+      # Cypress run
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
           component: true
           browser: ${{ matrix.browser }}
+        env:
+          # Disable GPU acceleration for headless browsers
+          CYPRESS_runTestsInHeadlessMode: '--disable-gpu'
