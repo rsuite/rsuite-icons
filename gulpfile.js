@@ -1,19 +1,17 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const del = require('del');
-const babel = require('gulp-babel');
 const less = require('gulp-less');
 const postcss = require('gulp-postcss');
 const sourcemaps = require('gulp-sourcemaps');
 const rename = require('gulp-rename');
 const gulp = require('gulp');
-const generateIconComponents = require('./bin/generateIconComponents');
-const generateIconListDocs = require('./bin/generateIconListDocs');
-const babelrc = require('./babel.config.js');
+const swc = require('gulp-swc');
+const generateIconComponents = require('./scripts/generateIconComponents');
 const STYLE_SOURCE_DIR = './src/less';
 const STYLE_DIST_DIR = './dist/css';
 const TS_SOURCE_DIR = ['./src/**/*.tsx', './src/**/*.ts', '!./src/**/*.d.ts'];
-const ESM_DIR = './es';
-const LIB_DIR = './lib';
+const ESM_DIR = './esm';
+const CJS_DIR = './cjs';
 const DIST_DIR = './dist';
 const ICON_COMPONENT_DIR = './src/icons';
 
@@ -38,35 +36,29 @@ function buildCSS() {
     .pipe(gulp.dest(`${STYLE_DIST_DIR}`));
 }
 
-function buildLib() {
-  return gulp
-    .src(TS_SOURCE_DIR)
-    .pipe(babel(babelrc()))
-    .pipe(gulp.dest(LIB_DIR));
+function buildCjs() {
+  const swcOptions = {
+    module: {
+      type: 'commonjs'
+    },
+    sourceMaps: true,
+    exclude: ['stories']
+  };
+  return gulp.src(TS_SOURCE_DIR).pipe(swc(swcOptions)).pipe(gulp.dest(CJS_DIR));
 }
 
 function buildEsm() {
-  return gulp
-    .src(TS_SOURCE_DIR)
-    .pipe(
-      babel(
-        babelrc(null, {
-          NODE_ENV: 'esm'
-        })
-      )
-    )
-    .pipe(gulp.dest(ESM_DIR));
-}
-
-function copyTypescriptDeclarationFiles() {
-  return gulp
-    .src('./src/**/*.d.ts')
-    .pipe(gulp.dest(LIB_DIR))
-    .pipe(gulp.dest(ESM_DIR));
+  const swcOptions = {
+    module: {
+      type: 'es6'
+    },
+    sourceMaps: true
+  };
+  return gulp.src(TS_SOURCE_DIR).pipe(swc(swcOptions)).pipe(gulp.dest(ESM_DIR));
 }
 
 function clean(done) {
-  del.sync([LIB_DIR, ESM_DIR, DIST_DIR, ICON_COMPONENT_DIR], { force: true });
+  del.sync([CJS_DIR, ESM_DIR, DIST_DIR, ICON_COMPONENT_DIR], { force: true });
   done();
 }
 
@@ -76,15 +68,9 @@ function buildIconComponent(done) {
   done();
 }
 
-function buildIconListDocs(done) {
-  generateIconListDocs();
-  done();
-}
-
 exports.buildIconComponent = gulp.series(buildIconComponent);
-exports.buildIconListDocs = gulp.series(buildIconComponent, buildIconListDocs);
 exports.build = gulp.series(
   clean,
   buildIconComponent,
-  gulp.parallel(buildLib, buildEsm, gulp.series(buildLess, buildCSS))
+  gulp.parallel(buildCjs, buildEsm, gulp.series(buildLess, buildCSS))
 );

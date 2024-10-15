@@ -38,11 +38,13 @@ jspm_packages
 .DS_Store
 
 dist
-lib
-es
+cjs
+esm
 .vscode/
 assets
 yarn.lock
 /meta.json
 
 cypress/videos
+
+*storybook.log
