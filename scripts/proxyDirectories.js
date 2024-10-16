@@ -85,7 +85,7 @@ async function proxyComponent() {
   await writePkgFile({
     resources: legacyIcons,
     pkgName: '@rsuite/icons/legacy',
-    subPath: '/icons/legacy',
+    subPath: '/icons/legacy/',
     filePath: '../..',
     dir: path.join(libRoot, 'legacy')
   });

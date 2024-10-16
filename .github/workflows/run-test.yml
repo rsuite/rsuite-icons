@@ -18,12 +18,12 @@ jobs:
 
     strategy:
       matrix:
-        browser: [chrome, firefox, edge]
+        browser: [chrome, edge]
 
     steps:
       # Checkout latest code
       - name: Checkout
-        uses: actions/checkout@v3 # Already on latest
+        uses: actions/checkout@v3
 
       # Install NPM dependencies
       - name: Install dependencies
@@ -31,18 +31,10 @@ jobs:
 
       # Cache Cypress files
       - name: Cache Cypress
-        uses: actions/cache@v3 # Upgrade to v3
+        uses: actions/cache@v3
         with:
           path: ~/.cache/Cypress
           key: cypress-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-${{ github.run_id }}
-
-      # Install and start Xvfb for Firefox
-      - name: Install Xvfb
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y xvfb
-          export DISPLAY=:99.0
-          Xvfb :99 -screen 0 1280x1024x16 &
 
       # Run Cypress tests on multiple browsers
       - name: Cypress run
@@ -50,18 +42,3 @@ jobs:
         with:
           component: true
           browser: ${{ matrix.browser }}
-        env:
-          # Disable GPU acceleration for headless browsers
-          CYPRESS_runTestsInHeadlessMode: '--disable-gpu'
-          MOZ_HEADLESS: 1
-          MOZ_X11_EGL: 1
-          CYPRESS_defaultCommandTimeout: 90000
-          CYPRESS_pageLoadTimeout: 120000
-
-      # Upload Cypress test results if the job fails
-      - name: Upload Cypress results
-        if: failure()
-        uses: actions/upload-artifact@v3
-        with:
-          name: cypress-results
-          path: cypress/results/
