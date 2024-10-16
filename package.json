@@ -23,6 +23,7 @@
     "test": "npm run lint && npm run run:test-case",
     "run:test-case": "cypress run --component",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "version": "npm run changelog && git add -A",
     "prepublishOnly": "cross-env npm run build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
