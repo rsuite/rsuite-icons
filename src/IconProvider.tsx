@@ -9,6 +9,12 @@ export interface IconContextProps {
      */
     nonce?: string;
   };
+
+  /**
+   * Disable inline styles
+   * @default false
+   */
+  disableInlineStyles?: boolean;
 }
 
 export const IconContext = createContext<IconContextProps>({});
