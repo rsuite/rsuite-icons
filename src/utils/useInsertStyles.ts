@@ -62,10 +62,10 @@ const getStyles = (prefix = 'rs-') => {
 let cssInjected = false;
 
 const useInsertStyles = () => {
-  const { csp, classPrefix } = useIconContext();
+  const { csp, classPrefix, disableInlineStyles } = useIconContext();
   useEffect(() => {
     // Make sure css injected once.
-    if (!cssInjected) {
+    if (!cssInjected && !disableInlineStyles) {
       insertCss(getStyles(classPrefix), { prepend: true, nonce: csp?.nonce });
       cssInjected = true;
     }

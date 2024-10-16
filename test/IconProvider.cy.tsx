@@ -1,6 +1,20 @@
 import React from 'react';
 import { Icon, IconProvider } from '../src';
 
+it('Should be able to disable inline styles', () => {
+  cy.mount(
+    <IconProvider
+      value={{
+        disableInlineStyles: true
+      }}
+    >
+      <Icon />
+    </IconProvider>
+  );
+
+  cy.get('style').should('not.exist');
+});
+
 it('Should custom classPrefix and have csp', () => {
   cy.mount(
     <IconProvider
