@@ -1,0 +1,6 @@
+{
+  "publishDirectory": {
+    "@rsuite/icons": "lib"
+  },
+  "sandboxes": ["new"]
+}

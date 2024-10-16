@@ -1,4 +1,3 @@
-/bin/**
+/scripts/**
 /build/**
 /src/icons/legacy/**
-webpack.config.js

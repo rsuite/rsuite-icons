@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import classNames from 'classnames';
 import Icon, { IconProps } from './Icon';
-import { inBrowserEnv, defaultClassPrefix } from './utils';
-import { useMemo } from 'react';
+import { inBrowserEnv } from './utils';
+import { useIconContext } from './utils/useIconContext';
 
 const cache = new Set<string>();
 
@@ -58,8 +58,9 @@ function createIconFont({ scriptUrl, commonProps = {}, onLoaded }: Options = {})
   const IconFont = React.forwardRef<SVGElement, IconFontProps>(
     (props: React.PropsWithChildren<IconFontProps>, ref: React.Ref<SVGElement>) => {
       const { icon, children, className, ...restProps } = props;
+      const { classPrefix } = useIconContext();
 
-      const clesses = classNames(className, commonProps.className, defaultClassPrefix('icon-font'));
+      const clesses = classNames(className, commonProps.className, `${classPrefix}icon-font`);
       /**
        * Children will overwrite <use />
        */

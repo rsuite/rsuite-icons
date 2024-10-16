@@ -1,13 +1,9 @@
-import { defaultClassPrefix, prefix } from './prefix';
-import classNames from 'classnames';
-import { useCallback } from 'react';
+import { prefix } from './prefix';
+import { useIconContext } from './useIconContext';
 
-export default function useClassNames(
-  componentClassName?: string
-): [string, (blockName: string) => string] {
-  const className = defaultClassPrefix('icon');
-  const addPrefix = useCallback((blockClassName: string) => {
-    return prefix(className, blockClassName);
-  }, []);
-  return [classNames(className, defaultClassPrefix(componentClassName)), addPrefix];
+export default function useClassNames(): [string, (blockName: string) => string] {
+  const { classPrefix } = useIconContext();
+  const className = `${classPrefix}icon`;
+
+  return [className, prefix(className)];
 }

@@ -4,4 +4,3 @@ src/
 postcss.config.js
 gulpfile.js
 .eslintrc.js
-webpack.config.js

@@ -1,11 +1,10 @@
-import { insertCss } from 'insert-css';
-import { getClassNamePrefix } from './prefix';
 import { useEffect } from 'react';
-
-const prefix = getClassNamePrefix();
+import { insertCss } from './insertCss';
+import { useIconContext } from './useIconContext';
 
 // Generated with ../less/index.less
-const styles = `.${prefix}icon {
+const getStyles = (prefix = 'rs-') => {
+  return `.${prefix}icon {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -58,14 +57,16 @@ const styles = `.${prefix}icon {
             transform: rotate(359deg);
   }
 }`;
+};
 
 let cssInjected = false;
 
-const useInsertStyles = (styleStr = styles) => {
+const useInsertStyles = () => {
+  const { csp, classPrefix } = useIconContext();
   useEffect(() => {
     // Make sure css injected once.
     if (!cssInjected) {
-      insertCss(styleStr, { prepend: true });
+      insertCss(getStyles(classPrefix), { prepend: true, nonce: csp?.nonce });
       cssInjected = true;
     }
   }, []);

@@ -37,12 +37,11 @@ jspm_packages
 .node_repl_history
 .DS_Store
 
-dist
 lib
-es
 .vscode/
 assets
 yarn.lock
-/meta.json
 
 cypress/videos
+
+*storybook.log

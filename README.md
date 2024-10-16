@@ -1,14 +1,32 @@
-# RSUITE Icons
+# React Suite Icons
 
-## Develop
+## Document
 
-This library is developing now , if you want run it on you local,please run these command:
+https://rsuitejs.com/components/icon/
 
+## Project Development Guide
+
+### Install
+
+```bash
+$ npm install
 ```
-## Install dependencies
-npm run ci
-## Run dev site on your local
-npm run dev
-## TDD
-npm run tdd
+
+### Development
+
+```bash
+$ npm npm dev
 ```
+
+### Build
+
+```bash
+$ npm run build
+```
+
+### Test
+
+```bash
+$ npm run test
+```
+

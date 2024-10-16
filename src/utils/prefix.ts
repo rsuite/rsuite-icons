@@ -1,14 +1,6 @@
-import curry from 'lodash/curry';
 import classNames from 'classnames';
 
-export const globalKey = 'rs-';
-export const getClassNamePrefix = () => {
-  return globalKey;
-};
-export const defaultClassPrefix = (name: string) =>
-  name ? `${getClassNamePrefix()}${name}` : undefined;
-
-export const prefix = curry((pre: string, className: string | string[]) => {
+export const prefix = (pre: string) => (className: string | string[]) => {
   if (!pre || !className) {
     return '';
   }
@@ -18,4 +10,4 @@ export const prefix = curry((pre: string, className: string | string[]) => {
   }
 
   return `${pre}-${className}`;
-});
+};
