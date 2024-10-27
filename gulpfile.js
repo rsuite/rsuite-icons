@@ -85,7 +85,7 @@ function buildIconComponent(done) {
 
 function copyDocs() {
   return gulp
-    .src(['./README.md', './CHANGELOG.md', './LICENSE', 'meta.json'])
+    .src(['./README.md', './CHANGELOG.md', './LICENSE', './src/meta.json'])
     .pipe(gulp.dest(libRoot));
 }
 
