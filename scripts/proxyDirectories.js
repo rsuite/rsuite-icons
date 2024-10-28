@@ -99,22 +99,22 @@ async function writePkgFile({
 async function proxyComponent() {
   try {
     const icons = findResources({
-      dir: path.join(srcRoot, 'icons'),
+      dir: path.join(srcRoot, 'react'),
       isFile: true,
       ignores: ['legacy']
     });
 
-    await writePkgFile({ resources: icons, subPath: '/icons/' });
+    await writePkgFile({ resources: icons, subPath: '/react/' });
 
     const legacyIcons = findResources({
-      dir: path.join(srcRoot, 'icons/legacy'),
+      dir: path.join(srcRoot, 'react/legacy'),
       isFile: true
     });
 
     await writePkgFile({
       resources: legacyIcons,
       pkgName: '@rsuite/icons/legacy',
-      subPath: '/icons/legacy/',
+      subPath: '/react/legacy/',
       filePath: '../..',
       dir: path.join(libRoot, 'legacy')
     });
