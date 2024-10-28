@@ -9,8 +9,10 @@ const sourcemaps = require('gulp-sourcemaps');
 const rename = require('gulp-rename');
 const gulp = require('gulp');
 const swc = require('gulp-swc');
+const svgToReact = require('./scripts/svgToReact');
 const generateIconComponents = require('./scripts/generateIconComponents');
 const proxyDirectories = require('./scripts/proxyDirectories');
+
 const lessDir = './src/less';
 const tsSrcFiles = ['./src/**/*.tsx', './src/**/*.ts', '!./src/**/*.d.ts'];
 const libRoot = path.join(__dirname, './lib');
@@ -20,7 +22,7 @@ const esmRoot = path.join(libRoot, 'esm');
 const cjsRoot = path.join(libRoot, 'cjs');
 const cssRoot = path.join(libRoot, 'dist/css');
 
-const ICON_COMPONENT_DIR = './src/icons';
+const ICON_COMPONENT_DIR = './src/react';
 
 const writeFile = util.promisify(fs.writeFile);
 
@@ -106,6 +108,11 @@ function createPkgFile(done) {
       if (err) console.error(err.toString());
     });
 }
+
+exports.svgToReact = cb => {
+  svgToReact();
+  cb();
+};
 
 exports.buildIconComponent = gulp.series(buildIconComponent);
 exports.build = gulp.series(
