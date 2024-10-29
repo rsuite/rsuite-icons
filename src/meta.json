@@ -77,6 +77,11 @@
     "categoryName": "action"
   },
   {
+    "iconName": "Heart",
+    "categoryName": "action",
+    "version": "1.3.0"
+  },
+  {
     "iconName": "ImportSite",
     "categoryName": "action",
     "version": "1.3.0"
@@ -170,6 +175,11 @@
   },
   {
     "iconName": "Signature",
+    "categoryName": "action",
+    "version": "1.3.0"
+  },
+  {
+    "iconName": "Star",
     "categoryName": "action",
     "version": "1.3.0"
   },
@@ -1103,6 +1113,11 @@
   },
   {
     "iconName": "SendRound",
+    "categoryName": "status",
+    "version": "1.3.0"
+  },
+  {
+    "iconName": "Spinner",
     "categoryName": "status",
     "version": "1.3.0"
   },

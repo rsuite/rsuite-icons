@@ -72,7 +72,10 @@
       "WechatSubmessageOutline",
       "Width",
       "Zoomin",
-      "Zoomout"
+      "Zoomout",
+      "Spinner",
+      "Star",
+      "Heart"
     ]
   }
 ]
