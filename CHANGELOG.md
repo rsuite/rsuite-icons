@@ -1,3 +1,13 @@
+# [1.3.0](https://github.com/rsuite/rsuite-icons/compare/v1.2.0...v1.3.0) (2024-10-29)
+
+
+### Features
+
+* add some new icons ([#14](https://github.com/rsuite/rsuite-icons/issues/14)) ([b9e5747](https://github.com/rsuite/rsuite-icons/commit/b9e57473d0df37f8d514a33193534e0e58dbb203))
+* add some new icons ([#16](https://github.com/rsuite/rsuite-icons/issues/16)) ([a0a3add](https://github.com/rsuite/rsuite-icons/commit/a0a3add3ff0b3d3adf0c498c7b31936b2c52425a))
+
+
+
 # [1.2.0](https://github.com/rsuite/rsuite-icons/compare/v1.1.0...v1.2.0) (2024-10-16)
 
 
