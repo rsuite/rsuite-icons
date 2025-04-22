@@ -118,7 +118,7 @@ export { default as PcFill } from './PcFill';
 export { default as Phone } from './Phone';
 export { default as PhoneFill } from './PhoneFill';
 export { default as Storage } from './Storage';
-export { default as ArowBack } from './ArowBack';
+export { default as ArrowBack } from './ArrowBack';
 export { default as ArrowDown } from './ArrowDown';
 export { default as ArrowDownLine } from './ArrowDownLine';
 export { default as ArrowLeft } from './ArrowLeft';
