@@ -1,5 +1,6 @@
 import React from 'react';
 import { Icon } from '../src';
+import RemindFillIcon from '../src/icons/status/RemindFill';
 
 const IconCheckPath = React.forwardRef<SVGPathElement>(function IconCheckPath(props, ref) {
   return (
@@ -109,4 +110,13 @@ it.skip('Should can set tabIndex', () => {
   cy.mount(<Icon tabIndex={999} onClick={() => void 0} as={IconCheck} />);
 
   cy.get('svg').should('have.attr', 'tab-index', '999');
+});
+
+it('Should render RemindFill icon', () => {
+  cy.mount(<RemindFillIcon />);
+
+  cy.get('svg').should('have.attr', 'viewBox', '0 0 16 16');
+  cy.get('svg').should('have.attr', 'fill', 'currentColor');
+  cy.get('svg').should('have.attr', 'width', '1em');
+  cy.get('svg').should('have.attr', 'height', '1em');
 });

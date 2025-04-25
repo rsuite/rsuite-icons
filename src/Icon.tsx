@@ -1,6 +1,5 @@
 import React from 'react';
 import classNames from 'classnames';
-import PropTypes from 'prop-types';
 import { useClassNames, useInsertStyles } from './utils';
 
 export type Flip = 'horizontal' | 'vertical';
@@ -33,13 +32,6 @@ export interface IconProps extends React.HTMLAttributes<SVGElement> {
   height?: number | string;
 }
 
-const defaultProps = {
-  as: 'svg',
-  fill: 'currentColor',
-  width: '1em',
-  height: '1em'
-};
-
 function filterProps(props: IconProps) {
   const nextProps = {};
   Object.entries(props).forEach(([key, value]: [string, any]) => {
@@ -53,17 +45,17 @@ function filterProps(props: IconProps) {
 const Icon = React.forwardRef<SVGElement, IconProps>(
   (props: IconProps, ref: React.Ref<SVGElement>) => {
     const {
-      as: Component,
+      as: Component = 'svg',
       spin,
       pulse,
       flip,
-      fill,
+      fill = 'currentColor',
       className,
       rotate,
       children,
       viewBox,
-      width,
-      height,
+      width = '1em',
+      height = '1em',
       style,
       ...rest
     } = props;
@@ -99,15 +91,5 @@ const Icon = React.forwardRef<SVGElement, IconProps>(
 );
 
 Icon.displayName = 'Icon';
-Icon.defaultProps = defaultProps;
-Icon.propTypes = {
-  spin: PropTypes.bool,
-  pulse: PropTypes.bool,
-  rotate: PropTypes.number,
-  viewBox: PropTypes.string,
-  as: PropTypes.oneOfType([PropTypes.elementType, PropTypes.string]),
-  flip: PropTypes.oneOf<Flip>(['horizontal', 'vertical']),
-  fill: PropTypes.string
-};
 
 export default Icon;

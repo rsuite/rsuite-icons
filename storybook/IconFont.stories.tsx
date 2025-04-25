@@ -3,7 +3,8 @@ import type { Meta, StoryObj } from '@storybook/react';
 import createIconFont from '../src/createIconFont';
 
 const IconFont = createIconFont({
-  scriptUrl: '//at.alicdn.com/t/font_2120285_ve2eozz092d.js'
+  scriptUrl: '//at.alicdn.com/t/font_2120285_ve2eozz092d.js',
+  commonProps: { style: { fontSize: 30, color: '#1675e0' } }
 });
 
 const meta: Meta<typeof IconFont> = {
