@@ -5,11 +5,16 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "noImplicitAny": false,
-    "noUnusedParameters": true,
-    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
     "target": "es5",
-    "jsx": "react",
-    "resolveJsonModule": true
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "resolveJsonModule": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "module": "esnext",
+    "moduleResolution": "node"
   },
   "include": ["./src/**/*.ts", "./src/**/*.tsx", "cypress", "./**/*.cy.tsx"]
 }
