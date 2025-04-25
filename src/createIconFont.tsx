@@ -15,7 +15,7 @@ export interface Options {
   scriptUrl?: string | string[];
 
   /** Common props for Icon */
-  commonProps?: React.HTMLAttributes<SVGElement>;
+  commonProps?: React.SVGProps<SVGElement>;
 
   /** Loaded callback */
   onLoaded?(): void;
