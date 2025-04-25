@@ -4,7 +4,7 @@ import { useClassNames, useInsertStyles } from './utils';
 
 export type Flip = 'horizontal' | 'vertical';
 
-export interface IconProps extends React.HTMLAttributes<SVGElement> {
+export interface IconProps extends React.SVGProps<SVGElement> {
   as?: React.ElementType | string;
 
   /** Dynamic rotation icon */
@@ -14,7 +14,7 @@ export interface IconProps extends React.HTMLAttributes<SVGElement> {
   pulse?: boolean;
 
   /** Rotate the icon */
-  rotate?: number;
+  rotate?: number | string;
 
   /** View box of the svg */
   viewBox?: string;
