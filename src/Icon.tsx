@@ -25,10 +25,13 @@ export interface IconProps extends React.SVGProps<SVGElement> {
   /** Svg fill color */
   fill?: string;
 
+  /** Icon size (sets both width and height) */
+  size?: number | string;
+
   /** Svg width */
   width?: number | string;
 
-  /** Svg width */
+  /** Svg height */
   height?: number | string;
 }
 
@@ -54,8 +57,9 @@ const Icon = React.forwardRef<SVGElement, IconProps>(
       rotate,
       children,
       viewBox,
-      width = '1em',
-      height = '1em',
+      size,
+      width,
+      height,
       style,
       ...rest
     } = props;
@@ -73,9 +77,13 @@ const Icon = React.forwardRef<SVGElement, IconProps>(
 
     useInsertStyles();
 
+    // size prop takes precedence over width/height if provided
+    const iconWidth = size ?? width ?? '1em';
+    const iconHeight = size ?? height ?? '1em';
+
     const svgProps = filterProps({
-      width,
-      height,
+      width: iconWidth,
+      height: iconHeight,
       fill,
       viewBox,
       className: classes,
