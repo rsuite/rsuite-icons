@@ -5,8 +5,7 @@
 [![npm][npm-version-badge]][npm]
 [![license][license-badge]][license]
 
-@rsuite/icons is a comprehensive icon library for [React Suite](https://github.com/rsuite/rsuite), offering a collection of SVG icons as React components. It provides a flexible and performant way to include and customize icons in your React applications. 
-
+@rsuite/icons is a comprehensive icon library for [React Suite](https://github.com/rsuite/rsuite), offering a collection of SVG icons as React components. It provides a flexible and performant way to include and customize icons in your React applications.
 
 ## Installation
 
@@ -34,7 +33,11 @@ import GearIcon from '@rsuite/icons/Gear';
 ### Customization
 
 ```jsx
-// Size
+// Size (using size prop)
+<GearIcon size={24} />
+<GearIcon size="2em" />
+
+// Size (using style)
 <GearIcon style={{ fontSize: '2em' }} />
 
 // Color
@@ -75,6 +78,7 @@ The `<Icon>` component extends `React.SVGProps<SVGElement>` so it accepts all va
 | `viewBox` | `string`                      | -                | View box of the SVG                      |
 | `flip`    | `'horizontal' \| 'vertical'`  | -                | Flip the icon                            |
 | `fill`    | `string`                      | `'currentColor'` | SVG fill color                           |
+| `size`    | `number \| string`            | `'1em'`          | Icon size (sets both width and height)   |
 | `width`   | `number \| string`            | `'1em'`          | SVG width                                |
 | `height`  | `number \| string`            | `'1em'`          | SVG height                               |
 
@@ -110,7 +114,7 @@ npm run test
 
 ## License
 
-MIT © [React Suite](https://github.com/rsuite)
+MIT
 
 [npm-badge]: https://img.shields.io/npm/dm/@rsuite/icons.svg
 [npm-version-badge]: https://img.shields.io/npm/v/@rsuite/icons.svg

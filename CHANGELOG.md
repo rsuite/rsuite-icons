@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/rsuite/rsuite-icons/compare/v1.3.2...v1.4.0) (2025-10-13)
+
+
+### Features
+
+* add size prop support for Icon component ([#20](https://github.com/rsuite/rsuite-icons/issues/20)) ([69ab949](https://github.com/rsuite/rsuite-icons/commit/69ab949e2473dd50432e95a628ed4d78dcb91b2f))
+
+
+
 ## [1.3.2](https://github.com/rsuite/rsuite-icons/compare/v1.3.1...v1.3.2) (2025-04-25)
 
 
