@@ -12,6 +12,53 @@ const meta: Meta<typeof Icon> = {
     width: '2em',
     height: '2em'
   },
+  argTypes: {
+    size: {
+      control: { type: 'text' },
+      description: 'Icon size (sets both width and height)',
+      table: {
+        type: { summary: 'number | string' },
+        defaultValue: { summary: '1em' }
+      }
+    },
+    width: {
+      control: { type: 'text' },
+      description: 'Icon width',
+      table: {
+        type: { summary: 'number | string' },
+        defaultValue: { summary: '1em' }
+      }
+    },
+    height: {
+      control: { type: 'text' },
+      description: 'Icon height',
+      table: {
+        type: { summary: 'number | string' },
+        defaultValue: { summary: '1em' }
+      }
+    },
+    spin: {
+      control: 'boolean',
+      description: 'Dynamic rotation icon'
+    },
+    pulse: {
+      control: 'boolean',
+      description: 'Use pulse to have it rotate with 8 steps'
+    },
+    rotate: {
+      control: { type: 'number', min: 0, max: 360, step: 15 },
+      description: 'Rotate the icon (in degrees)'
+    },
+    flip: {
+      control: { type: 'select' },
+      options: [undefined, 'horizontal', 'vertical'],
+      description: 'Flip the icon'
+    },
+    fill: {
+      control: 'color',
+      description: 'SVG fill color'
+    }
+  },
   tags: ['autodocs']
 };
 
@@ -43,6 +90,18 @@ export const Flip: Story = {
 };
 
 export const Size: Story = {
+  args: {
+    size: 200
+  }
+};
+
+export const SizeWithString: Story = {
+  args: {
+    size: '4em'
+  }
+};
+
+export const CustomWidthHeight: Story = {
   args: {
     width: 200,
     height: 200

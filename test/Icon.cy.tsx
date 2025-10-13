@@ -105,6 +105,39 @@ it('Should be setting width and height', () => {
   cy.get('svg').should('have.attr', 'height', '25');
 });
 
+it('Should support size prop with number', () => {
+  cy.mount(
+    <Icon size={24}>
+      <IconCheckPath />
+    </Icon>
+  );
+
+  cy.get('svg').should('have.attr', 'width', '24');
+  cy.get('svg').should('have.attr', 'height', '24');
+});
+
+it('Should support size prop with string', () => {
+  cy.mount(
+    <Icon size="2em">
+      <IconCheckPath />
+    </Icon>
+  );
+
+  cy.get('svg').should('have.attr', 'width', '2em');
+  cy.get('svg').should('have.attr', 'height', '2em');
+});
+
+it('Should size prop take precedence over width and height', () => {
+  cy.mount(
+    <Icon size={32} width={16} height={20}>
+      <IconCheckPath />
+    </Icon>
+  );
+
+  cy.get('svg').should('have.attr', 'width', '32');
+  cy.get('svg').should('have.attr', 'height', '32');
+});
+
 // This test case is not working
 it.skip('Should can set tabIndex', () => {
   cy.mount(<Icon tabIndex={999} onClick={() => void 0} as={IconCheck} />);
