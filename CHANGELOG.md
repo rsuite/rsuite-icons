@@ -1,3 +1,12 @@
+## [1.4.1](https://github.com/rsuite/rsuite-icons/compare/v1.4.0...v1.4.1) (2026-06-17)
+
+
+### Bug Fixes
+
+* mark CSS files as side effects to prevent tree-shaking ([#21](https://github.com/rsuite/rsuite-icons/issues/21)) ([#22](https://github.com/rsuite/rsuite-icons/issues/22)) ([f483608](https://github.com/rsuite/rsuite-icons/commit/f4836083f7c4caeb1d872c6e2a9faefed7a1b3f1))
+
+
+
 # [1.4.0](https://github.com/rsuite/rsuite-icons/compare/v1.3.2...v1.4.0) (2025-10-13)
 
 
